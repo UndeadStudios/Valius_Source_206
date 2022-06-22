@@ -1,0 +1,29 @@
+Logging started at 2016-05-23 23:29:13
+File name: C:\Users\riley\Desktop\os\server\.\data\logs\err\1464064153248 - riley - [Mon May 23][11.29PM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2016-05-23 23:29:13] java.lang.NullPointerException
+[2016-05-23 23:29:13] 	at com.mayhem.core.network.mysql.RewardHandler.handleRewards(RewardHandler.java:33)
+[2016-05-23 23:29:13] 	at com.mayhem.core.network.mysql.RewardHandler.onCompletion(RewardHandler.java:19)
+[2016-05-23 23:29:13] 	at com.mayhem.core.network.mysql.RewardHandler.onCompletion(RewardHandler.java:1)
+[2016-05-23 23:29:13] 	at com.rspserver.motivote.MotivoteThread.run(MotivoteThread.java:149)
+[2016-05-23 23:29:23] java.lang.NullPointerException
+[2016-05-23 23:29:23] 	at com.mayhem.core.network.mysql.RewardHandler.handleRewards(RewardHandler.java:33)
+[2016-05-23 23:29:23] 	at com.mayhem.core.network.mysql.RewardHandler.onCompletion(RewardHandler.java:19)
+[2016-05-23 23:29:23] 	at com.mayhem.core.network.mysql.RewardHandler.onCompletion(RewardHandler.java:1)
+[2016-05-23 23:29:23] 	at com.rspserver.motivote.MotivoteThread.run(MotivoteThread.java:149)
+[2016-05-23 23:29:33] java.lang.NullPointerException
+[2016-05-23 23:29:33] 	at com.mayhem.core.network.mysql.RewardHandler.handleRewards(RewardHandler.java:33)
+[2016-05-23 23:29:33] 	at com.mayhem.core.network.mysql.RewardHandler.onCompletion(RewardHandler.java:19)
+[2016-05-23 23:29:33] 	at com.mayhem.core.network.mysql.RewardHandler.onCompletion(RewardHandler.java:1)
+[2016-05-23 23:29:33] 	at com.rspserver.motivote.MotivoteThread.run(MotivoteThread.java:149)
+[2016-05-23 23:29:44] java.lang.NullPointerException
+[2016-05-23 23:29:44] 	at com.mayhem.core.network.mysql.RewardHandler.handleRewards(RewardHandler.java:33)
+[2016-05-23 23:29:44] 	at com.mayhem.core.network.mysql.RewardHandler.onCompletion(RewardHandler.java:19)
+[2016-05-23 23:29:44] 	at com.mayhem.core.network.mysql.RewardHandler.onCompletion(RewardHandler.java:1)
+[2016-05-23 23:29:44] 	at com.rspserver.motivote.MotivoteThread.run(MotivoteThread.java:149)
+[2016-05-23 23:29:54] java.lang.NullPointerException
+[2016-05-23 23:29:54] 	at com.mayhem.core.network.mysql.RewardHandler.handleRewards(RewardHandler.java:33)
+[2016-05-23 23:29:54] 	at com.mayhem.core.network.mysql.RewardHandler.onCompletion(RewardHandler.java:19)
+[2016-05-23 23:29:54] 	at com.mayhem.core.network.mysql.RewardHandler.onCompletion(RewardHandler.java:1)
+[2016-05-23 23:29:54] 	at com.rspserver.motivote.MotivoteThread.run(MotivoteThread.java:149)

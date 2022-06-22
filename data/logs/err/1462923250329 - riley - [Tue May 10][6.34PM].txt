@@ -1,0 +1,31 @@
+Logging started at 2016-05-10 18:34:10
+File name: C:\Users\riley\Desktop\os\server\.\data\logs\err\1462923250329 - riley - [Tue May 10][6.34PM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2016-05-10 18:37:10] java.lang.IllegalStateException: unprepared
+[2016-05-10 18:37:10] 	at com.mayhem.core.network.mysql.HiscoreUpdater.update(HiscoreUpdater.java:43)
+[2016-05-10 18:37:10] 	at com.mayhem.rs2.entity.player.Player.logout(Player.java:1442)
+[2016-05-10 18:37:10] 	at com.mayhem.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:632)
+[2016-05-10 18:37:10] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-05-10 18:37:10] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-05-10 18:37:10] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2016-05-10 18:37:10] 	at com.mayhem.core.GameThread.cycle(GameThread.java:124)
+[2016-05-10 18:37:10] 	at com.mayhem.core.GameThread.run(GameThread.java:139)
+[2016-05-10 18:37:13] java.lang.IllegalStateException: unprepared
+[2016-05-10 18:37:13] 	at com.mayhem.core.network.mysql.HiscoreUpdater.update(HiscoreUpdater.java:43)
+[2016-05-10 18:37:13] 	at com.mayhem.rs2.entity.player.Player.logout(Player.java:1442)
+[2016-05-10 18:37:13] 	at com.mayhem.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:632)
+[2016-05-10 18:37:13] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-05-10 18:37:13] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-05-10 18:37:13] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2016-05-10 18:37:13] 	at com.mayhem.core.GameThread.cycle(GameThread.java:124)
+[2016-05-10 18:37:13] 	at com.mayhem.core.GameThread.run(GameThread.java:139)
+[2016-05-10 18:37:16] java.lang.IllegalStateException: unprepared
+[2016-05-10 18:37:16] 	at com.mayhem.core.network.mysql.HiscoreUpdater.update(HiscoreUpdater.java:43)
+[2016-05-10 18:37:16] 	at com.mayhem.rs2.entity.player.Player.logout(Player.java:1442)
+[2016-05-10 18:37:16] 	at com.mayhem.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:632)
+[2016-05-10 18:37:16] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-05-10 18:37:16] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-05-10 18:37:16] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2016-05-10 18:37:16] 	at com.mayhem.core.GameThread.cycle(GameThread.java:124)
+[2016-05-10 18:37:16] 	at com.mayhem.core.GameThread.run(GameThread.java:139)

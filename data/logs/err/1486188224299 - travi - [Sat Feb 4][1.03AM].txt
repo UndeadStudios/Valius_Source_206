@@ -1,0 +1,22 @@
+Logging started at 2017-02-04 01:03:44
+File name: C:\Users\travi\Dropbox\Valius\Valius Source\.\data\logs\err\1486188224299 - travi - [Sat Feb 4][1.03AM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2017-02-04 01:04:31] com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'overall_prestige' in 'field list'
+[2017-02-04 01:04:31] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[2017-02-04 01:04:31] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+[2017-02-04 01:04:31] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[2017-02-04 01:04:31] 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[2017-02-04 01:04:31] 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+[2017-02-04 01:04:31] 	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+[2017-02-04 01:04:31] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+[2017-02-04 01:04:31] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+[2017-02-04 01:04:31] 	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3515)
+[2017-02-04 01:04:31] 	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3447)
+[2017-02-04 01:04:31] 	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+[2017-02-04 01:04:31] 	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+[2017-02-04 01:04:31] 	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2554)
+[2017-02-04 01:04:31] 	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1761)
+[2017-02-04 01:04:31] 	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1021)
+[2017-02-04 01:04:31] 	at com.mayhem.core.network.mysql.Highscores.run(Highscores.java:67)
+[2017-02-04 01:04:31] 	at java.lang.Thread.run(Unknown Source)

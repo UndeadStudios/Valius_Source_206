@@ -1,0 +1,64 @@
+Logging started at 2016-05-19 03:16:10
+File name: C:\Users\riley\Desktop\os\server\.\data\logs\err\1463645770817 - riley - [Thu May 19][3.16AM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2016-05-19 03:17:19] java.lang.NullPointerException
+[2016-05-19 03:17:19] 	at com.mayhem.rs2.entity.object.ObjectManager.remove(ObjectManager.java:512)
+[2016-05-19 03:17:19] 	at com.mayhem.rs2.content.skill.mining.Mining$1.onStop(Mining.java:304)
+[2016-05-19 03:17:19] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:73)
+[2016-05-19 03:17:19] 	at com.mayhem.core.GameThread.cycle(GameThread.java:116)
+[2016-05-19 03:17:19] 	at com.mayhem.core.GameThread.run(GameThread.java:139)
+[2016-05-19 03:17:21] java.lang.NullPointerException
+[2016-05-19 03:17:21] 	at com.mayhem.rs2.entity.object.ObjectManager.remove(ObjectManager.java:512)
+[2016-05-19 03:17:21] 	at com.mayhem.rs2.content.skill.mining.Mining$1.onStop(Mining.java:304)
+[2016-05-19 03:17:21] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:73)
+[2016-05-19 03:17:21] 	at com.mayhem.core.GameThread.cycle(GameThread.java:116)
+[2016-05-19 03:17:21] 	at com.mayhem.core.GameThread.run(GameThread.java:139)
+[2016-05-19 03:17:27] java.lang.NullPointerException
+[2016-05-19 03:17:27] 	at com.mayhem.rs2.entity.object.ObjectManager.remove(ObjectManager.java:512)
+[2016-05-19 03:17:27] 	at com.mayhem.rs2.content.skill.mining.Mining$1.onStop(Mining.java:304)
+[2016-05-19 03:17:27] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:73)
+[2016-05-19 03:17:27] 	at com.mayhem.core.GameThread.cycle(GameThread.java:116)
+[2016-05-19 03:17:27] 	at com.mayhem.core.GameThread.run(GameThread.java:139)
+[2016-05-19 03:17:30] java.lang.NullPointerException
+[2016-05-19 03:17:30] 	at com.mayhem.rs2.entity.object.ObjectManager.remove(ObjectManager.java:512)
+[2016-05-19 03:17:30] 	at com.mayhem.rs2.content.skill.mining.Mining$1.onStop(Mining.java:304)
+[2016-05-19 03:17:30] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:73)
+[2016-05-19 03:17:30] 	at com.mayhem.core.GameThread.cycle(GameThread.java:116)
+[2016-05-19 03:17:30] 	at com.mayhem.core.GameThread.run(GameThread.java:139)
+[2016-05-19 03:17:32] java.lang.NullPointerException
+[2016-05-19 03:17:32] 	at com.mayhem.rs2.entity.object.ObjectManager.remove(ObjectManager.java:512)
+[2016-05-19 03:17:32] 	at com.mayhem.rs2.content.skill.mining.Mining$1.onStop(Mining.java:304)
+[2016-05-19 03:17:32] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:73)
+[2016-05-19 03:17:32] 	at com.mayhem.core.GameThread.cycle(GameThread.java:116)
+[2016-05-19 03:17:32] 	at com.mayhem.core.GameThread.run(GameThread.java:139)
+[2016-05-19 03:17:35] java.lang.NullPointerException
+[2016-05-19 03:17:35] 	at com.mayhem.rs2.entity.object.ObjectManager.remove(ObjectManager.java:512)
+[2016-05-19 03:17:35] 	at com.mayhem.rs2.content.skill.mining.Mining$1.onStop(Mining.java:304)
+[2016-05-19 03:17:35] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:73)
+[2016-05-19 03:17:35] 	at com.mayhem.core.GameThread.cycle(GameThread.java:116)
+[2016-05-19 03:17:35] 	at com.mayhem.core.GameThread.run(GameThread.java:139)
+[2016-05-19 03:17:37] java.lang.NullPointerException
+[2016-05-19 03:17:37] 	at com.mayhem.rs2.entity.object.ObjectManager.remove(ObjectManager.java:512)
+[2016-05-19 03:17:37] 	at com.mayhem.rs2.content.skill.mining.Mining$1.onStop(Mining.java:304)
+[2016-05-19 03:17:37] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:73)
+[2016-05-19 03:17:37] 	at com.mayhem.core.GameThread.cycle(GameThread.java:116)
+[2016-05-19 03:17:37] 	at com.mayhem.core.GameThread.run(GameThread.java:139)
+[2016-05-19 03:17:41] java.lang.NullPointerException
+[2016-05-19 03:17:41] 	at com.mayhem.rs2.entity.object.ObjectManager.remove(ObjectManager.java:512)
+[2016-05-19 03:17:41] 	at com.mayhem.rs2.content.skill.mining.Mining$1.onStop(Mining.java:304)
+[2016-05-19 03:17:41] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:73)
+[2016-05-19 03:17:41] 	at com.mayhem.core.GameThread.cycle(GameThread.java:116)
+[2016-05-19 03:17:41] 	at com.mayhem.core.GameThread.run(GameThread.java:139)
+[2016-05-19 03:17:44] java.lang.NullPointerException
+[2016-05-19 03:17:44] 	at com.mayhem.rs2.entity.object.ObjectManager.remove(ObjectManager.java:512)
+[2016-05-19 03:17:44] 	at com.mayhem.rs2.content.skill.mining.Mining$1.onStop(Mining.java:304)
+[2016-05-19 03:17:44] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:73)
+[2016-05-19 03:17:44] 	at com.mayhem.core.GameThread.cycle(GameThread.java:116)
+[2016-05-19 03:17:44] 	at com.mayhem.core.GameThread.run(GameThread.java:139)
+[2016-05-19 03:17:47] java.lang.NullPointerException
+[2016-05-19 03:17:47] 	at com.mayhem.rs2.entity.object.ObjectManager.remove(ObjectManager.java:512)
+[2016-05-19 03:17:47] 	at com.mayhem.rs2.content.skill.mining.Mining$1.onStop(Mining.java:304)
+[2016-05-19 03:17:47] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:73)
+[2016-05-19 03:17:47] 	at com.mayhem.core.GameThread.cycle(GameThread.java:116)
+[2016-05-19 03:17:47] 	at com.mayhem.core.GameThread.run(GameThread.java:139)

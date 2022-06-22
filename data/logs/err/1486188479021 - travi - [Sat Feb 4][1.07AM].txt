@@ -1,0 +1,13 @@
+Logging started at 2017-02-04 01:07:59
+File name: C:\Users\travi\Dropbox\Valius\Valius Source\.\data\logs\err\1486188479021 - travi - [Sat Feb 4][1.07AM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2017-02-04 01:09:54] java.sql.SQLException: No value specified for parameter 3
+[2017-02-04 01:09:54] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1055)
+[2017-02-04 01:09:54] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+[2017-02-04 01:09:54] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:926)
+[2017-02-04 01:09:54] 	at com.mysql.jdbc.PreparedStatement.fillSendPacket(PreparedStatement.java:2214)
+[2017-02-04 01:09:54] 	at com.mysql.jdbc.PreparedStatement.fillSendPacket(PreparedStatement.java:2138)
+[2017-02-04 01:09:54] 	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:957)
+[2017-02-04 01:09:54] 	at com.mayhem.core.network.mysql.Highscores.run(Highscores.java:67)
+[2017-02-04 01:09:54] 	at java.lang.Thread.run(Unknown Source)

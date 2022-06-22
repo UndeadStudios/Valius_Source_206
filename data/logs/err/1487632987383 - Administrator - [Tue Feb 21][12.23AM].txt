@@ -1,0 +1,5 @@
+Logging started at 2017-02-21 00:23:07
+File name: C:\Users\Administrator\Dropbox\Valius\Valius Source\.\data\logs\err\1487632987383 - Administrator - [Tue Feb 21][12.23AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-02-21 00:31:06] Didn't save hiscores for Crown

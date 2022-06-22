@@ -1,0 +1,5 @@
+Logging started at 2017-03-24 02:11:05
+File name: E:\Dropbox\Valius Source\.\data\logs\err\1490339465401 - Andrew - [Fri Mar 24][2.11AM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2017-03-24 02:13:20] Tried spawning skitzo minions again.

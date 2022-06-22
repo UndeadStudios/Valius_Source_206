@@ -1,0 +1,36 @@
+Logging started at 2017-03-07 06:13:47
+File name: C:\Users\Administrator\Dropbox\Valius\Valius Source\.\data\logs\err\1488863627666 - Administrator - [Tue Mar 7][6.13AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-03-07 06:17:15] java.lang.NullPointerException
+[2017-03-07 06:17:15] 	at com.mayhem.rs2.entity.player.net.in.command.impl.DeveloperCommand.handleCommand(DeveloperCommand.java:884)
+[2017-03-07 06:17:15] 	at com.mayhem.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:57)
+[2017-03-07 06:17:15] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-07 06:17:15] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-07 06:17:15] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-07 06:17:15] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-07 06:17:15] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-07 06:17:22] java.lang.NullPointerException
+[2017-03-07 06:17:22] 	at com.mayhem.rs2.entity.player.net.in.command.impl.DeveloperCommand.handleCommand(DeveloperCommand.java:884)
+[2017-03-07 06:17:22] 	at com.mayhem.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:57)
+[2017-03-07 06:17:22] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-07 06:17:22] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-07 06:17:22] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-07 06:17:22] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-07 06:17:22] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-07 06:17:29] java.lang.NullPointerException
+[2017-03-07 06:17:29] 	at com.mayhem.rs2.entity.player.net.in.command.impl.DeveloperCommand.handleCommand(DeveloperCommand.java:884)
+[2017-03-07 06:17:29] 	at com.mayhem.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:57)
+[2017-03-07 06:17:29] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-07 06:17:29] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-07 06:17:29] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-07 06:17:29] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-07 06:17:29] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-07 06:17:34] java.lang.NullPointerException
+[2017-03-07 06:17:34] 	at com.mayhem.rs2.entity.player.net.in.command.impl.DeveloperCommand.handleCommand(DeveloperCommand.java:884)
+[2017-03-07 06:17:34] 	at com.mayhem.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:57)
+[2017-03-07 06:17:34] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-07 06:17:34] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-07 06:17:34] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-07 06:17:34] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-07 06:17:34] 	at com.mayhem.core.GameThread.run(GameThread.java:150)

@@ -1,0 +1,7 @@
+Logging started at 2017-02-08 22:07:51
+File name: C:\Users\travi\Dropbox\Valius\Valius Source\.\data\logs\err\1486609671149 - travi - [Wed Feb 8][10.07PM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2017-02-08 22:39:21] Failing to update Trebble highscores. Database could not connect.
+[2017-02-08 22:59:46] Failing to update Trebble highscores. Database could not connect.
+[2017-02-08 23:05:14] Failing to update Trebbledc highscores. Database could not connect.

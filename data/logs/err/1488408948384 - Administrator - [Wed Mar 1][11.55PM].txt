@@ -1,0 +1,60 @@
+Logging started at 2017-03-01 23:55:48
+File name: C:\Users\Administrator\Dropbox\Valius\Valius Source\.\data\logs\err\1488408948384 - Administrator - [Wed Mar 1][11.55PM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-03-01 23:57:03] [Normal]: Failed to update Saint Divine highscores. Database could not connect.
+[2017-03-01 23:58:02] [Extreme]: Failed to update Dottel highscores. Database could not connect.
+[2017-03-01 23:59:04] [Extreme]: Failed to update Dottel highscores. Database could not connect.
+[2017-03-02 00:00:27] [Extreme]: Failed to update Dottel highscores. Database could not connect.
+[2017-03-02 00:03:16] [Ultimate]: Failed to update Butt Cheeks highscores. Database could not connect.
+[2017-03-02 00:04:36] java.lang.NullPointerException
+[2017-03-02 00:04:36] 	at com.mayhem.rs2.content.combat.formula.RangeFormulas.calculateRangeAttack(RangeFormulas.java:78)
+[2017-03-02 00:04:36] 	at com.mayhem.rs2.content.combat.impl.Ranged.execute(Ranged.java:41)
+[2017-03-02 00:04:36] 	at com.mayhem.rs2.content.combat.Combat.attack(Combat.java:92)
+[2017-03-02 00:04:36] 	at com.mayhem.rs2.content.combat.Combat.process(Combat.java:215)
+[2017-03-02 00:04:36] 	at com.mayhem.rs2.entity.player.Player.process(Player.java:1648)
+[2017-03-02 00:04:36] 	at com.mayhem.rs2.entity.World.process(World.java:322)
+[2017-03-02 00:04:36] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-02 00:04:36] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-02 00:04:36] java.lang.NullPointerException
+[2017-03-02 00:04:36] 	at com.mayhem.rs2.entity.player.net.Client.send(Client.java:329)
+[2017-03-02 00:04:36] 	at com.mayhem.rs2.entity.player.net.out.impl.SendLogout.execute(SendLogout.java:13)
+[2017-03-02 00:04:36] 	at com.mayhem.rs2.entity.player.Player.logout(Player.java:1572)
+[2017-03-02 00:04:36] 	at com.mayhem.rs2.entity.World.process(World.java:335)
+[2017-03-02 00:04:36] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-02 00:04:36] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-02 00:04:36] [Extreme]: Failed to update Dottel highscores. Database could not connect.
+[2017-03-02 00:04:47] [Extreme]: Failed to update Kz highscores. Database could not connect.
+[2017-03-02 00:22:38] [Extreme]: Failed to update Dottel highscores. Database could not connect.
+[2017-03-02 00:22:48] [Extreme]: Failed to update Nikro highscores. Database could not connect.
+[2017-03-02 00:24:06] [Extreme]: Failed to update Dottel highscores. Database could not connect.
+[2017-03-02 00:28:04] [Ironman]: Failed to update Quill highscores. Database could not connect.
+[2017-03-02 00:37:22] [Normal]: Failed to update Angel highscores. Database could not connect.
+[2017-03-02 00:40:03] [Normal]: Failed to update Daniel highscores. Database could not connect.
+[2017-03-02 00:41:58] [Normal]: Failed to update Raz highscores. Database could not connect.
+[2017-03-02 00:51:23] [Extreme]: Failed to update Dottel highscores. Database could not connect.
+[2017-03-02 00:52:23] [Normal]: Failed to update Raz highscores. Database could not connect.
+[2017-03-02 00:56:04] [Normal]: Failed to update Fame highscores. Database could not connect.
+[2017-03-02 01:04:08] [Ironman]: Failed to update Raziel highscores. Database could not connect.
+[2017-03-02 01:04:50] [Normal]: Failed to update Raz highscores. Database could not connect.
+[2017-03-02 01:20:13] [Extreme]: Failed to update Dottel highscores. Database could not connect.
+[2017-03-02 01:21:13] [Normal]: Failed to update Raz highscores. Database could not connect.
+[2017-03-02 01:30:52] [Ultimate]: Failed to update Bliss highscores. Database could not connect.
+[2017-03-02 01:40:23] [Ironman]: Failed to update Quill highscores. Database could not connect.
+[2017-03-02 01:44:35] [Normal]: Failed to update Invalid highscores. Database could not connect.
+[2017-03-02 01:44:37] [Extreme]: Failed to update Ganja highscores. Database could not connect.
+[2017-03-02 01:45:31] [Extreme]: Failed to update Dottel highscores. Database could not connect.
+[2017-03-02 02:02:18] [Normal]: Failed to update Dream highscores. Database could not connect.
+[2017-03-02 02:11:19] [Normal]: Failed to update Saint Divine highscores. Database could not connect.
+[2017-03-02 02:11:49] [Extreme]: Failed to update Mod Divine highscores. Database could not connect.
+[2017-03-02 02:19:31] java.lang.NullPointerException
+[2017-03-02 02:19:31] 	at com.mayhem.rs2.content.GenieReset.handle(GenieReset.java:118)
+[2017-03-02 02:19:31] 	at com.mayhem.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:962)
+[2017-03-02 02:19:31] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-02 02:19:31] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-02 02:19:31] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-02 02:19:31] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-02 02:19:31] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-02 03:01:53] Didn't save hiscores for [EXTREME]Mod andy
+[2017-03-02 03:03:48] Didn't save hiscores for [EXTREME]Mod andy
+[2017-03-02 04:31:10] Didn't save hiscores for [EXTREME]Mod andy

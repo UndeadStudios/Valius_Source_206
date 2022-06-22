@@ -1,0 +1,504 @@
+Logging started at 2017-02-22 01:25:09
+File name: C:\Users\Administrator\Dropbox\Valius\Valius Source\.\data\logs\err\1487723109223 - Administrator - [Wed Feb 22][1.25AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-02-22 01:36:04] Didn't save hiscores for Mod tex
+[2017-02-22 01:36:29] Didn't save hiscores for Mod tex
+[2017-02-22 01:42:34] Didn't save hiscores for Mod tex
+[2017-02-22 02:00:50] Didn't save hiscores for Mod tex
+[2017-02-22 02:14:23] java.lang.NullPointerException
+[2017-02-22 02:14:23] 	at com.mayhem.rs2.content.skill.agility.obstacle.interaction.ObstacleInteraction.courseRewards(ObstacleInteraction.java:191)
+[2017-02-22 02:14:23] 	at com.mayhem.rs2.content.skill.agility.obstacle.interaction.ObstacleInteraction$1.onStop(ObstacleInteraction.java:158)
+[2017-02-22 02:14:23] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:62)
+[2017-02-22 02:14:23] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-02-22 02:14:23] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-22 02:14:33] java.lang.IllegalStateException: unprepared
+[2017-02-22 02:14:33] 	at com.mayhem.core.network.mysql.MembershipRewards.collectReward(MembershipRewards.java:38)
+[2017-02-22 02:14:33] 	at com.mayhem.rs2.content.dialogue.impl.MembershipDialogue.execute(MembershipDialogue.java:70)
+[2017-02-22 02:14:33] 	at com.mayhem.rs2.entity.player.net.in.impl.ChatInterfacePacket.handleDialogue(ChatInterfacePacket.java:47)
+[2017-02-22 02:14:33] 	at com.mayhem.rs2.entity.player.net.in.impl.ChatInterfacePacket.handle(ChatInterfacePacket.java:33)
+[2017-02-22 02:14:33] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-02-22 02:14:33] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-02-22 02:14:33] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-02-22 02:14:33] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-02-22 02:14:33] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-22 02:15:07] java.lang.IllegalStateException: unprepared
+[2017-02-22 02:15:07] 	at com.mayhem.core.network.mysql.MembershipRewards.collectReward(MembershipRewards.java:38)
+[2017-02-22 02:15:07] 	at com.mayhem.rs2.content.dialogue.impl.MembershipDialogue.execute(MembershipDialogue.java:70)
+[2017-02-22 02:15:07] 	at com.mayhem.rs2.entity.player.net.in.impl.ChatInterfacePacket.handleDialogue(ChatInterfacePacket.java:47)
+[2017-02-22 02:15:07] 	at com.mayhem.rs2.entity.player.net.in.impl.ChatInterfacePacket.handle(ChatInterfacePacket.java:33)
+[2017-02-22 02:15:07] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-02-22 02:15:07] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-02-22 02:15:07] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-02-22 02:15:07] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-02-22 02:15:07] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-22 02:15:13] Didn't save hiscores for Squashy
+[2017-02-22 02:15:25] java.lang.IllegalStateException: unprepared
+[2017-02-22 02:15:25] 	at com.mayhem.core.network.mysql.MembershipRewards.collectReward(MembershipRewards.java:38)
+[2017-02-22 02:15:25] 	at com.mayhem.rs2.content.dialogue.impl.MembershipDialogue.execute(MembershipDialogue.java:70)
+[2017-02-22 02:15:25] 	at com.mayhem.rs2.entity.player.net.in.impl.ChatInterfacePacket.handleDialogue(ChatInterfacePacket.java:47)
+[2017-02-22 02:15:25] 	at com.mayhem.rs2.entity.player.net.in.impl.ChatInterfacePacket.handle(ChatInterfacePacket.java:33)
+[2017-02-22 02:15:25] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-02-22 02:15:25] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-02-22 02:15:25] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-02-22 02:15:25] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-02-22 02:15:25] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-22 02:15:51] java.lang.IllegalStateException: unprepared
+[2017-02-22 02:15:51] 	at com.mayhem.core.network.mysql.MembershipRewards.collectReward(MembershipRewards.java:38)
+[2017-02-22 02:15:51] 	at com.mayhem.rs2.content.dialogue.impl.MembershipDialogue.execute(MembershipDialogue.java:70)
+[2017-02-22 02:15:51] 	at com.mayhem.rs2.entity.player.net.in.impl.ChatInterfacePacket.handleDialogue(ChatInterfacePacket.java:47)
+[2017-02-22 02:15:51] 	at com.mayhem.rs2.entity.player.net.in.impl.ChatInterfacePacket.handle(ChatInterfacePacket.java:33)
+[2017-02-22 02:15:51] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-02-22 02:15:51] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-02-22 02:15:51] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-02-22 02:15:51] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-02-22 02:15:51] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-22 02:18:16] Didn't save hiscores for Squashy
+[2017-02-22 02:19:23] Didn't save hiscores for Squashy
+[2017-02-22 02:19:37] Didn't save hiscores for Squashy
+[2017-02-22 02:21:35] Didn't save hiscores for Alchemist
+[2017-02-22 02:22:30] Didn't save hiscores for Full of iron
+[2017-02-22 02:22:57] Didn't save hiscores for Kidsanity
+[2017-02-22 02:38:12] Didn't save hiscores for Zero
+[2017-02-22 02:40:44] Didn't save hiscores for Mod tex
+[2017-02-22 02:43:35] Didn't save hiscores for Mod tex
+[2017-02-22 02:52:50] Didn't save hiscores for Squashy
+[2017-02-22 02:58:33] java.lang.NullPointerException
+[2017-02-22 02:58:33] 	at com.mayhem.rs2.content.combat.formula.RangeFormulas.calculateRangeAttack(RangeFormulas.java:78)
+[2017-02-22 02:58:33] 	at com.mayhem.rs2.content.combat.impl.Ranged.execute(Ranged.java:41)
+[2017-02-22 02:58:33] 	at com.mayhem.rs2.content.combat.Combat.attack(Combat.java:92)
+[2017-02-22 02:58:33] 	at com.mayhem.rs2.content.combat.Combat.process(Combat.java:215)
+[2017-02-22 02:58:33] 	at com.mayhem.rs2.entity.player.Player.process(Player.java:1644)
+[2017-02-22 02:58:33] 	at com.mayhem.rs2.entity.World.process(World.java:322)
+[2017-02-22 02:58:33] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-02-22 02:58:33] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-22 02:58:33] java.lang.NullPointerException
+[2017-02-22 02:58:33] 	at com.mayhem.rs2.entity.player.net.Client.send(Client.java:329)
+[2017-02-22 02:58:33] 	at com.mayhem.rs2.entity.player.net.out.impl.SendLogout.execute(SendLogout.java:13)
+[2017-02-22 02:58:33] 	at com.mayhem.rs2.entity.player.Player.logout(Player.java:1568)
+[2017-02-22 02:58:33] 	at com.mayhem.rs2.entity.World.process(World.java:335)
+[2017-02-22 02:58:33] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-02-22 02:58:33] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-22 02:58:33] Didn't save hiscores for Squashy
+[2017-02-22 02:59:55] Didn't save hiscores for Squashy
+[2017-02-22 03:02:53] Didn't save hiscores for Squashy
+[2017-02-22 03:03:36] Didn't save hiscores for Squashy
+[2017-02-22 03:06:40] Didn't save hiscores for Squashy
+[2017-02-22 03:07:34] Didn't save hiscores for Squashy
+[2017-02-22 03:09:05] Didn't save hiscores for Squashy
+[2017-02-22 03:22:10] com.google.gson.JsonSyntaxException: java.lang.NumberFormatException: For input string: "0000FF"
+[2017-02-22 03:22:10] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:232)
+[2017-02-22 03:22:10] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:222)
+[2017-02-22 03:22:10] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-02-22 03:22:10] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-02-22 03:22:10] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-02-22 03:22:10] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-02-22 03:22:10] 	at com.google.gson.Gson.fromJson(Gson.java:795)
+[2017-02-22 03:22:10] 	at com.google.gson.Gson.fromJson(Gson.java:734)
+[2017-02-22 03:22:10] 	at com.mayhem.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:421)
+[2017-02-22 03:22:10] 	at com.mayhem.rs2.content.io.PlayerSave.load(PlayerSave.java:1136)
+[2017-02-22 03:22:10] 	at com.mayhem.core.LoginThread.cycle(LoginThread.java:26)
+[2017-02-22 03:22:10] 	at com.mayhem.core.LoginThread.run(LoginThread.java:83)
+[2017-02-22 03:22:10] Caused by: java.lang.NumberFormatException: For input string: "0000FF"
+[2017-02-22 03:22:10] 	at sun.misc.FloatingDecimal.readJavaFormatString(Unknown Source)
+[2017-02-22 03:22:10] 	at sun.misc.FloatingDecimal.parseDouble(Unknown Source)
+[2017-02-22 03:22:10] 	at java.lang.Double.parseDouble(Unknown Source)
+[2017-02-22 03:22:10] 	at com.google.gson.stream.JsonReader.nextInt(JsonReader.java:599)
+[2017-02-22 03:22:10] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:230)
+[2017-02-22 03:22:10] 	... 11 more
+[2017-02-22 03:22:18] com.google.gson.JsonSyntaxException: java.lang.NumberFormatException: For input string: "0000FF"
+[2017-02-22 03:22:18] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:232)
+[2017-02-22 03:22:18] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:222)
+[2017-02-22 03:22:18] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-02-22 03:22:18] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-02-22 03:22:18] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-02-22 03:22:18] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-02-22 03:22:18] 	at com.google.gson.Gson.fromJson(Gson.java:795)
+[2017-02-22 03:22:18] 	at com.google.gson.Gson.fromJson(Gson.java:734)
+[2017-02-22 03:22:18] 	at com.mayhem.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:421)
+[2017-02-22 03:22:18] 	at com.mayhem.rs2.content.io.PlayerSave.load(PlayerSave.java:1136)
+[2017-02-22 03:22:18] 	at com.mayhem.core.LoginThread.cycle(LoginThread.java:26)
+[2017-02-22 03:22:18] 	at com.mayhem.core.LoginThread.run(LoginThread.java:83)
+[2017-02-22 03:22:18] Caused by: java.lang.NumberFormatException: For input string: "0000FF"
+[2017-02-22 03:22:18] 	at sun.misc.FloatingDecimal.readJavaFormatString(Unknown Source)
+[2017-02-22 03:22:18] 	at sun.misc.FloatingDecimal.parseDouble(Unknown Source)
+[2017-02-22 03:22:18] 	at java.lang.Double.parseDouble(Unknown Source)
+[2017-02-22 03:22:18] 	at com.google.gson.stream.JsonReader.nextInt(JsonReader.java:599)
+[2017-02-22 03:22:18] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:230)
+[2017-02-22 03:22:18] 	... 11 more
+[2017-02-22 03:22:23] com.google.gson.JsonSyntaxException: java.lang.NumberFormatException: For input string: "0000FF"
+[2017-02-22 03:22:23] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:232)
+[2017-02-22 03:22:23] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:222)
+[2017-02-22 03:22:23] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-02-22 03:22:23] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-02-22 03:22:23] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-02-22 03:22:23] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-02-22 03:22:23] 	at com.google.gson.Gson.fromJson(Gson.java:795)
+[2017-02-22 03:22:23] 	at com.google.gson.Gson.fromJson(Gson.java:734)
+[2017-02-22 03:22:23] 	at com.mayhem.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:421)
+[2017-02-22 03:22:23] 	at com.mayhem.rs2.content.io.PlayerSave.load(PlayerSave.java:1136)
+[2017-02-22 03:22:23] 	at com.mayhem.core.LoginThread.cycle(LoginThread.java:26)
+[2017-02-22 03:22:23] 	at com.mayhem.core.LoginThread.run(LoginThread.java:83)
+[2017-02-22 03:22:23] Caused by: java.lang.NumberFormatException: For input string: "0000FF"
+[2017-02-22 03:22:23] 	at sun.misc.FloatingDecimal.readJavaFormatString(Unknown Source)
+[2017-02-22 03:22:23] 	at sun.misc.FloatingDecimal.parseDouble(Unknown Source)
+[2017-02-22 03:22:23] 	at java.lang.Double.parseDouble(Unknown Source)
+[2017-02-22 03:22:23] 	at com.google.gson.stream.JsonReader.nextInt(JsonReader.java:599)
+[2017-02-22 03:22:23] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:230)
+[2017-02-22 03:22:23] 	... 11 more
+[2017-02-22 03:24:28] com.google.gson.JsonSyntaxException: java.lang.NumberFormatException: For input string: "0000FF"
+[2017-02-22 03:24:28] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:232)
+[2017-02-22 03:24:28] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:222)
+[2017-02-22 03:24:28] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-02-22 03:24:28] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-02-22 03:24:28] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-02-22 03:24:28] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-02-22 03:24:28] 	at com.google.gson.Gson.fromJson(Gson.java:795)
+[2017-02-22 03:24:28] 	at com.google.gson.Gson.fromJson(Gson.java:734)
+[2017-02-22 03:24:28] 	at com.mayhem.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:421)
+[2017-02-22 03:24:28] 	at com.mayhem.rs2.content.io.PlayerSave.load(PlayerSave.java:1136)
+[2017-02-22 03:24:28] 	at com.mayhem.core.LoginThread.cycle(LoginThread.java:26)
+[2017-02-22 03:24:28] 	at com.mayhem.core.LoginThread.run(LoginThread.java:83)
+[2017-02-22 03:24:28] Caused by: java.lang.NumberFormatException: For input string: "0000FF"
+[2017-02-22 03:24:28] 	at sun.misc.FloatingDecimal.readJavaFormatString(Unknown Source)
+[2017-02-22 03:24:28] 	at sun.misc.FloatingDecimal.parseDouble(Unknown Source)
+[2017-02-22 03:24:28] 	at java.lang.Double.parseDouble(Unknown Source)
+[2017-02-22 03:24:28] 	at com.google.gson.stream.JsonReader.nextInt(JsonReader.java:599)
+[2017-02-22 03:24:28] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:230)
+[2017-02-22 03:24:28] 	... 11 more
+[2017-02-22 03:24:36] com.google.gson.JsonSyntaxException: java.lang.NumberFormatException: For input string: "0000FF"
+[2017-02-22 03:24:36] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:232)
+[2017-02-22 03:24:36] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:222)
+[2017-02-22 03:24:36] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-02-22 03:24:36] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-02-22 03:24:36] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-02-22 03:24:36] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-02-22 03:24:36] 	at com.google.gson.Gson.fromJson(Gson.java:795)
+[2017-02-22 03:24:36] 	at com.google.gson.Gson.fromJson(Gson.java:734)
+[2017-02-22 03:24:36] 	at com.mayhem.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:421)
+[2017-02-22 03:24:36] 	at com.mayhem.rs2.content.io.PlayerSave.load(PlayerSave.java:1136)
+[2017-02-22 03:24:36] 	at com.mayhem.core.LoginThread.cycle(LoginThread.java:26)
+[2017-02-22 03:24:36] 	at com.mayhem.core.LoginThread.run(LoginThread.java:83)
+[2017-02-22 03:24:36] Caused by: java.lang.NumberFormatException: For input string: "0000FF"
+[2017-02-22 03:24:36] 	at sun.misc.FloatingDecimal.readJavaFormatString(Unknown Source)
+[2017-02-22 03:24:36] 	at sun.misc.FloatingDecimal.parseDouble(Unknown Source)
+[2017-02-22 03:24:36] 	at java.lang.Double.parseDouble(Unknown Source)
+[2017-02-22 03:24:36] 	at com.google.gson.stream.JsonReader.nextInt(JsonReader.java:599)
+[2017-02-22 03:24:36] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:230)
+[2017-02-22 03:24:36] 	... 11 more
+[2017-02-22 03:24:49] com.google.gson.JsonSyntaxException: java.lang.NumberFormatException: For input string: "0000FF"
+[2017-02-22 03:24:49] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:232)
+[2017-02-22 03:24:49] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:222)
+[2017-02-22 03:24:49] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-02-22 03:24:49] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-02-22 03:24:49] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-02-22 03:24:49] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-02-22 03:24:49] 	at com.google.gson.Gson.fromJson(Gson.java:795)
+[2017-02-22 03:24:49] 	at com.google.gson.Gson.fromJson(Gson.java:734)
+[2017-02-22 03:24:49] 	at com.mayhem.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:421)
+[2017-02-22 03:24:49] 	at com.mayhem.rs2.content.io.PlayerSave.load(PlayerSave.java:1136)
+[2017-02-22 03:24:49] 	at com.mayhem.core.LoginThread.cycle(LoginThread.java:26)
+[2017-02-22 03:24:49] 	at com.mayhem.core.LoginThread.run(LoginThread.java:83)
+[2017-02-22 03:24:49] Caused by: java.lang.NumberFormatException: For input string: "0000FF"
+[2017-02-22 03:24:49] 	at sun.misc.FloatingDecimal.readJavaFormatString(Unknown Source)
+[2017-02-22 03:24:49] 	at sun.misc.FloatingDecimal.parseDouble(Unknown Source)
+[2017-02-22 03:24:49] 	at java.lang.Double.parseDouble(Unknown Source)
+[2017-02-22 03:24:49] 	at com.google.gson.stream.JsonReader.nextInt(JsonReader.java:599)
+[2017-02-22 03:24:49] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:230)
+[2017-02-22 03:24:49] 	... 11 more
+[2017-02-22 03:26:20] Didn't save hiscores for Zero
+[2017-02-22 03:26:30] com.google.gson.JsonSyntaxException: java.lang.NumberFormatException: For input string: "0000FF"
+[2017-02-22 03:26:30] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:232)
+[2017-02-22 03:26:30] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:222)
+[2017-02-22 03:26:30] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-02-22 03:26:30] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-02-22 03:26:30] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-02-22 03:26:30] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-02-22 03:26:30] 	at com.google.gson.Gson.fromJson(Gson.java:795)
+[2017-02-22 03:26:30] 	at com.google.gson.Gson.fromJson(Gson.java:734)
+[2017-02-22 03:26:30] 	at com.mayhem.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:421)
+[2017-02-22 03:26:30] 	at com.mayhem.rs2.content.io.PlayerSave.load(PlayerSave.java:1136)
+[2017-02-22 03:26:30] 	at com.mayhem.core.LoginThread.cycle(LoginThread.java:26)
+[2017-02-22 03:26:30] 	at com.mayhem.core.LoginThread.run(LoginThread.java:83)
+[2017-02-22 03:26:30] Caused by: java.lang.NumberFormatException: For input string: "0000FF"
+[2017-02-22 03:26:30] 	at sun.misc.FloatingDecimal.readJavaFormatString(Unknown Source)
+[2017-02-22 03:26:30] 	at sun.misc.FloatingDecimal.parseDouble(Unknown Source)
+[2017-02-22 03:26:30] 	at java.lang.Double.parseDouble(Unknown Source)
+[2017-02-22 03:26:30] 	at com.google.gson.stream.JsonReader.nextInt(JsonReader.java:599)
+[2017-02-22 03:26:30] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:230)
+[2017-02-22 03:26:30] 	... 11 more
+[2017-02-22 03:26:33] com.google.gson.JsonSyntaxException: java.lang.NumberFormatException: For input string: "0000FF"
+[2017-02-22 03:26:33] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:232)
+[2017-02-22 03:26:33] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:222)
+[2017-02-22 03:26:33] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-02-22 03:26:33] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-02-22 03:26:33] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-02-22 03:26:33] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-02-22 03:26:33] 	at com.google.gson.Gson.fromJson(Gson.java:795)
+[2017-02-22 03:26:33] 	at com.google.gson.Gson.fromJson(Gson.java:734)
+[2017-02-22 03:26:33] 	at com.mayhem.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:421)
+[2017-02-22 03:26:33] 	at com.mayhem.rs2.content.io.PlayerSave.load(PlayerSave.java:1136)
+[2017-02-22 03:26:33] 	at com.mayhem.core.LoginThread.cycle(LoginThread.java:26)
+[2017-02-22 03:26:33] 	at com.mayhem.core.LoginThread.run(LoginThread.java:83)
+[2017-02-22 03:26:33] Caused by: java.lang.NumberFormatException: For input string: "0000FF"
+[2017-02-22 03:26:33] 	at sun.misc.FloatingDecimal.readJavaFormatString(Unknown Source)
+[2017-02-22 03:26:33] 	at sun.misc.FloatingDecimal.parseDouble(Unknown Source)
+[2017-02-22 03:26:33] 	at java.lang.Double.parseDouble(Unknown Source)
+[2017-02-22 03:26:33] 	at com.google.gson.stream.JsonReader.nextInt(JsonReader.java:599)
+[2017-02-22 03:26:33] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:230)
+[2017-02-22 03:26:33] 	... 11 more
+[2017-02-22 03:38:33] Didn't save hiscores for Zero
+[2017-02-22 03:41:22] Didn't save hiscores for T2kmostkillz
+[2017-02-22 03:43:47] com.google.gson.JsonSyntaxException: java.lang.NumberFormatException: For input string: "@blu@"
+[2017-02-22 03:43:47] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:232)
+[2017-02-22 03:43:47] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:222)
+[2017-02-22 03:43:47] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-02-22 03:43:47] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-02-22 03:43:47] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-02-22 03:43:47] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-02-22 03:43:47] 	at com.google.gson.Gson.fromJson(Gson.java:795)
+[2017-02-22 03:43:47] 	at com.google.gson.Gson.fromJson(Gson.java:734)
+[2017-02-22 03:43:47] 	at com.mayhem.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:421)
+[2017-02-22 03:43:47] 	at com.mayhem.rs2.content.io.PlayerSave.load(PlayerSave.java:1136)
+[2017-02-22 03:43:47] 	at com.mayhem.core.LoginThread.cycle(LoginThread.java:26)
+[2017-02-22 03:43:47] 	at com.mayhem.core.LoginThread.run(LoginThread.java:83)
+[2017-02-22 03:43:47] Caused by: java.lang.NumberFormatException: For input string: "@blu@"
+[2017-02-22 03:43:47] 	at sun.misc.FloatingDecimal.readJavaFormatString(Unknown Source)
+[2017-02-22 03:43:47] 	at sun.misc.FloatingDecimal.parseDouble(Unknown Source)
+[2017-02-22 03:43:47] 	at java.lang.Double.parseDouble(Unknown Source)
+[2017-02-22 03:43:47] 	at com.google.gson.stream.JsonReader.nextInt(JsonReader.java:599)
+[2017-02-22 03:43:47] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:230)
+[2017-02-22 03:43:47] 	... 11 more
+[2017-02-22 03:43:49] com.google.gson.JsonSyntaxException: java.lang.NumberFormatException: For input string: "@blu@"
+[2017-02-22 03:43:49] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:232)
+[2017-02-22 03:43:49] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:222)
+[2017-02-22 03:43:49] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-02-22 03:43:49] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-02-22 03:43:49] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-02-22 03:43:49] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-02-22 03:43:49] 	at com.google.gson.Gson.fromJson(Gson.java:795)
+[2017-02-22 03:43:49] 	at com.google.gson.Gson.fromJson(Gson.java:734)
+[2017-02-22 03:43:49] 	at com.mayhem.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:421)
+[2017-02-22 03:43:49] 	at com.mayhem.rs2.content.io.PlayerSave.load(PlayerSave.java:1136)
+[2017-02-22 03:43:49] 	at com.mayhem.core.LoginThread.cycle(LoginThread.java:26)
+[2017-02-22 03:43:49] 	at com.mayhem.core.LoginThread.run(LoginThread.java:83)
+[2017-02-22 03:43:49] Caused by: java.lang.NumberFormatException: For input string: "@blu@"
+[2017-02-22 03:43:49] 	at sun.misc.FloatingDecimal.readJavaFormatString(Unknown Source)
+[2017-02-22 03:43:49] 	at sun.misc.FloatingDecimal.parseDouble(Unknown Source)
+[2017-02-22 03:43:49] 	at java.lang.Double.parseDouble(Unknown Source)
+[2017-02-22 03:43:49] 	at com.google.gson.stream.JsonReader.nextInt(JsonReader.java:599)
+[2017-02-22 03:43:49] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:230)
+[2017-02-22 03:43:49] 	... 11 more
+[2017-02-22 03:45:56] com.google.gson.JsonSyntaxException: java.lang.NumberFormatException: For input string: "25B8F7"
+[2017-02-22 03:45:56] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:232)
+[2017-02-22 03:45:56] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:222)
+[2017-02-22 03:45:56] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-02-22 03:45:56] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-02-22 03:45:56] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-02-22 03:45:56] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-02-22 03:45:56] 	at com.google.gson.Gson.fromJson(Gson.java:795)
+[2017-02-22 03:45:56] 	at com.google.gson.Gson.fromJson(Gson.java:734)
+[2017-02-22 03:45:56] 	at com.mayhem.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:421)
+[2017-02-22 03:45:56] 	at com.mayhem.rs2.content.io.PlayerSave.load(PlayerSave.java:1136)
+[2017-02-22 03:45:56] 	at com.mayhem.core.LoginThread.cycle(LoginThread.java:26)
+[2017-02-22 03:45:56] 	at com.mayhem.core.LoginThread.run(LoginThread.java:83)
+[2017-02-22 03:45:56] Caused by: java.lang.NumberFormatException: For input string: "25B8F7"
+[2017-02-22 03:45:56] 	at sun.misc.FloatingDecimal.readJavaFormatString(Unknown Source)
+[2017-02-22 03:45:56] 	at sun.misc.FloatingDecimal.parseDouble(Unknown Source)
+[2017-02-22 03:45:56] 	at java.lang.Double.parseDouble(Unknown Source)
+[2017-02-22 03:45:56] 	at com.google.gson.stream.JsonReader.nextInt(JsonReader.java:599)
+[2017-02-22 03:45:56] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:230)
+[2017-02-22 03:45:56] 	... 11 more
+[2017-02-22 03:45:58] com.google.gson.JsonSyntaxException: java.lang.NumberFormatException: For input string: "25B8F7"
+[2017-02-22 03:45:58] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:232)
+[2017-02-22 03:45:58] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:222)
+[2017-02-22 03:45:58] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-02-22 03:45:58] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-02-22 03:45:58] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-02-22 03:45:58] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-02-22 03:45:58] 	at com.google.gson.Gson.fromJson(Gson.java:795)
+[2017-02-22 03:45:58] 	at com.google.gson.Gson.fromJson(Gson.java:734)
+[2017-02-22 03:45:58] 	at com.mayhem.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:421)
+[2017-02-22 03:45:58] 	at com.mayhem.rs2.content.io.PlayerSave.load(PlayerSave.java:1136)
+[2017-02-22 03:45:58] 	at com.mayhem.core.LoginThread.cycle(LoginThread.java:26)
+[2017-02-22 03:45:58] 	at com.mayhem.core.LoginThread.run(LoginThread.java:83)
+[2017-02-22 03:45:58] Caused by: java.lang.NumberFormatException: For input string: "25B8F7"
+[2017-02-22 03:45:58] 	at sun.misc.FloatingDecimal.readJavaFormatString(Unknown Source)
+[2017-02-22 03:45:58] 	at sun.misc.FloatingDecimal.parseDouble(Unknown Source)
+[2017-02-22 03:45:58] 	at java.lang.Double.parseDouble(Unknown Source)
+[2017-02-22 03:45:58] 	at com.google.gson.stream.JsonReader.nextInt(JsonReader.java:599)
+[2017-02-22 03:45:58] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:230)
+[2017-02-22 03:45:58] 	... 11 more
+[2017-02-22 03:59:14] Didn't save hiscores for Whiteboy
+[2017-02-22 03:59:21] Didn't save hiscores for X who me x
+[2017-02-22 04:01:09] Didn't save hiscores for Whiteboy
+[2017-02-22 04:01:28] Didn't save hiscores for T2kmostkillz
+[2017-02-22 04:03:54] com.google.gson.JsonSyntaxException: java.lang.NumberFormatException: For input string: "0x3366FF"
+[2017-02-22 04:03:54] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:232)
+[2017-02-22 04:03:54] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:222)
+[2017-02-22 04:03:54] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-02-22 04:03:54] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-02-22 04:03:54] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-02-22 04:03:54] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-02-22 04:03:54] 	at com.google.gson.Gson.fromJson(Gson.java:795)
+[2017-02-22 04:03:54] 	at com.google.gson.Gson.fromJson(Gson.java:734)
+[2017-02-22 04:03:54] 	at com.mayhem.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:421)
+[2017-02-22 04:03:54] 	at com.mayhem.rs2.content.io.PlayerSave.load(PlayerSave.java:1136)
+[2017-02-22 04:03:54] 	at com.mayhem.core.LoginThread.cycle(LoginThread.java:26)
+[2017-02-22 04:03:54] 	at com.mayhem.core.LoginThread.run(LoginThread.java:83)
+[2017-02-22 04:03:54] Caused by: java.lang.NumberFormatException: For input string: "0x3366FF"
+[2017-02-22 04:03:54] 	at sun.misc.FloatingDecimal.parseHexString(Unknown Source)
+[2017-02-22 04:03:54] 	at sun.misc.FloatingDecimal.readJavaFormatString(Unknown Source)
+[2017-02-22 04:03:54] 	at sun.misc.FloatingDecimal.parseDouble(Unknown Source)
+[2017-02-22 04:03:54] 	at java.lang.Double.parseDouble(Unknown Source)
+[2017-02-22 04:03:54] 	at com.google.gson.stream.JsonReader.nextInt(JsonReader.java:599)
+[2017-02-22 04:03:54] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:230)
+[2017-02-22 04:03:54] 	... 11 more
+[2017-02-22 04:03:56] com.google.gson.JsonSyntaxException: java.lang.NumberFormatException: For input string: "0x3366FF"
+[2017-02-22 04:03:56] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:232)
+[2017-02-22 04:03:56] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:222)
+[2017-02-22 04:03:56] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-02-22 04:03:56] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-02-22 04:03:56] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-02-22 04:03:56] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-02-22 04:03:56] 	at com.google.gson.Gson.fromJson(Gson.java:795)
+[2017-02-22 04:03:56] 	at com.google.gson.Gson.fromJson(Gson.java:734)
+[2017-02-22 04:03:56] 	at com.mayhem.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:421)
+[2017-02-22 04:03:56] 	at com.mayhem.rs2.content.io.PlayerSave.load(PlayerSave.java:1136)
+[2017-02-22 04:03:56] 	at com.mayhem.core.LoginThread.cycle(LoginThread.java:26)
+[2017-02-22 04:03:56] 	at com.mayhem.core.LoginThread.run(LoginThread.java:83)
+[2017-02-22 04:03:56] Caused by: java.lang.NumberFormatException: For input string: "0x3366FF"
+[2017-02-22 04:03:56] 	at sun.misc.FloatingDecimal.parseHexString(Unknown Source)
+[2017-02-22 04:03:56] 	at sun.misc.FloatingDecimal.readJavaFormatString(Unknown Source)
+[2017-02-22 04:03:56] 	at sun.misc.FloatingDecimal.parseDouble(Unknown Source)
+[2017-02-22 04:03:56] 	at java.lang.Double.parseDouble(Unknown Source)
+[2017-02-22 04:03:56] 	at com.google.gson.stream.JsonReader.nextInt(JsonReader.java:599)
+[2017-02-22 04:03:56] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:230)
+[2017-02-22 04:03:56] 	... 11 more
+[2017-02-22 04:03:58] com.google.gson.JsonSyntaxException: java.lang.NumberFormatException: For input string: "0x3366FF"
+[2017-02-22 04:03:58] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:232)
+[2017-02-22 04:03:58] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:222)
+[2017-02-22 04:03:58] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-02-22 04:03:58] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-02-22 04:03:58] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-02-22 04:03:58] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-02-22 04:03:58] 	at com.google.gson.Gson.fromJson(Gson.java:795)
+[2017-02-22 04:03:58] 	at com.google.gson.Gson.fromJson(Gson.java:734)
+[2017-02-22 04:03:58] 	at com.mayhem.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:421)
+[2017-02-22 04:03:58] 	at com.mayhem.rs2.content.io.PlayerSave.load(PlayerSave.java:1136)
+[2017-02-22 04:03:58] 	at com.mayhem.core.LoginThread.cycle(LoginThread.java:26)
+[2017-02-22 04:03:58] 	at com.mayhem.core.LoginThread.run(LoginThread.java:83)
+[2017-02-22 04:03:58] Caused by: java.lang.NumberFormatException: For input string: "0x3366FF"
+[2017-02-22 04:03:58] 	at sun.misc.FloatingDecimal.parseHexString(Unknown Source)
+[2017-02-22 04:03:58] 	at sun.misc.FloatingDecimal.readJavaFormatString(Unknown Source)
+[2017-02-22 04:03:58] 	at sun.misc.FloatingDecimal.parseDouble(Unknown Source)
+[2017-02-22 04:03:58] 	at java.lang.Double.parseDouble(Unknown Source)
+[2017-02-22 04:03:58] 	at com.google.gson.stream.JsonReader.nextInt(JsonReader.java:599)
+[2017-02-22 04:03:58] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:230)
+[2017-02-22 04:03:58] 	... 11 more
+[2017-02-22 04:05:45] com.google.gson.JsonSyntaxException: java.lang.NumberFormatException: For input string: "0x3366FF"
+[2017-02-22 04:05:45] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:232)
+[2017-02-22 04:05:45] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:222)
+[2017-02-22 04:05:45] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-02-22 04:05:45] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-02-22 04:05:45] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-02-22 04:05:45] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-02-22 04:05:45] 	at com.google.gson.Gson.fromJson(Gson.java:795)
+[2017-02-22 04:05:45] 	at com.google.gson.Gson.fromJson(Gson.java:734)
+[2017-02-22 04:05:45] 	at com.mayhem.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:421)
+[2017-02-22 04:05:45] 	at com.mayhem.rs2.content.io.PlayerSave.load(PlayerSave.java:1136)
+[2017-02-22 04:05:45] 	at com.mayhem.core.LoginThread.cycle(LoginThread.java:26)
+[2017-02-22 04:05:45] 	at com.mayhem.core.LoginThread.run(LoginThread.java:83)
+[2017-02-22 04:05:45] Caused by: java.lang.NumberFormatException: For input string: "0x3366FF"
+[2017-02-22 04:05:45] 	at sun.misc.FloatingDecimal.parseHexString(Unknown Source)
+[2017-02-22 04:05:45] 	at sun.misc.FloatingDecimal.readJavaFormatString(Unknown Source)
+[2017-02-22 04:05:45] 	at sun.misc.FloatingDecimal.parseDouble(Unknown Source)
+[2017-02-22 04:05:45] 	at java.lang.Double.parseDouble(Unknown Source)
+[2017-02-22 04:05:45] 	at com.google.gson.stream.JsonReader.nextInt(JsonReader.java:599)
+[2017-02-22 04:05:45] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:230)
+[2017-02-22 04:05:45] 	... 11 more
+[2017-02-22 04:05:48] com.google.gson.JsonSyntaxException: java.lang.NumberFormatException: For input string: "0x3366FF"
+[2017-02-22 04:05:48] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:232)
+[2017-02-22 04:05:48] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:222)
+[2017-02-22 04:05:48] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-02-22 04:05:48] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-02-22 04:05:48] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-02-22 04:05:48] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-02-22 04:05:48] 	at com.google.gson.Gson.fromJson(Gson.java:795)
+[2017-02-22 04:05:48] 	at com.google.gson.Gson.fromJson(Gson.java:734)
+[2017-02-22 04:05:48] 	at com.mayhem.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:421)
+[2017-02-22 04:05:48] 	at com.mayhem.rs2.content.io.PlayerSave.load(PlayerSave.java:1136)
+[2017-02-22 04:05:48] 	at com.mayhem.core.LoginThread.cycle(LoginThread.java:26)
+[2017-02-22 04:05:48] 	at com.mayhem.core.LoginThread.run(LoginThread.java:83)
+[2017-02-22 04:05:48] Caused by: java.lang.NumberFormatException: For input string: "0x3366FF"
+[2017-02-22 04:05:48] 	at sun.misc.FloatingDecimal.parseHexString(Unknown Source)
+[2017-02-22 04:05:48] 	at sun.misc.FloatingDecimal.readJavaFormatString(Unknown Source)
+[2017-02-22 04:05:48] 	at sun.misc.FloatingDecimal.parseDouble(Unknown Source)
+[2017-02-22 04:05:48] 	at java.lang.Double.parseDouble(Unknown Source)
+[2017-02-22 04:05:48] 	at com.google.gson.stream.JsonReader.nextInt(JsonReader.java:599)
+[2017-02-22 04:05:48] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:230)
+[2017-02-22 04:05:48] 	... 11 more
+[2017-02-22 04:05:57] com.google.gson.JsonSyntaxException: java.lang.NumberFormatException: For input string: "0x3366FF"
+[2017-02-22 04:05:57] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:232)
+[2017-02-22 04:05:57] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:222)
+[2017-02-22 04:05:57] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-02-22 04:05:57] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-02-22 04:05:57] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-02-22 04:05:57] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-02-22 04:05:57] 	at com.google.gson.Gson.fromJson(Gson.java:795)
+[2017-02-22 04:05:57] 	at com.google.gson.Gson.fromJson(Gson.java:734)
+[2017-02-22 04:05:57] 	at com.mayhem.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:421)
+[2017-02-22 04:05:57] 	at com.mayhem.rs2.content.io.PlayerSave.load(PlayerSave.java:1136)
+[2017-02-22 04:05:57] 	at com.mayhem.core.LoginThread.cycle(LoginThread.java:26)
+[2017-02-22 04:05:57] 	at com.mayhem.core.LoginThread.run(LoginThread.java:83)
+[2017-02-22 04:05:57] Caused by: java.lang.NumberFormatException: For input string: "0x3366FF"
+[2017-02-22 04:05:57] 	at sun.misc.FloatingDecimal.parseHexString(Unknown Source)
+[2017-02-22 04:05:57] 	at sun.misc.FloatingDecimal.readJavaFormatString(Unknown Source)
+[2017-02-22 04:05:57] 	at sun.misc.FloatingDecimal.parseDouble(Unknown Source)
+[2017-02-22 04:05:57] 	at java.lang.Double.parseDouble(Unknown Source)
+[2017-02-22 04:05:57] 	at com.google.gson.stream.JsonReader.nextInt(JsonReader.java:599)
+[2017-02-22 04:05:57] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:230)
+[2017-02-22 04:05:57] 	... 11 more
+[2017-02-22 04:07:27] com.google.gson.JsonSyntaxException: java.lang.NumberFormatException: For input string: "0x3366FF"
+[2017-02-22 04:07:27] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:232)
+[2017-02-22 04:07:27] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:222)
+[2017-02-22 04:07:27] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-02-22 04:07:27] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-02-22 04:07:27] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.read(ReflectiveTypeAdapterFactory.java:93)
+[2017-02-22 04:07:27] 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:172)
+[2017-02-22 04:07:27] 	at com.google.gson.Gson.fromJson(Gson.java:795)
+[2017-02-22 04:07:27] 	at com.google.gson.Gson.fromJson(Gson.java:734)
+[2017-02-22 04:07:27] 	at com.mayhem.rs2.content.io.PlayerSave$PlayerDetails.loadDetails(PlayerSave.java:421)
+[2017-02-22 04:07:27] 	at com.mayhem.rs2.content.io.PlayerSave.load(PlayerSave.java:1136)
+[2017-02-22 04:07:27] 	at com.mayhem.core.LoginThread.cycle(LoginThread.java:26)
+[2017-02-22 04:07:27] 	at com.mayhem.core.LoginThread.run(LoginThread.java:83)
+[2017-02-22 04:07:27] Caused by: java.lang.NumberFormatException: For input string: "0x3366FF"
+[2017-02-22 04:07:27] 	at sun.misc.FloatingDecimal.parseHexString(Unknown Source)
+[2017-02-22 04:07:27] 	at sun.misc.FloatingDecimal.readJavaFormatString(Unknown Source)
+[2017-02-22 04:07:27] 	at sun.misc.FloatingDecimal.parseDouble(Unknown Source)
+[2017-02-22 04:07:27] 	at java.lang.Double.parseDouble(Unknown Source)
+[2017-02-22 04:07:27] 	at com.google.gson.stream.JsonReader.nextInt(JsonReader.java:599)
+[2017-02-22 04:07:27] 	at com.google.gson.internal.bind.TypeAdapters$7.read(TypeAdapters.java:230)
+[2017-02-22 04:07:27] 	... 11 more
+[2017-02-22 04:08:21] Didn't save hiscores for Leonidas
+[2017-02-22 04:08:57] Didn't save hiscores for Zero
+[2017-02-22 04:19:02] java.lang.NullPointerException
+[2017-02-22 04:19:02] 	at com.mayhem.rs2.content.DropTable.displayNpc(DropTable.java:177)
+[2017-02-22 04:19:02] 	at com.mayhem.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:134)
+[2017-02-22 04:19:02] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-02-22 04:19:02] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-02-22 04:19:02] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-02-22 04:19:02] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-02-22 04:19:02] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-22 04:19:02] Didn't save hiscores for T2kmostkillz
+[2017-02-22 04:33:20] Didn't save hiscores for Nick
+[2017-02-22 04:40:26] Didn't save hiscores for Nate
+[2017-02-22 04:40:39] Didn't save hiscores for Leonidas
+[2017-02-22 04:55:30] Didn't save hiscores for Mod divine
+[2017-02-22 04:55:30] Didn't save hiscores for Mod divine
+[2017-02-22 04:56:20] Didn't save hiscores for Mod divine
+[2017-02-22 04:56:20] Didn't save hiscores for Mod divine
+[2017-02-22 05:03:07] Didn't save hiscores for Bink
+[2017-02-22 05:03:22] Didn't save hiscores for Dehzyne
+[2017-02-22 05:03:22] Didn't save hiscores for Mod divine
+[2017-02-22 05:03:22] Didn't save hiscores for Mod divine

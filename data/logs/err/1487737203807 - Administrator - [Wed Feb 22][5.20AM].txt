@@ -1,0 +1,31 @@
+Logging started at 2017-02-22 05:20:03
+File name: C:\Users\Administrator\Dropbox\Valius\Valius Source\.\data\logs\err\1487737203807 - Administrator - [Wed Feb 22][5.20AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-02-22 05:28:13] java.lang.NullPointerException
+[2017-02-22 05:28:13] 	at com.mayhem.rs2.entity.player.net.in.command.impl.DeveloperCommand.handleCommand(DeveloperCommand.java:884)
+[2017-02-22 05:28:13] 	at com.mayhem.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:57)
+[2017-02-22 05:28:13] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-02-22 05:28:13] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-02-22 05:28:13] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-02-22 05:28:13] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-02-22 05:28:13] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-22 06:28:31] Didn't save hiscores for Ape
+[2017-02-22 06:46:30] Didn't save hiscores for Mod divine
+[2017-02-22 06:46:30] Didn't save hiscores for Mod divine
+[2017-02-22 06:48:47] Didn't save hiscores for Fk yo couch
+[2017-02-22 07:43:35] Didn't save hiscores for T2kmostkillz
+[2017-02-22 07:45:12] Didn't save hiscores for Dehzyne
+[2017-02-22 08:27:03] Didn't save hiscores for Squashy
+[2017-02-22 08:39:34] Didn't save hiscores for Valiantiron
+[2017-02-22 08:39:52] Didn't save hiscores for Kidsanity
+[2017-02-22 08:40:16] Didn't save hiscores for Mod divine
+[2017-02-22 08:40:16] Didn't save hiscores for Mod divine
+[2017-02-22 08:40:22] Didn't save hiscores for Kidsanity
+[2017-02-22 08:41:38] Didn't save hiscores for Valiantiron
+[2017-02-22 08:48:50] Didn't save hiscores for Squashy
+[2017-02-22 09:29:39] Didn't save hiscores for Kidsanity
+[2017-02-22 09:29:39] Didn't save hiscores for Kickingashes
+[2017-02-22 09:29:39] Didn't save hiscores for Mod divine
+[2017-02-22 09:29:39] Didn't save hiscores for Mod divine
+[2017-02-22 09:29:39] Didn't save hiscores for Eclipsedsm

@@ -1,0 +1,22 @@
+Logging started at 2017-02-10 00:36:19
+File name: C:\Users\travi\Dropbox\Valius\Valius Source\.\data\logs\err\1486704979145 - travi - [Fri Feb 10][12.36AM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2017-02-10 00:53:07] java.lang.NullPointerException
+[2017-02-10 00:53:07] 	at com.mayhem.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:254)
+[2017-02-10 00:53:07] 	at com.mayhem.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:57)
+[2017-02-10 00:53:07] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-02-10 00:53:07] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-02-10 00:53:07] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-02-10 00:53:07] 	at com.mayhem.core.GameThread.cycle(GameThread.java:131)
+[2017-02-10 00:53:07] 	at com.mayhem.core.GameThread.run(GameThread.java:146)
+[2017-02-10 00:53:24] java.lang.NullPointerException
+[2017-02-10 00:53:24] 	at com.mayhem.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:254)
+[2017-02-10 00:53:24] 	at com.mayhem.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:57)
+[2017-02-10 00:53:24] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-02-10 00:53:24] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-02-10 00:53:24] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-02-10 00:53:24] 	at com.mayhem.core.GameThread.cycle(GameThread.java:131)
+[2017-02-10 00:53:24] 	at com.mayhem.core.GameThread.run(GameThread.java:146)
+[2017-02-10 02:38:01] Failing to update Trebble highscores. Database could not connect.
+[2017-02-10 02:39:02] Failing to update Trebble highscores. Database could not connect.

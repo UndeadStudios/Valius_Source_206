@@ -1,0 +1,29 @@
+Logging started at 2016-05-24 15:53:55
+File name: C:\Users\riley\Desktop\os\server\.\data\logs\err\1464123235873 - riley - [Tue May 24][3.53PM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2016-05-24 15:57:28] java.lang.ClassCastException: com.mayhem.rs2.entity.mob.Mob cannot be cast to com.mayhem.rs2.entity.player.Player
+[2016-05-24 15:57:28] 	at com.mayhem.rs2.entity.mob.drop.NpcDropSystem.drop(NpcDropSystem.java:216)
+[2016-05-24 15:57:28] 	at com.mayhem.core.task.impl.MobDeathTask$2.execute(MobDeathTask.java:52)
+[2016-05-24 15:57:28] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2016-05-24 15:57:28] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2016-05-24 15:57:28] 	at com.mayhem.core.GameThread.cycle(GameThread.java:116)
+[2016-05-24 15:57:28] 	at com.mayhem.core.GameThread.run(GameThread.java:139)
+[2016-05-24 15:58:01] java.net.ConnectException: Connection timed out: connect
+[2016-05-24 15:58:01] 	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+[2016-05-24 15:58:01] 	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+[2016-05-24 15:58:01] 	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+[2016-05-24 15:58:01] 	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+[2016-05-24 15:58:01] 	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+[2016-05-24 15:58:01] 	at java.net.PlainSocketImpl.connect(Unknown Source)
+[2016-05-24 15:58:01] 	at java.net.SocksSocketImpl.connect(Unknown Source)
+[2016-05-24 15:58:01] 	at java.net.Socket.connect(Unknown Source)
+[2016-05-24 15:58:01] 	at java.net.Socket.connect(Unknown Source)
+[2016-05-24 15:58:01] 	at sun.net.NetworkClient.doConnect(Unknown Source)
+[2016-05-24 15:58:01] 	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+[2016-05-24 15:58:01] 	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+[2016-05-24 15:58:01] 	at sun.net.www.http.HttpClient.parseHTTP(Unknown Source)
+[2016-05-24 15:58:01] 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+[2016-05-24 15:58:01] 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+[2016-05-24 15:58:01] 	at java.net.URL.openStream(Unknown Source)
+[2016-05-24 15:58:01] 	at com.rspserver.motivote.MotivoteThread.run(MotivoteThread.java:97)

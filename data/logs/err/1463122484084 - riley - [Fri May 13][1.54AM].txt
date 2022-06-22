@@ -1,0 +1,16 @@
+Logging started at 2016-05-13 01:54:44
+File name: C:\Users\riley\Desktop\os\server\.\data\logs\err\1463122484084 - riley - [Fri May 13][1.54AM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2016-05-13 01:59:06] java.lang.NumberFormatException: For input string: "3504::object"
+[2016-05-13 01:59:06] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2016-05-13 01:59:06] 	at java.lang.Integer.parseInt(Unknown Source)
+[2016-05-13 01:59:06] 	at java.lang.Integer.parseInt(Unknown Source)
+[2016-05-13 01:59:06] 	at com.mayhem.rs2.entity.player.net.in.command.CommandParser.nextInt(CommandParser.java:46)
+[2016-05-13 01:59:06] 	at com.mayhem.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:80)
+[2016-05-13 01:59:06] 	at com.mayhem.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-05-13 01:59:06] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-05-13 01:59:07] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-05-13 01:59:07] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2016-05-13 01:59:07] 	at com.mayhem.core.GameThread.cycle(GameThread.java:124)
+[2016-05-13 01:59:07] 	at com.mayhem.core.GameThread.run(GameThread.java:139)

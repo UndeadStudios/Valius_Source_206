@@ -1,0 +1,56 @@
+Logging started at 2017-01-29 22:47:39
+File name: C:\Users\travi\Dropbox\Valius Source\.\data\logs\err\1485748059637 - travi - [Sun Jan 29][10.47PM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2017-01-30 00:36:11] Exception in thread "Main Thread" 
+[2017-01-30 00:36:12] java.lang.Error: Unresolved compilation problems: 
+	The hierarchy of the type Cerberus is inconsistent
+	The constructor Mob(int, boolean, Location) refers to the missing type Location
+	The method getOwner() from the type Mob refers to the missing type Player
+	The method getCombat() is undefined for the type Cerberus
+	The method getOwner() from the type Mob refers to the missing type Player
+	The method getFollowing() from the type Mob refers to the missing type Following
+	The method getUpdateFlags() is undefined for the type Cerberus
+	The method getOwner() from the type Mob refers to the missing type Player
+	The method onHit(Entity, Hit) of type Cerberus must override or implement a supertype method
+	The method hit(Hit) of type Cerberus must override or implement a supertype method
+	The method getOwner() from the type Mob refers to the missing type Player
+	The method isDead() is undefined for the type Cerberus
+	The method hit(Hit) from the type Mob refers to the missing type Hit
+	The method getCombatants() from the type Mob refers to the missing type Player
+	The method getCombat() is undefined for the type Cerberus
+	The method getCombat() is undefined for the type Cerberus
+	The method isDead() is undefined for the type Mob
+	The constructor Mob(int, boolean, Location) refers to the missing type Location
+	The method getOwner() from the type Mob refers to the missing type Player
+	The constructor Mob(int, boolean, Location) refers to the missing type Location
+	The method getOwner() from the type Mob refers to the missing type Player
+	The constructor Mob(int, boolean, Location) refers to the missing type Location
+	The method getOwner() from the type Mob refers to the missing type Player
+	The method getUpdateFlags() is undefined for the type Mob
+	The method getIndex() is undefined for the type Cerberus
+	The method setFreeze(int) is undefined for the type Mob
+	The method getUpdateFlags() is undefined for the type Cerberus
+	The method isDead() is undefined for the type Mob
+	The method getCombat() is undefined for the type Mob
+	The method getOwner() from the type Mob refers to the missing type Player
+	The method getAttackType() is undefined for the type Mob
+	The method isDead() is undefined for the type Mob
+	The method getCombat() is undefined for the type Mob
+	The method getOwner() from the type Mob refers to the missing type Player
+	The method getAttackType() is undefined for the type Mob
+	The method isDead() is undefined for the type Mob
+	The method getCombat() is undefined for the type Mob
+	The method getOwner() from the type Mob refers to the missing type Player
+	The method getAttackType() is undefined for the type Mob
+	The method getOwner() from the type Mob refers to the missing type Player
+	The method getOwner() from the type Mob refers to the missing type Player
+	The method getOwner() from the type Mob refers to the missing type Player
+	The method getOwner() from the type Mob refers to the missing type Player
+
+[2017-01-30 00:36:12] 	at com.mayhem.rs2.entity.mob.impl.Cerberus.<init>(Cerberus.java:16)
+[2017-01-30 00:36:12] 	at com.mayhem.rs2.content.TeleportHandler$4.execute(TeleportHandler.java:368)
+[2017-01-30 00:36:12] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-01-30 00:36:12] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-01-30 00:36:12] 	at com.mayhem.core.GameThread.cycle(GameThread.java:116)
+[2017-01-30 00:36:12] 	at com.mayhem.core.GameThread.run(GameThread.java:139)

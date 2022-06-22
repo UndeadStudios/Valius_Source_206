@@ -1,0 +1,11 @@
+Logging started at 2017-03-24 02:25:10
+File name: E:\Dropbox\Valius Source\.\data\logs\err\1490340310294 - Andrew - [Fri Mar 24][2.25AM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2017-03-24 02:28:06] java.lang.NullPointerException
+[2017-03-24 02:28:06] 	at com.mayhem.rs2.entity.mob.impl.Skotizo.onDeath(Skotizo.java:64)
+[2017-03-24 02:28:06] 	at com.mayhem.core.task.impl.MobDeathTask$2.execute(MobDeathTask.java:46)
+[2017-03-24 02:28:06] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-24 02:28:06] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-24 02:28:06] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-24 02:28:06] 	at com.mayhem.core.GameThread.run(GameThread.java:150)

@@ -1,0 +1,12 @@
+Logging started at 2016-05-15 18:10:18
+File name: C:\Users\riley\Desktop\os\server\.\data\logs\err\1463353818137 - riley - [Sun May 15][6.10PM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2016-05-15 18:11:32] java.lang.NullPointerException
+[2016-05-15 18:11:32] 	at com.mayhem.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:175)
+[2016-05-15 18:11:32] 	at com.mayhem.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-05-15 18:11:32] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-05-15 18:11:32] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-05-15 18:11:32] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2016-05-15 18:11:32] 	at com.mayhem.core.GameThread.cycle(GameThread.java:124)
+[2016-05-15 18:11:32] 	at com.mayhem.core.GameThread.run(GameThread.java:139)

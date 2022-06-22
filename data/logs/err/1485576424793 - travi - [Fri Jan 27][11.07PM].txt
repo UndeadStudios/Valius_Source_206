@@ -1,0 +1,15 @@
+Logging started at 2017-01-27 23:07:04
+File name: C:\Users\travi\Dropbox\Mayhem Source\.\data\logs\err\1485576424793 - travi - [Fri Jan 27][11.07PM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2017-01-28 00:00:16] java.lang.NumberFormatException: For input string: "1000::000000000an"
+[2017-01-28 00:00:16] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2017-01-28 00:00:16] 	at java.lang.Long.parseLong(Unknown Source)
+[2017-01-28 00:00:16] 	at java.lang.Long.parseLong(Unknown Source)
+[2017-01-28 00:00:16] 	at com.mayhem.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:171)
+[2017-01-28 00:00:16] 	at com.mayhem.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2017-01-28 00:00:16] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-01-28 00:00:16] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-01-28 00:00:16] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-01-28 00:00:16] 	at com.mayhem.core.GameThread.cycle(GameThread.java:124)
+[2017-01-28 00:00:16] 	at com.mayhem.core.GameThread.run(GameThread.java:139)

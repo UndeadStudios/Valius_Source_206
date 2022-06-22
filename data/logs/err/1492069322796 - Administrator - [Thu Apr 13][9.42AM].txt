@@ -1,0 +1,57 @@
+Logging started at 2017-04-13 09:42:02
+File name: C:\Users\Administrator\Dropbox\Valius\Valius Source\.\data\logs\err\1492069322796 - Administrator - [Thu Apr 13][9.42AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-04-13 09:42:11] com.thoughtworks.xstream.converters.ConversionException: id : id : id : id
+---- Debugging information ----
+message             : id : id
+cause-exception     : com.thoughtworks.xstream.mapper.CannotResolveClassException
+cause-message       : id : id
+class               : java.util.ArrayList
+required-type       : java.util.ArrayList
+path                : /list/id
+line number         : 14953
+-------------------------------
+[2017-04-13 09:42:11] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:89)
+[2017-04-13 09:42:11] 	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:63)
+[2017-04-13 09:42:11] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:76)
+[2017-04-13 09:42:11] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:60)
+[2017-04-13 09:42:11] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.start(TreeUnmarshaller.java:137)
+[2017-04-13 09:42:11] 	at com.thoughtworks.xstream.core.AbstractTreeMarshallingStrategy.unmarshal(AbstractTreeMarshallingStrategy.java:33)
+[2017-04-13 09:42:11] 	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:923)
+[2017-04-13 09:42:11] 	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:909)
+[2017-04-13 09:42:11] 	at com.thoughtworks.xstream.XStream.fromXML(XStream.java:861)
+[2017-04-13 09:42:11] 	at com.mayhem.core.util.GameDefinitionLoader.loadWeaponDefinitions(GameDefinitionLoader.java:748)
+[2017-04-13 09:42:11] 	at com.mayhem.GameDataLoader.load(GameDataLoader.java:122)
+[2017-04-13 09:42:11] 	at com.mayhem.core.GameThread.startup(GameThread.java:71)
+[2017-04-13 09:42:11] 	at com.mayhem.core.GameThread.init(GameThread.java:36)
+[2017-04-13 09:42:11] 	at com.mayhem.Server.main(Server.java:102)
+[2017-04-13 09:42:11] Caused by: com.thoughtworks.xstream.mapper.CannotResolveClassException: id : id
+[2017-04-13 09:42:11] 	at com.thoughtworks.xstream.mapper.DefaultMapper.realClass(DefaultMapper.java:68)
+[2017-04-13 09:42:11] 	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:38)
+[2017-04-13 09:42:11] 	at com.thoughtworks.xstream.mapper.DynamicProxyMapper.realClass(DynamicProxyMapper.java:71)
+[2017-04-13 09:42:11] 	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:38)
+[2017-04-13 09:42:11] 	at com.thoughtworks.xstream.mapper.PackageAliasingMapper.realClass(PackageAliasingMapper.java:88)
+[2017-04-13 09:42:11] 	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:38)
+[2017-04-13 09:42:11] 	at com.thoughtworks.xstream.mapper.ClassAliasingMapper.realClass(ClassAliasingMapper.java:86)
+[2017-04-13 09:42:11] 	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:38)
+[2017-04-13 09:42:11] 	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:38)
+[2017-04-13 09:42:11] 	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:38)
+[2017-04-13 09:42:11] 	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:38)
+[2017-04-13 09:42:11] 	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:38)
+[2017-04-13 09:42:11] 	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:38)
+[2017-04-13 09:42:11] 	at com.thoughtworks.xstream.mapper.ArrayMapper.realClass(ArrayMapper.java:96)
+[2017-04-13 09:42:11] 	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:38)
+[2017-04-13 09:42:11] 	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:38)
+[2017-04-13 09:42:11] 	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:38)
+[2017-04-13 09:42:11] 	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:38)
+[2017-04-13 09:42:11] 	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:38)
+[2017-04-13 09:42:11] 	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:38)
+[2017-04-13 09:42:11] 	at com.thoughtworks.xstream.mapper.MapperWrapper.realClass(MapperWrapper.java:38)
+[2017-04-13 09:42:11] 	at com.thoughtworks.xstream.mapper.CachingMapper.realClass(CachingMapper.java:52)
+[2017-04-13 09:42:11] 	at com.thoughtworks.xstream.core.util.HierarchicalStreams.readClassType(HierarchicalStreams.java:29)
+[2017-04-13 09:42:11] 	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:70)
+[2017-04-13 09:42:11] 	at com.thoughtworks.xstream.converters.collections.CollectionConverter.populateCollection(CollectionConverter.java:68)
+[2017-04-13 09:42:11] 	at com.thoughtworks.xstream.converters.collections.CollectionConverter.unmarshal(CollectionConverter.java:61)
+[2017-04-13 09:42:11] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:82)
+[2017-04-13 09:42:11] 	... 13 more

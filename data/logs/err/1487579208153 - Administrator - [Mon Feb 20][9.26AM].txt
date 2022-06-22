@@ -1,0 +1,18 @@
+Logging started at 2017-02-20 09:26:48
+File name: C:\Users\Administrator\Dropbox\Valius\Valius Source\.\data\logs\err\1487579208153 - Administrator - [Mon Feb 20][9.26AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-02-20 09:29:19] Didn't save hiscores for Raziel
+[2017-02-20 09:38:35] Didn't save hiscores for Crown
+[2017-02-20 09:41:11] java.lang.NullPointerException
+[2017-02-20 09:41:11] 	at com.mayhem.rs2.entity.player.net.in.command.impl.DeveloperCommand.handleCommand(DeveloperCommand.java:884)
+[2017-02-20 09:41:11] 	at com.mayhem.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:57)
+[2017-02-20 09:41:11] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-02-20 09:41:11] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-02-20 09:41:11] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-02-20 09:41:11] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-02-20 09:41:11] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-20 09:50:13] Didn't save hiscores for Crown
+[2017-02-20 09:50:22] Didn't save hiscores for Dehzyne
+[2017-02-20 09:50:28] Didn't save hiscores for Mod divine
+[2017-02-20 09:50:28] Didn't save hiscores for Raziel

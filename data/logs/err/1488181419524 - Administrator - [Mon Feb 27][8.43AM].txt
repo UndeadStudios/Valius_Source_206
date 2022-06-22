@@ -1,0 +1,19 @@
+Logging started at 2017-02-27 08:43:39
+File name: C:\Users\Administrator\Dropbox\Valius\Valius Source\.\data\logs\err\1488181419524 - Administrator - [Mon Feb 27][8.43AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-02-27 08:46:11] Failing to update Greedo highscores. Database could not connect.
+[2017-02-27 08:46:44] Failing to update Clue highscores. Database could not connect.
+[2017-02-27 08:50:25] Failing to update Invalid highscores. Database could not connect.
+[2017-02-27 08:53:35] Failing to update Zeeks highscores. Database could not connect.
+[2017-02-27 08:54:24] Failing to update Clue highscores. Database could not connect.
+[2017-02-27 09:07:07] Failing to update Greedo highscores. Database could not connect.
+[2017-02-27 09:07:07] Failing to update Vape highscores. Database could not connect.
+[2017-02-27 09:07:07] Failing to update Mod Andy highscores. Database could not connect.
+[2017-02-27 09:07:07] Failing to update Zeeks highscores. Database could not connect.
+[2017-02-27 09:07:07] Failing to update Quill highscores. Database could not connect.
+[2017-02-27 09:07:07] Failing to update Saint Divine highscores. Database could not connect.
+[2017-02-27 09:07:07] Failing to update Mod Divine highscores. Database could not connect.
+[2017-02-27 09:07:07] Failing to update Invalid highscores. Database could not connect.
+[2017-02-27 09:07:07] Failing to update Case101 highscores. Database could not connect.
+[2017-02-27 09:07:07] Failing to update Squashy highscores. Database could not connect.

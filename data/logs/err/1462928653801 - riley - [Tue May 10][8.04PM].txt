@@ -1,0 +1,24 @@
+Logging started at 2016-05-10 20:04:13
+File name: C:\Users\riley\Desktop\os\server\.\data\logs\err\1462928653801 - riley - [Tue May 10][8.04PM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2016-05-10 20:04:34] java.lang.NullPointerException
+[2016-05-10 20:04:34] 	at com.mayhem.rs2.entity.player.net.out.impl.SendEntityFeed.execute(SendEntityFeed.java:32)
+[2016-05-10 20:04:34] 	at com.mayhem.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2016-05-10 20:04:34] 	at com.mayhem.core.NetworkThread.cycle(NetworkThread.java:58)
+[2016-05-10 20:04:34] 	at com.mayhem.core.NetworkThread.run(NetworkThread.java:98)
+[2016-05-10 20:04:43] java.lang.NullPointerException
+[2016-05-10 20:04:43] 	at com.mayhem.rs2.entity.player.net.out.impl.SendEntityFeed.execute(SendEntityFeed.java:32)
+[2016-05-10 20:04:43] 	at com.mayhem.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2016-05-10 20:04:43] 	at com.mayhem.core.NetworkThread.cycle(NetworkThread.java:58)
+[2016-05-10 20:04:43] 	at com.mayhem.core.NetworkThread.run(NetworkThread.java:98)
+[2016-05-10 20:04:55] java.lang.NullPointerException
+[2016-05-10 20:04:55] 	at com.mayhem.rs2.entity.player.net.out.impl.SendEntityFeed.execute(SendEntityFeed.java:32)
+[2016-05-10 20:04:55] 	at com.mayhem.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2016-05-10 20:04:55] 	at com.mayhem.core.NetworkThread.cycle(NetworkThread.java:58)
+[2016-05-10 20:04:55] 	at com.mayhem.core.NetworkThread.run(NetworkThread.java:98)
+[2016-05-10 20:05:13] java.lang.NullPointerException
+[2016-05-10 20:05:13] 	at com.mayhem.rs2.entity.player.net.out.impl.SendEntityFeed.execute(SendEntityFeed.java:32)
+[2016-05-10 20:05:13] 	at com.mayhem.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2016-05-10 20:05:13] 	at com.mayhem.core.NetworkThread.cycle(NetworkThread.java:58)
+[2016-05-10 20:05:13] 	at com.mayhem.core.NetworkThread.run(NetworkThread.java:98)

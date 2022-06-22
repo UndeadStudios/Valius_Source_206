@@ -1,0 +1,22 @@
+Logging started at 2016-05-15 16:45:39
+File name: C:\Users\riley\Desktop\os\server\.\data\logs\err\1463348739013 - riley - [Sun May 15][4.45PM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2016-05-15 17:32:07] java.lang.NullPointerException
+[2016-05-15 17:32:07] 	at com.mayhem.rs2.entity.InterfaceManager.getParents(InterfaceManager.java:17)
+[2016-05-15 17:32:07] 	at com.mayhem.rs2.entity.InterfaceManager.verify(InterfaceManager.java:89)
+[2016-05-15 17:32:07] 	at com.mayhem.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:96)
+[2016-05-15 17:32:07] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-05-15 17:32:07] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-05-15 17:32:07] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2016-05-15 17:32:07] 	at com.mayhem.core.GameThread.cycle(GameThread.java:124)
+[2016-05-15 17:32:07] 	at com.mayhem.core.GameThread.run(GameThread.java:139)
+[2016-05-15 17:32:08] java.lang.NullPointerException
+[2016-05-15 17:32:08] 	at com.mayhem.rs2.entity.InterfaceManager.getParents(InterfaceManager.java:17)
+[2016-05-15 17:32:08] 	at com.mayhem.rs2.entity.InterfaceManager.verify(InterfaceManager.java:89)
+[2016-05-15 17:32:08] 	at com.mayhem.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:96)
+[2016-05-15 17:32:08] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-05-15 17:32:08] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-05-15 17:32:08] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2016-05-15 17:32:08] 	at com.mayhem.core.GameThread.cycle(GameThread.java:124)
+[2016-05-15 17:32:08] 	at com.mayhem.core.GameThread.run(GameThread.java:139)

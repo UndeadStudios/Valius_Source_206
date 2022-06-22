@@ -1,0 +1,55 @@
+Logging started at 2017-01-26 17:51:58
+File name: C:\Users\travi\Dropbox\Mayhem Source\.\data\logs\err\1485471118795 - travi - [Thu Jan 26][5.51PM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2017-01-26 18:57:52] com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+[2017-01-26 18:57:52] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[2017-01-26 18:57:52] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+[2017-01-26 18:57:52] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[2017-01-26 18:57:52] 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[2017-01-26 18:57:52] 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+[2017-01-26 18:57:52] 	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+[2017-01-26 18:57:52] 	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2120)
+[2017-01-26 18:57:52] 	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:723)
+[2017-01-26 18:57:52] 	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+[2017-01-26 18:57:52] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[2017-01-26 18:57:52] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+[2017-01-26 18:57:52] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[2017-01-26 18:57:52] 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[2017-01-26 18:57:52] 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+[2017-01-26 18:57:52] 	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+[2017-01-26 18:57:52] 	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+[2017-01-26 18:57:52] 	at java.sql.DriverManager.getConnection(Unknown Source)
+[2017-01-26 18:57:52] 	at java.sql.DriverManager.getConnection(Unknown Source)
+[2017-01-26 18:57:52] 	at com.mayhem.core.network.mysql.Highscores.connect(Highscores.java:30)
+[2017-01-26 18:57:52] 	at com.mayhem.core.network.mysql.Highscores.run(Highscores.java:41)
+[2017-01-26 18:57:52] 	at java.lang.Thread.run(Unknown Source)
+[2017-01-26 18:57:52] Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 6 ms ago.
+[2017-01-26 18:57:52] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[2017-01-26 18:57:52] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+[2017-01-26 18:57:52] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[2017-01-26 18:57:52] 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[2017-01-26 18:57:52] 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+[2017-01-26 18:57:52] 	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+[2017-01-26 18:57:52] 	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:335)
+[2017-01-26 18:57:52] 	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2043)
+[2017-01-26 18:57:52] 	... 14 more
+[2017-01-26 18:57:52] Caused by: java.net.ConnectException: Connection timed out: connect
+[2017-01-26 18:57:52] 	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+[2017-01-26 18:57:52] 	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+[2017-01-26 18:57:52] 	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+[2017-01-26 18:57:52] 	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+[2017-01-26 18:57:52] 	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+[2017-01-26 18:57:52] 	at java.net.PlainSocketImpl.connect(Unknown Source)
+[2017-01-26 18:57:52] 	at java.net.SocksSocketImpl.connect(Unknown Source)
+[2017-01-26 18:57:52] 	at java.net.Socket.connect(Unknown Source)
+[2017-01-26 18:57:52] 	at java.net.Socket.connect(Unknown Source)
+[2017-01-26 18:57:52] 	at java.net.Socket.<init>(Unknown Source)
+[2017-01-26 18:57:52] 	at java.net.Socket.<init>(Unknown Source)
+[2017-01-26 18:57:52] 	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:253)
+[2017-01-26 18:57:52] 	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:284)
+[2017-01-26 18:57:52] 	... 15 more

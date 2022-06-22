@@ -1,0 +1,16 @@
+Logging started at 2017-02-04 01:44:57
+File name: C:\Users\travi\Dropbox\Valius\Valius Source\.\data\logs\err\1486190697503 - travi - [Sat Feb 4][1.44AM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2017-02-04 01:45:51] java.sql.SQLException: Column count doesn't match value count at row 1
+[2017-02-04 01:45:51] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1055)
+[2017-02-04 01:45:51] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+[2017-02-04 01:45:51] 	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3515)
+[2017-02-04 01:45:51] 	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3447)
+[2017-02-04 01:45:51] 	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+[2017-02-04 01:45:51] 	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+[2017-02-04 01:45:51] 	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2554)
+[2017-02-04 01:45:51] 	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1761)
+[2017-02-04 01:45:51] 	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1021)
+[2017-02-04 01:45:51] 	at com.mayhem.core.network.mysql.Highscores.run(Highscores.java:44)
+[2017-02-04 01:45:51] 	at java.lang.Thread.run(Unknown Source)

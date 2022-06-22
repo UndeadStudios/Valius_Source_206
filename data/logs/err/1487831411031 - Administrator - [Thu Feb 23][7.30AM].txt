@@ -1,0 +1,22 @@
+Logging started at 2017-02-23 07:30:11
+File name: C:\Users\Administrator\Dropbox\Valius\Valius Source\.\data\logs\err\1487831411031 - Administrator - [Thu Feb 23][7.30AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-02-23 07:35:44] java.lang.NullPointerException
+[2017-02-23 07:35:44] 	at com.mayhem.rs2.content.combat.formula.MeleeFormulas.calculateBaseDamage(MeleeFormulas.java:208)
+[2017-02-23 07:35:44] 	at com.mayhem.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:378)
+[2017-02-23 07:35:44] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-02-23 07:35:44] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-02-23 07:35:44] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-02-23 07:35:44] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-02-23 07:35:44] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-23 07:35:46] java.lang.NullPointerException
+[2017-02-23 07:35:46] 	at com.mayhem.rs2.content.combat.formula.MeleeFormulas.calculateBaseDamage(MeleeFormulas.java:208)
+[2017-02-23 07:35:46] 	at com.mayhem.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:378)
+[2017-02-23 07:35:46] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-02-23 07:35:46] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-02-23 07:35:46] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-02-23 07:35:46] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-02-23 07:35:46] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-23 07:53:04] Didn't save hiscores for [EXTREME]Mod andy
+[2017-02-23 07:53:04] Didn't save hiscores for [EXTREME]Mod divine

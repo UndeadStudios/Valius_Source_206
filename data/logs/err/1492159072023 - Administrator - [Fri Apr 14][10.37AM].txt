@@ -1,0 +1,99 @@
+Logging started at 2017-04-14 10:37:52
+File name: C:\Users\Administrator\Dropbox\Valius\Valius Source\.\data\logs\err\1492159072023 - Administrator - [Fri Apr 14][10.37AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-04-14 10:39:37] Didn't save hiscores for [EXTREME]Mod divine
+[2017-04-14 10:41:43] java.lang.ArrayIndexOutOfBoundsException: -1
+[2017-04-14 10:41:43] 	at com.mayhem.rs2.entity.player.net.NPCUpdating.update(NPCUpdating.java:129)
+[2017-04-14 10:41:43] 	at com.mayhem.rs2.entity.player.net.out.impl.SendNPCUpdate.execute(SendNPCUpdate.java:22)
+[2017-04-14 10:41:43] 	at com.mayhem.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2017-04-14 10:41:43] 	at com.mayhem.core.NetworkThread.cycle(NetworkThread.java:58)
+[2017-04-14 10:41:43] 	at com.mayhem.core.NetworkThread.run(NetworkThread.java:98)
+[2017-04-14 10:41:43] java.lang.ArrayIndexOutOfBoundsException: -1
+[2017-04-14 10:41:43] 	at com.mayhem.rs2.entity.player.net.NPCUpdating.update(NPCUpdating.java:129)
+[2017-04-14 10:41:43] 	at com.mayhem.rs2.entity.player.net.out.impl.SendNPCUpdate.execute(SendNPCUpdate.java:22)
+[2017-04-14 10:41:43] 	at com.mayhem.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2017-04-14 10:41:43] 	at com.mayhem.core.NetworkThread.cycle(NetworkThread.java:58)
+[2017-04-14 10:41:43] 	at com.mayhem.core.NetworkThread.run(NetworkThread.java:98)
+[2017-04-14 10:41:44] Didn't save hiscores for [EXTREME]Mod divine
+[2017-04-14 10:41:44] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:41:44] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:41:44] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:41:44] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:41:45] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:41:45] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:41:46] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:41:46] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:41:47] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:41:47] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:41:47] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:41:47] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:41:48] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:41:48] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:41:49] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:41:49] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:41:49] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:41:49] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:41:50] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:41:50] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:41:50] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:41:50] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:41:51] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:41:51] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:41:52] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:41:52] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:41:52] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:41:52] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:41:53] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:41:53] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:41:54] java.lang.NullPointerException
+[2017-04-14 10:41:54] 	at com.mayhem.rs2.entity.player.net.in.impl.InterfaceAction.handle(InterfaceAction.java:88)
+[2017-04-14 10:41:54] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-04-14 10:41:54] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-04-14 10:41:54] 	at com.mayhem.rs2.entity.World.process(World.java:322)
+[2017-04-14 10:41:54] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-04-14 10:41:54] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-04-14 10:41:54] java.lang.NullPointerException
+[2017-04-14 10:41:54] 	at com.mayhem.rs2.entity.player.net.in.impl.InterfaceAction.handle(InterfaceAction.java:88)
+[2017-04-14 10:41:54] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-04-14 10:41:54] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-04-14 10:41:54] 	at com.mayhem.rs2.entity.World.process(World.java:322)
+[2017-04-14 10:41:54] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-04-14 10:41:54] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-04-14 10:41:54] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:41:54] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:41:55] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:41:55] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:41:55] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:41:55] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:41:56] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:41:56] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:41:57] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:41:57] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:41:57] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:41:57] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:41:58] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:41:58] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:41:58] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:41:58] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:41:59] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:41:59] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:42:00] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:42:00] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:42:00] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:42:00] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:42:01] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:42:01] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:42:02] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:46:21] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:46:21] Didn't save hiscores for [EXTREME]Mod divine
+[2017-04-14 10:46:21] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:46:22] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:46:23] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:46:24] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:46:24] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:46:25] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:46:26] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:46:26] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:46:27] java.lang.ArrayIndexOutOfBoundsException
+[2017-04-14 10:46:27] java.lang.ArrayIndexOutOfBoundsException

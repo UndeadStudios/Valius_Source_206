@@ -1,0 +1,4 @@
+Logging started at 2017-01-27 02:43:01
+File name: C:\Users\travi\Dropbox\Mayhem Source\.\data\logs\err\1485502981574 - travi - [Fri Jan 27][2.43AM].txt
+System.getProperty("os.name"): "Windows 10"
+

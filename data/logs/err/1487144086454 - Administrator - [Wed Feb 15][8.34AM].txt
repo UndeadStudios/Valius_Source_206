@@ -1,0 +1,42 @@
+Logging started at 2017-02-15 08:34:46
+File name: C:\Users\Administrator\Dropbox\Valius\Valius Source\.\data\logs\err\1487144086454 - Administrator - [Wed Feb 15][8.34AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-02-15 11:00:52] Failing to update Mod Divine highscores. Database could not connect.
+[2017-02-16 08:53:52] Failing to update Mod Divine highscores. Database could not connect.
+[2017-02-16 09:36:34] Failing to update Apache Ah64 highscores. Database could not connect.
+[2017-02-16 09:36:37] Failing to update Krunk highscores. Database could not connect.
+[2017-02-17 06:19:25] Failing to update Mod Divine highscores. Database could not connect.
+[2017-02-17 06:22:54] Failing to update Beta Tester highscores. Database could not connect.
+[2017-02-17 06:31:39] Failing to update Trebble highscores. Database could not connect.
+[2017-02-17 06:33:10] Failing to update Khaos highscores. Database could not connect.
+[2017-02-17 06:33:15] Failing to update Talon highscores. Database could not connect.
+[2017-02-17 06:36:30] Failing to update Mod Divine highscores. Database could not connect.
+[2017-02-17 06:37:48] Failing to update Mod Divine highscores. Database could not connect.
+[2017-02-17 07:36:07] Failing to update Mod Divine highscores. Database could not connect.
+[2017-02-17 07:37:41] Failing to update Mod Divine highscores. Database could not connect.
+[2017-02-17 07:39:56] Failing to update Mod Divine highscores. Database could not connect.
+[2017-02-17 07:53:30] Failing to update Mod Divine highscores. Database could not connect.
+[2017-02-17 07:56:14] Failing to update Mod Divine highscores. Database could not connect.
+[2017-02-17 08:08:20] Failing to update Mod Divine highscores. Database could not connect.
+[2017-02-17 08:17:14] Failing to update Mod Divine highscores. Database could not connect.
+[2017-02-17 08:18:35] Failing to update Mod Divine highscores. Database could not connect.
+[2017-02-17 08:19:51] Failing to update Mod Divine highscores. Database could not connect.
+[2017-02-17 08:31:14] Failing to update Mod Divine highscores. Database could not connect.
+[2017-02-17 08:39:27] Failing to update Khaos highscores. Database could not connect.
+[2017-02-17 08:43:59] Failing to update Talon highscores. Database could not connect.
+[2017-02-17 08:44:00] Failing to update Khaos highscores. Database could not connect.
+[2017-02-17 08:44:21] Failing to update Talon highscores. Database could not connect.
+[2017-02-17 09:21:10] Failing to update Mod Divine highscores. Database could not connect.
+[2017-02-17 09:28:36] Failing to update Mod Divine highscores. Database could not connect.
+[2017-02-17 09:37:33] Failing to update Mod Divine highscores. Database could not connect.
+[2017-02-17 09:39:52] Failing to update Mod Divine highscores. Database could not connect.
+[2017-02-17 09:41:54] Failing to update Mod Divine highscores. Database could not connect.
+[2017-02-17 09:47:20] Failing to update Mod Divine highscores. Database could not connect.
+[2017-02-17 09:50:46] Failing to update Mod Divine highscores. Database could not connect.
+[2017-02-17 09:59:35] Failing to update Mod Divine highscores. Database could not connect.
+[2017-02-17 10:01:25] Failing to update Mod Divine highscores. Database could not connect.
+[2017-02-17 10:02:57] Failing to update Mod Divine highscores. Database could not connect.
+[2017-02-17 10:03:37] Failing to update Mod Divine highscores. Database could not connect.
+[2017-02-17 10:04:16] Failing to update Mod Divine highscores. Database could not connect.
+[2017-02-17 11:00:08] Failing to update Mod Divine highscores. Database could not connect.

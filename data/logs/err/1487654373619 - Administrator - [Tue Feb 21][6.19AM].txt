@@ -1,0 +1,27 @@
+Logging started at 2017-02-21 06:19:33
+File name: C:\Users\Administrator\Dropbox\Valius\Valius Source\.\data\logs\err\1487654373619 - Administrator - [Tue Feb 21][6.19AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-02-21 06:26:08] java.lang.IndexOutOfBoundsException: Readable byte limit exceeded: 12
+[2017-02-21 06:26:08] 	at org.jboss.netty.buffer.AbstractChannelBuffer.readByte(AbstractChannelBuffer.java:236)
+[2017-02-21 06:26:08] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:120)
+[2017-02-21 06:26:08] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:107)
+[2017-02-21 06:26:08] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:467)
+[2017-02-21 06:26:08] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:412)
+[2017-02-21 06:26:08] 	at com.mayhem.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:852)
+[2017-02-21 06:26:08] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-02-21 06:26:08] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-02-21 06:26:08] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-02-21 06:26:08] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-02-21 06:26:08] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-21 06:41:59] Didn't save hiscores for Leonidas
+[2017-02-21 06:45:51] Didn't save hiscores for Mod divine
+[2017-02-21 06:45:51] Didn't save hiscores for Mod divine
+[2017-02-21 06:47:17] Didn't save hiscores for Mod divine
+[2017-02-21 06:47:17] Didn't save hiscores for Mod divine
+[2017-02-21 07:26:50] Didn't save hiscores for Mod divine
+[2017-02-21 07:26:50] Didn't save hiscores for Mod divine
+[2017-02-21 07:30:30] Didn't save hiscores for Raziel
+[2017-02-21 07:30:30] Didn't save hiscores for Eclipsedsm
+[2017-02-21 07:30:30] Didn't save hiscores for Mod divine
+[2017-02-21 07:30:30] Didn't save hiscores for Mod divine

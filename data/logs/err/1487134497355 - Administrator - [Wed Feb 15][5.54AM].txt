@@ -1,0 +1,13 @@
+Logging started at 2017-02-15 05:54:57
+File name: C:\Users\Administrator\Dropbox\Valius\Valius Source\.\data\logs\err\1487134497355 - Administrator - [Wed Feb 15][5.54AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-02-15 05:57:35] Failing to update Mod Divine highscores. Database could not connect.
+[2017-02-15 05:59:06] Failing to update Mod Divine highscores. Database could not connect.
+[2017-02-15 06:01:32] Failing to update Krunk highscores. Database could not connect.
+[2017-02-15 06:04:36] Failing to update Krunk highscores. Database could not connect.
+[2017-02-15 06:07:58] Failing to update Apache Ah64 highscores. Database could not connect.
+[2017-02-15 06:12:21] Failing to update Mod Divine highscores. Database could not connect.
+[2017-02-15 06:18:56] Failing to update Trebble highscores. Database could not connect.
+[2017-02-15 06:18:56] Failing to update Apache Ah64 highscores. Database could not connect.
+[2017-02-15 06:18:56] Failing to update Krunk highscores. Database could not connect.

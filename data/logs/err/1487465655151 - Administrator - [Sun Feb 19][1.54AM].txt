@@ -1,0 +1,20 @@
+Logging started at 2017-02-19 01:54:15
+File name: C:\Users\Administrator\Dropbox\Valius\Valius Source\.\data\logs\err\1487465655151 - Administrator - [Sun Feb 19][1.54AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-02-19 02:38:27] java.lang.NullPointerException
+[2017-02-19 02:38:27] 	at com.mayhem.rs2.content.DropTable.displayNpc(DropTable.java:177)
+[2017-02-19 02:38:27] 	at com.mayhem.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:134)
+[2017-02-19 02:38:27] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-02-19 02:38:27] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-02-19 02:38:27] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-02-19 02:38:27] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-02-19 02:38:27] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-19 04:23:37] java.lang.NullPointerException
+[2017-02-19 04:23:37] 	at com.mayhem.rs2.content.DropTable.displayNpc(DropTable.java:177)
+[2017-02-19 04:23:37] 	at com.mayhem.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:134)
+[2017-02-19 04:23:37] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-02-19 04:23:37] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-02-19 04:23:37] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-02-19 04:23:37] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-02-19 04:23:37] 	at com.mayhem.core.GameThread.run(GameThread.java:150)

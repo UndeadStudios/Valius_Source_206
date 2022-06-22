@@ -1,0 +1,25 @@
+Logging started at 2017-02-15 06:19:03
+File name: C:\Users\Administrator\Dropbox\Valius\Valius Source\.\data\logs\err\1487135943767 - Administrator - [Wed Feb 15][6.19AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-02-15 06:31:03] Failing to update Mod Divine highscores. Database could not connect.
+[2017-02-15 06:32:05] Failing to update Mod Divine highscores. Database could not connect.
+[2017-02-15 06:33:46] Failing to update Mod Divine highscores. Database could not connect.
+[2017-02-15 06:36:01] Failing to update Mod Divine highscores. Database could not connect.
+[2017-02-15 06:37:24] Failing to update Mod Divine highscores. Database could not connect.
+[2017-02-15 07:00:55] Failing to update Apache Ah64 highscores. Database could not connect.
+[2017-02-15 07:00:57] Failing to update Krunk highscores. Database could not connect.
+[2017-02-15 07:09:17] Failing to update Apache Ah64 highscores. Database could not connect.
+[2017-02-15 07:10:13] Failing to update Trebble highscores. Database could not connect.
+[2017-02-15 08:01:14] Failing to update Mod Divine highscores. Database could not connect.
+[2017-02-15 08:02:00] Failing to update Mod Divine highscores. Database could not connect.
+[2017-02-15 08:04:20] Failing to update Mod Divine highscores. Database could not connect.
+[2017-02-15 08:08:10] Failing to update Mod Divine highscores. Database could not connect.
+[2017-02-15 08:09:43] Failing to update Mod Divine highscores. Database could not connect.
+[2017-02-15 08:10:01] Failing to update Trebble highscores. Database could not connect.
+[2017-02-15 08:10:32] Failing to update Mod Divine highscores. Database could not connect.
+[2017-02-15 08:11:06] Failing to update Trebble highscores. Database could not connect.
+[2017-02-15 08:14:33] Failing to update Mod Divine highscores. Database could not connect.
+[2017-02-15 08:34:41] Failing to update Mod Divine highscores. Database could not connect.
+[2017-02-15 08:34:41] Failing to update Apache Ah64 highscores. Database could not connect.
+[2017-02-15 08:34:41] Failing to update Krunk highscores. Database could not connect.

@@ -1,0 +1,20 @@
+Logging started at 2017-01-30 02:06:33
+File name: C:\Users\travi\Dropbox\Valius Source\.\data\logs\err\1485759993531 - travi - [Mon Jan 30][2.06AM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2017-01-30 02:10:03] java.lang.NullPointerException
+[2017-01-30 02:10:03] 	at com.mayhem.rs2.content.skill.hunter.HunterTrap.getTrigger(HunterTrap.java:261)
+[2017-01-30 02:10:03] 	at com.mayhem.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:1002)
+[2017-01-30 02:10:03] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-01-30 02:10:03] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-01-30 02:10:03] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-01-30 02:10:03] 	at com.mayhem.core.GameThread.cycle(GameThread.java:124)
+[2017-01-30 02:10:03] 	at com.mayhem.core.GameThread.run(GameThread.java:139)
+[2017-01-30 02:10:04] java.lang.NullPointerException
+[2017-01-30 02:10:04] 	at com.mayhem.rs2.content.skill.hunter.HunterTrap.getTrigger(HunterTrap.java:261)
+[2017-01-30 02:10:04] 	at com.mayhem.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:1002)
+[2017-01-30 02:10:04] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-01-30 02:10:04] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-01-30 02:10:04] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-01-30 02:10:04] 	at com.mayhem.core.GameThread.cycle(GameThread.java:124)
+[2017-01-30 02:10:04] 	at com.mayhem.core.GameThread.run(GameThread.java:139)

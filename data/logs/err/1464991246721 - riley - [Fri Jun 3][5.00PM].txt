@@ -1,0 +1,16 @@
+Logging started at 2016-06-03 17:00:46
+File name: C:\Users\riley\Desktop\os\currentserver\.\data\logs\err\1464991246721 - riley - [Fri Jun 3][5.00PM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2016-06-03 17:02:56] java.lang.ArrayIndexOutOfBoundsException: 69
+[2016-06-03 17:02:56] 	at com.mayhem.rs2.content.skill.Skill.update(Skill.java:578)
+[2016-06-03 17:02:56] 	at com.mayhem.rs2.content.combat.special.effects.DragonWarhammerEffect.execute(DragonWarhammerEffect.java:39)
+[2016-06-03 17:02:56] 	at com.mayhem.rs2.content.combat.special.SpecialAttackHandler.executeSpecialEffect(SpecialAttackHandler.java:180)
+[2016-06-03 17:02:56] 	at com.mayhem.rs2.content.combat.PlayerCombatInterface.afterCombatProcess(PlayerCombatInterface.java:52)
+[2016-06-03 17:02:56] 	at com.mayhem.rs2.entity.player.Player.afterCombatProcess(Player.java:562)
+[2016-06-03 17:02:56] 	at com.mayhem.rs2.content.combat.Combat.attack(Combat.java:98)
+[2016-06-03 17:02:56] 	at com.mayhem.rs2.content.combat.Combat.process(Combat.java:215)
+[2016-06-03 17:02:56] 	at com.mayhem.rs2.entity.player.Player.process(Player.java:1540)
+[2016-06-03 17:02:56] 	at com.mayhem.rs2.entity.World.process(World.java:322)
+[2016-06-03 17:02:56] 	at com.mayhem.core.GameThread.cycle(GameThread.java:124)
+[2016-06-03 17:02:56] 	at com.mayhem.core.GameThread.run(GameThread.java:139)

@@ -1,0 +1,485 @@
+Logging started at 2017-02-22 09:31:51
+File name: C:\Users\Administrator\Dropbox\Valius\Valius Source\.\data\logs\err\1487752311338 - Administrator - [Wed Feb 22][9.31AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-02-22 09:44:16] Didn't save hiscores for Cdscsd
+[2017-02-22 09:54:23] Didn't save hiscores for Kz
+[2017-02-22 09:59:01] Didn't save hiscores for Mod divine
+[2017-02-22 09:59:01] Didn't save hiscores for Mod divine
+[2017-02-22 10:03:04] Didn't save hiscores for Eclipsedsm
+[2017-02-22 10:12:12] Didn't save hiscores for Eclipsedsm
+[2017-02-22 10:35:19] java.lang.NullPointerException
+[2017-02-22 10:35:19] 	at com.mayhem.rs2.content.skill.mining.Mining$Pickaxe.get(Mining.java:123)
+[2017-02-22 10:35:19] 	at com.mayhem.rs2.content.skill.mining.Mining.clickRock(Mining.java:235)
+[2017-02-22 10:35:19] 	at com.mayhem.rs2.entity.WalkToActions.finishObjectClick(WalkToActions.java:1146)
+[2017-02-22 10:35:19] 	at com.mayhem.rs2.entity.WalkToActions$7.onDestination(WalkToActions.java:327)
+[2017-02-22 10:35:19] 	at com.mayhem.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2017-02-22 10:35:19] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-02-22 10:35:19] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-02-22 10:35:19] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-02-22 10:35:19] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-22 10:35:22] java.lang.NullPointerException
+[2017-02-22 10:35:22] 	at com.mayhem.rs2.content.skill.mining.Mining$Pickaxe.get(Mining.java:123)
+[2017-02-22 10:35:22] 	at com.mayhem.rs2.content.skill.mining.Mining.clickRock(Mining.java:235)
+[2017-02-22 10:35:22] 	at com.mayhem.rs2.entity.WalkToActions.finishObjectClick(WalkToActions.java:1146)
+[2017-02-22 10:35:22] 	at com.mayhem.rs2.entity.WalkToActions$7.onDestination(WalkToActions.java:327)
+[2017-02-22 10:35:22] 	at com.mayhem.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2017-02-22 10:35:22] 	at com.mayhem.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2017-02-22 10:35:22] 	at com.mayhem.rs2.entity.WalkToActions.clickObject(WalkToActions.java:322)
+[2017-02-22 10:35:22] 	at com.mayhem.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:85)
+[2017-02-22 10:35:22] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-02-22 10:35:22] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-02-22 10:35:22] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-02-22 10:35:22] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-02-22 10:35:22] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-22 10:35:26] java.lang.NullPointerException
+[2017-02-22 10:35:26] 	at com.mayhem.rs2.content.skill.mining.Mining$Pickaxe.get(Mining.java:123)
+[2017-02-22 10:35:26] 	at com.mayhem.rs2.content.skill.mining.Mining.clickRock(Mining.java:235)
+[2017-02-22 10:35:26] 	at com.mayhem.rs2.entity.WalkToActions.finishObjectClick(WalkToActions.java:1146)
+[2017-02-22 10:35:26] 	at com.mayhem.rs2.entity.WalkToActions$7.onDestination(WalkToActions.java:327)
+[2017-02-22 10:35:26] 	at com.mayhem.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2017-02-22 10:35:26] 	at com.mayhem.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2017-02-22 10:35:26] 	at com.mayhem.rs2.entity.WalkToActions.clickObject(WalkToActions.java:322)
+[2017-02-22 10:35:26] 	at com.mayhem.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:85)
+[2017-02-22 10:35:26] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-02-22 10:35:26] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-02-22 10:35:26] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-02-22 10:35:26] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-02-22 10:35:26] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-22 10:39:55] Didn't save hiscores for Eclipsedsm
+[2017-02-22 10:40:47] Didn't save hiscores for Eclipsedsm
+[2017-02-22 11:30:09] Didn't save hiscores for Eclipsedsm
+[2017-02-22 11:42:18] Didn't save hiscores for Samurai
+[2017-02-22 12:14:15] Didn't save hiscores for Bink
+[2017-02-22 12:17:47] Didn't save hiscores for Mod tex
+[2017-02-22 12:24:34] Didn't save hiscores for Mod tex
+[2017-02-22 12:25:05] Didn't save hiscores for Mod tex
+[2017-02-22 12:51:18] Didn't save hiscores for Hxze
+[2017-02-22 13:02:50] Didn't save hiscores for Fk yo couch
+[2017-02-22 13:49:28] Didn't save hiscores for Mole
+[2017-02-22 13:49:41] Didn't save hiscores for Mole
+[2017-02-22 13:59:23] Didn't save hiscores for Kickingashes
+[2017-02-22 14:16:20] Didn't save hiscores for Kz
+[2017-02-22 14:22:44] Didn't save hiscores for Mole
+[2017-02-22 14:22:57] Didn't save hiscores for Mole
+[2017-02-22 14:37:22] java.lang.NullPointerException
+[2017-02-22 14:37:22] 	at com.mayhem.rs2.content.DropTable.displayNpc(DropTable.java:177)
+[2017-02-22 14:37:22] 	at com.mayhem.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:134)
+[2017-02-22 14:37:22] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-02-22 14:37:22] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-02-22 14:37:22] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-02-22 14:37:22] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-02-22 14:37:22] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-22 14:37:25] java.lang.NullPointerException
+[2017-02-22 14:37:25] 	at com.mayhem.rs2.content.DropTable.displayNpc(DropTable.java:177)
+[2017-02-22 14:37:25] 	at com.mayhem.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:134)
+[2017-02-22 14:37:25] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-02-22 14:37:25] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-02-22 14:37:25] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-02-22 14:37:25] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-02-22 14:37:25] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-22 14:37:25] java.lang.NullPointerException
+[2017-02-22 14:37:25] 	at com.mayhem.rs2.content.DropTable.displayNpc(DropTable.java:177)
+[2017-02-22 14:37:25] 	at com.mayhem.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:134)
+[2017-02-22 14:37:25] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-02-22 14:37:25] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-02-22 14:37:25] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-02-22 14:37:25] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-02-22 14:37:25] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-22 14:37:25] java.lang.NullPointerException
+[2017-02-22 14:37:25] 	at com.mayhem.rs2.content.DropTable.displayNpc(DropTable.java:177)
+[2017-02-22 14:37:25] 	at com.mayhem.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:134)
+[2017-02-22 14:37:25] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-02-22 14:37:25] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-02-22 14:37:25] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-02-22 14:37:25] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-02-22 14:37:25] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-22 14:37:26] java.lang.NullPointerException
+[2017-02-22 14:37:26] 	at com.mayhem.rs2.content.DropTable.displayNpc(DropTable.java:177)
+[2017-02-22 14:37:26] 	at com.mayhem.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:134)
+[2017-02-22 14:37:26] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-02-22 14:37:26] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-02-22 14:37:26] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-02-22 14:37:26] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-02-22 14:37:26] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-22 14:37:27] java.lang.NullPointerException
+[2017-02-22 14:37:27] 	at com.mayhem.rs2.content.DropTable.displayNpc(DropTable.java:177)
+[2017-02-22 14:37:27] 	at com.mayhem.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:134)
+[2017-02-22 14:37:27] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-02-22 14:37:27] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-02-22 14:37:27] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-02-22 14:37:27] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-02-22 14:37:27] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-22 15:13:12] Didn't save hiscores for Leonidas
+[2017-02-22 15:15:11] Didn't save hiscores for Kickingashes
+[2017-02-22 15:22:51] Didn't save hiscores for Quill
+[2017-02-22 15:37:21] java.lang.NumberFormatException: For input string: "/8693/89689"
+[2017-02-22 15:37:21] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2017-02-22 15:37:21] 	at java.lang.Long.parseLong(Unknown Source)
+[2017-02-22 15:37:21] 	at java.lang.Long.parseLong(Unknown Source)
+[2017-02-22 15:37:21] 	at com.mayhem.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:231)
+[2017-02-22 15:37:21] 	at com.mayhem.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:57)
+[2017-02-22 15:37:21] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-02-22 15:37:21] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-02-22 15:37:21] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-02-22 15:37:21] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-02-22 15:37:21] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-22 15:39:06] Didn't save hiscores for Mole
+[2017-02-22 16:34:11] Didn't save hiscores for Nate
+[2017-02-22 17:12:39] java.lang.NullPointerException
+[2017-02-22 17:12:39] 	at com.mayhem.rs2.content.DropTable.displayNpc(DropTable.java:177)
+[2017-02-22 17:12:39] 	at com.mayhem.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:134)
+[2017-02-22 17:12:39] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-02-22 17:12:39] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-02-22 17:12:39] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-02-22 17:12:39] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-02-22 17:12:39] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-22 17:13:50] java.lang.NullPointerException
+[2017-02-22 17:13:50] 	at com.mayhem.rs2.content.DropTable.displayNpc(DropTable.java:177)
+[2017-02-22 17:13:50] 	at com.mayhem.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:134)
+[2017-02-22 17:13:50] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-02-22 17:13:50] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-02-22 17:13:50] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-02-22 17:13:50] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-02-22 17:13:50] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-22 17:14:08] java.lang.NullPointerException
+[2017-02-22 17:14:08] 	at com.mayhem.rs2.content.DropTable.displayNpc(DropTable.java:177)
+[2017-02-22 17:14:08] 	at com.mayhem.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:134)
+[2017-02-22 17:14:08] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-02-22 17:14:08] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-02-22 17:14:08] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-02-22 17:14:08] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-02-22 17:14:08] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-22 17:14:11] java.lang.NullPointerException
+[2017-02-22 17:14:11] 	at com.mayhem.rs2.content.DropTable.displayNpc(DropTable.java:177)
+[2017-02-22 17:14:11] 	at com.mayhem.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:134)
+[2017-02-22 17:14:11] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-02-22 17:14:11] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-02-22 17:14:11] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-02-22 17:14:11] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-02-22 17:14:11] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-22 17:14:27] java.lang.NullPointerException
+[2017-02-22 17:14:27] 	at com.mayhem.rs2.content.DropTable.displayNpc(DropTable.java:177)
+[2017-02-22 17:14:27] 	at com.mayhem.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:134)
+[2017-02-22 17:14:27] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-02-22 17:14:27] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-02-22 17:14:27] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-02-22 17:14:27] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-02-22 17:14:27] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-22 17:23:53] Didn't save hiscores for Quill
+[2017-02-22 17:32:45] java.lang.NullPointerException
+[2017-02-22 17:32:45] 	at com.mayhem.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:254)
+[2017-02-22 17:32:45] 	at com.mayhem.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:57)
+[2017-02-22 17:32:45] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-02-22 17:32:45] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-02-22 17:32:45] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-02-22 17:32:45] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-02-22 17:32:45] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-22 17:36:51] Didn't save hiscores for Mod tex
+[2017-02-22 17:42:59] Didn't save hiscores for Mod tex
+[2017-02-22 17:44:19] Didn't save hiscores for Mod tex
+[2017-02-22 17:44:26] Didn't save hiscores for Mod tex
+[2017-02-22 18:07:33] Didn't save hiscores for Mod tex
+[2017-02-22 18:12:15] Didn't save hiscores for T2kmostkillz
+[2017-02-22 18:17:07] Didn't save hiscores for T2kmostkillz
+[2017-02-22 18:25:11] Didn't save hiscores for T2kmostkillz
+[2017-02-22 18:27:33] Didn't save hiscores for Mole
+[2017-02-22 18:33:59] Didn't save hiscores for T2kmostkillz
+[2017-02-22 18:39:39] Didn't save hiscores for Mole
+[2017-02-22 18:42:55] Didn't save hiscores for T2kmostkillz
+[2017-02-22 18:44:57] Didn't save hiscores for Raziel
+[2017-02-22 18:52:35] Didn't save hiscores for T2kmostkillz
+[2017-02-22 18:53:40] Didn't save hiscores for Whiteboy
+[2017-02-22 18:59:48] Didn't save hiscores for T2kmostkillz
+[2017-02-22 19:00:13] Didn't save hiscores for Mole
+[2017-02-22 19:06:17] Didn't save hiscores for T2kmostkillz
+[2017-02-22 19:07:06] Didn't save hiscores for T2kmostkillz
+[2017-02-22 19:08:42] Didn't save hiscores for T2kmostkillz
+[2017-02-22 19:15:08] Didn't save hiscores for T2kmostkillz
+[2017-02-22 19:25:38] Didn't save hiscores for T2kmostkillz
+[2017-02-22 19:40:55] Didn't save hiscores for T2kmostkillz
+[2017-02-22 19:41:44] Didn't save hiscores for T2kmostkillz
+[2017-02-22 19:48:11] Didn't save hiscores for Evol
+[2017-02-22 19:48:12] Didn't save hiscores for T2kmostkillz
+[2017-02-22 19:55:26] Didn't save hiscores for T2kmostkillz
+[2017-02-22 19:56:13] Didn't save hiscores for T2kmostkillz
+[2017-02-22 19:56:40] Didn't save hiscores for Lmfao
+[2017-02-22 19:59:30] Didn't save hiscores for T2kmostkillz
+[2017-02-22 20:11:36] Didn't save hiscores for T2kmostkillz
+[2017-02-22 20:12:16] Didn't save hiscores for T2kmostkillz
+[2017-02-22 20:17:14] Didn't save hiscores for Evol
+[2017-02-22 20:17:14] Didn't save hiscores for T2kmostkillz
+[2017-02-22 20:25:21] java.lang.IndexOutOfBoundsException: Index: 10, Size: 5
+[2017-02-22 20:25:21] 	at java.util.LinkedList.checkElementIndex(Unknown Source)
+[2017-02-22 20:25:21] 	at java.util.LinkedList.get(Unknown Source)
+[2017-02-22 20:25:21] 	at com.mayhem.rs2.entity.player.net.in.impl.InterfaceAction.handle(InterfaceAction.java:88)
+[2017-02-22 20:25:21] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-02-22 20:25:21] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-02-22 20:25:21] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-02-22 20:25:21] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-02-22 20:25:21] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-22 20:25:21] java.lang.IndexOutOfBoundsException: Index: 10, Size: 5
+[2017-02-22 20:25:21] 	at java.util.LinkedList.checkElementIndex(Unknown Source)
+[2017-02-22 20:25:21] 	at java.util.LinkedList.get(Unknown Source)
+[2017-02-22 20:25:21] 	at com.mayhem.rs2.entity.player.net.in.impl.InterfaceAction.handle(InterfaceAction.java:88)
+[2017-02-22 20:25:21] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-02-22 20:25:21] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-02-22 20:25:21] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-02-22 20:25:21] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-02-22 20:25:21] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-22 20:31:34] Didn't save hiscores for T2kmostkillz
+[2017-02-22 20:31:34] Didn't save hiscores for Evol
+[2017-02-22 20:33:40] Didn't save hiscores for Evol
+[2017-02-22 20:33:58] Didn't save hiscores for T2kmostkillz
+[2017-02-22 20:37:07] Didn't save hiscores for Toodenchh
+[2017-02-22 20:40:21] Didn't save hiscores for T2kmostkillz
+[2017-02-22 20:45:58] Didn't save hiscores for Spongebob
+[2017-02-22 20:47:16] Didn't save hiscores for Bink
+[2017-02-22 20:51:00] Didn't save hiscores for Leonidas
+[2017-02-22 21:03:32] Didn't save hiscores for Fk yo couch
+[2017-02-22 21:22:57] Didn't save hiscores for T2kmostkillz
+[2017-02-22 21:31:30] Didn't save hiscores for Evol
+[2017-02-22 21:31:30] Didn't save hiscores for T2kmostkillz
+[2017-02-22 21:31:38] Didn't save hiscores for Lmfao
+[2017-02-22 21:33:03] Didn't save hiscores for T2kmostkillz
+[2017-02-22 21:33:04] Didn't save hiscores for Evol
+[2017-02-22 21:41:45] Didn't save hiscores for T2kmostkillz
+[2017-02-22 21:41:45] Didn't save hiscores for Evol
+[2017-02-22 22:01:33] Didn't save hiscores for Evol
+[2017-02-22 22:11:27] Didn't save hiscores for Eclipsedsm
+[2017-02-22 22:25:55] Didn't save hiscores for T2kmostkillz
+[2017-02-22 22:27:27] Didn't save hiscores for T2kmostkillz
+[2017-02-22 22:38:31] Didn't save hiscores for T2kmostkillz
+[2017-02-22 22:39:18] Didn't save hiscores for T2kmostkillz
+[2017-02-22 22:42:27] Didn't save hiscores for T2kmostkillz
+[2017-02-22 22:57:26] Didn't save hiscores for T2kmostkillz
+[2017-02-22 22:58:11] Didn't save hiscores for T2kmostkillz
+[2017-02-22 23:06:53] Didn't save hiscores for T2kmostkillz
+[2017-02-22 23:09:00] java.lang.IllegalStateException: unprepared
+[2017-02-22 23:09:00] 	at com.mayhem.core.network.mysql.MembershipRewards.collectReward(MembershipRewards.java:38)
+[2017-02-22 23:09:00] 	at com.mayhem.rs2.content.dialogue.impl.MembershipDialogue.execute(MembershipDialogue.java:70)
+[2017-02-22 23:09:00] 	at com.mayhem.rs2.entity.player.net.in.impl.ChatInterfacePacket.handleDialogue(ChatInterfacePacket.java:47)
+[2017-02-22 23:09:00] 	at com.mayhem.rs2.entity.player.net.in.impl.ChatInterfacePacket.handle(ChatInterfacePacket.java:33)
+[2017-02-22 23:09:00] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-02-22 23:09:00] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-02-22 23:09:00] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-02-22 23:09:00] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-02-22 23:09:00] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-22 23:10:11] java.lang.IllegalStateException: unprepared
+[2017-02-22 23:10:11] 	at com.mayhem.core.network.mysql.MembershipRewards.collectReward(MembershipRewards.java:38)
+[2017-02-22 23:10:11] 	at com.mayhem.rs2.content.dialogue.impl.MembershipDialogue.execute(MembershipDialogue.java:70)
+[2017-02-22 23:10:11] 	at com.mayhem.rs2.entity.player.net.in.impl.ChatInterfacePacket.handleDialogue(ChatInterfacePacket.java:47)
+[2017-02-22 23:10:11] 	at com.mayhem.rs2.entity.player.net.in.impl.ChatInterfacePacket.handle(ChatInterfacePacket.java:33)
+[2017-02-22 23:10:11] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-02-22 23:10:11] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-02-22 23:10:11] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-02-22 23:10:11] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-02-22 23:10:11] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-22 23:24:11] Didn't save hiscores for T2kmostkillz
+[2017-02-22 23:43:53] Didn't save hiscores for T2kmostkillz
+[2017-02-22 23:45:27] Didn't save hiscores for T2kmostkillz
+[2017-02-22 23:47:05] Didn't save hiscores for T2kmostkillz
+[2017-02-22 23:49:26] Didn't save hiscores for T2kmostkillz
+[2017-02-22 23:49:50] Didn't save hiscores for T2kmostkillz
+[2017-02-22 23:56:37] Didn't save hiscores for T2kmostkillz
+[2017-02-22 23:57:13] Didn't save hiscores for Krunk
+[2017-02-22 23:58:13] Didn't save hiscores for T2kmostkillz
+[2017-02-23 00:05:28] Didn't save hiscores for T2kmostkillz
+[2017-02-23 00:10:15] Didn't save hiscores for T2kmostkillz
+[2017-02-23 00:20:45] Didn't save hiscores for T2kmostkillz
+[2017-02-23 00:22:20] Didn't save hiscores for T2kmostkillz
+[2017-02-23 00:32:49] Didn't save hiscores for T2kmostkillz
+[2017-02-23 00:40:03] Didn't save hiscores for T2kmostkillz
+[2017-02-23 00:41:51] Didn't save hiscores for Mod tex
+[2017-02-23 00:43:34] Didn't save hiscores for Mod tex
+[2017-02-23 00:44:44] Didn't save hiscores for Mod tex
+[2017-02-23 01:14:42] Didn't save hiscores for T2kmostkillz
+[2017-02-23 01:23:29] Didn't save hiscores for T2kmostkillz
+[2017-02-23 01:27:32] Didn't save hiscores for T2kmostkillz
+[2017-02-23 01:28:56] Didn't save hiscores for Mod tex
+[2017-02-23 01:29:56] Didn't save hiscores for T2kmostkillz
+[2017-02-23 01:33:10] Didn't save hiscores for T2kmostkillz
+[2017-02-23 01:34:25] Didn't save hiscores for Leonidas
+[2017-02-23 01:34:52] Didn't save hiscores for T2kmostkillz
+[2017-02-23 01:35:36] Didn't save hiscores for T2kmostkillz
+[2017-02-23 01:38:50] Didn't save hiscores for T2kmostkillz
+[2017-02-23 01:41:12] Didn't save hiscores for T2kmostkillz
+[2017-02-23 01:41:46] Didn't save hiscores for Dehzyne
+[2017-02-23 01:49:17] Didn't save hiscores for T2kmostkillz
+[2017-02-23 01:50:54] Didn't save hiscores for T2kmostkillz
+[2017-02-23 02:04:40] Didn't save hiscores for Squashy
+[2017-02-23 02:13:22] Didn't save hiscores for Mod tex
+[2017-02-23 02:23:33] Didn't save hiscores for Mod tex
+[2017-02-23 02:29:52] Didn't save hiscores for Dottel
+[2017-02-23 02:36:43] Didn't save hiscores for Kz
+[2017-02-23 02:39:13] Didn't save hiscores for T2kmostkillz
+[2017-02-23 02:40:02] Didn't save hiscores for T2kmostkillz
+[2017-02-23 02:41:37] Didn't save hiscores for T2kmostkillz
+[2017-02-23 02:43:31] Didn't save hiscores for T2kmostkillz
+[2017-02-23 02:49:46] Didn't save hiscores for Nate
+[2017-02-23 03:05:17] Didn't save hiscores for Squashy
+[2017-02-23 03:11:29] Didn't save hiscores for Leonidas
+[2017-02-23 03:31:27] Didn't save hiscores for Dehzyne
+[2017-02-23 03:35:43] Didn't save hiscores for Dottel
+[2017-02-23 03:39:58] Didn't save hiscores for Mod andy
+[2017-02-23 03:39:58] Didn't save hiscores for Mod andy
+[2017-02-23 03:48:06] Didn't save hiscores for Bink
+[2017-02-23 04:02:52] Didn't save hiscores for Nate
+[2017-02-23 04:12:22] Didn't save hiscores for Fk yo couch
+[2017-02-23 04:12:26] Didn't save hiscores for Quill
+[2017-02-23 04:31:06] Didn't save hiscores for T2kmostkillz
+[2017-02-23 04:32:19] java.lang.NullPointerException
+[2017-02-23 04:32:19] 	at com.mayhem.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:254)
+[2017-02-23 04:32:19] 	at com.mayhem.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:57)
+[2017-02-23 04:32:19] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-02-23 04:32:19] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-02-23 04:32:19] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-02-23 04:32:19] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-02-23 04:32:19] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-23 04:34:25] Didn't save hiscores for Dottel
+[2017-02-23 04:38:56] Didn't save hiscores for Leonidas
+[2017-02-23 04:48:25] Didn't save hiscores for Nate
+[2017-02-23 04:59:02] Didn't save hiscores for Quill
+[2017-02-23 05:02:02] Didn't save hiscores for Saint divine
+[2017-02-23 05:04:10] Didn't save hiscores for Kz
+[2017-02-23 05:12:01] Didn't save hiscores for Saint divine
+[2017-02-23 05:12:16] Didn't save hiscores for Saint divine
+[2017-02-23 05:16:57] Didn't save hiscores for T2kmostkillz
+[2017-02-23 05:22:32] Didn't save hiscores for T2kmostkillz
+[2017-02-23 05:26:05] Didn't save hiscores for T2kmostkillz
+[2017-02-23 05:26:19] Didn't save hiscores for Leonidas
+[2017-02-23 05:52:23] Didn't save hiscores for Whiteboy
+[2017-02-23 05:57:16] Didn't save hiscores for Cameron
+[2017-02-23 06:07:47] Didn't save hiscores for Kz
+[2017-02-23 06:08:43] Didn't save hiscores for Leonidas
+[2017-02-23 06:10:54] Didn't save hiscores for Iron leo
+[2017-02-23 06:11:18] Didn't save hiscores for Leonidas
+[2017-02-23 06:14:09] Didn't save hiscores for Leonidas
+[2017-02-23 06:15:10] Didn't save hiscores for Leonidas
+[2017-02-23 06:25:45] Didn't save hiscores for Leonidas
+[2017-02-23 06:36:47] java.lang.NullPointerException
+[2017-02-23 06:36:47] 	at com.mayhem.rs2.content.combat.formula.MeleeFormulas.calculateBaseDamage(MeleeFormulas.java:208)
+[2017-02-23 06:36:47] 	at com.mayhem.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:378)
+[2017-02-23 06:36:47] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-02-23 06:36:47] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-02-23 06:36:47] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-02-23 06:36:47] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-02-23 06:36:47] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-23 06:36:48] java.lang.NullPointerException
+[2017-02-23 06:36:48] 	at com.mayhem.rs2.content.combat.formula.MeleeFormulas.calculateBaseDamage(MeleeFormulas.java:208)
+[2017-02-23 06:36:48] 	at com.mayhem.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:378)
+[2017-02-23 06:36:48] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-02-23 06:36:48] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-02-23 06:36:48] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-02-23 06:36:48] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-02-23 06:36:48] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-23 06:36:49] java.lang.NullPointerException
+[2017-02-23 06:36:49] 	at com.mayhem.rs2.content.combat.formula.MeleeFormulas.calculateBaseDamage(MeleeFormulas.java:208)
+[2017-02-23 06:36:49] 	at com.mayhem.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:378)
+[2017-02-23 06:36:49] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-02-23 06:36:49] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-02-23 06:36:49] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-02-23 06:36:49] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-02-23 06:36:49] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-23 06:36:51] java.lang.NullPointerException
+[2017-02-23 06:36:51] 	at com.mayhem.rs2.content.combat.formula.MeleeFormulas.calculateBaseDamage(MeleeFormulas.java:208)
+[2017-02-23 06:36:51] 	at com.mayhem.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:378)
+[2017-02-23 06:36:51] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-02-23 06:36:51] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-02-23 06:36:51] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-02-23 06:36:51] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-02-23 06:36:51] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-23 06:36:51] java.lang.NullPointerException
+[2017-02-23 06:36:51] 	at com.mayhem.rs2.content.combat.formula.MeleeFormulas.calculateBaseDamage(MeleeFormulas.java:208)
+[2017-02-23 06:36:51] 	at com.mayhem.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:378)
+[2017-02-23 06:36:51] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-02-23 06:36:51] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-02-23 06:36:51] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-02-23 06:36:51] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-02-23 06:36:51] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-23 06:36:52] java.lang.NullPointerException
+[2017-02-23 06:36:52] 	at com.mayhem.rs2.content.combat.formula.MeleeFormulas.calculateBaseDamage(MeleeFormulas.java:208)
+[2017-02-23 06:36:52] 	at com.mayhem.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:378)
+[2017-02-23 06:36:52] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-02-23 06:36:52] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-02-23 06:36:52] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-02-23 06:36:52] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-02-23 06:36:52] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-23 06:36:54] java.lang.NullPointerException
+[2017-02-23 06:36:54] 	at com.mayhem.rs2.content.combat.formula.MeleeFormulas.calculateBaseDamage(MeleeFormulas.java:208)
+[2017-02-23 06:36:54] 	at com.mayhem.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:378)
+[2017-02-23 06:36:54] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-02-23 06:36:54] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-02-23 06:36:54] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-02-23 06:36:54] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-02-23 06:36:54] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-23 06:36:55] java.lang.NullPointerException
+[2017-02-23 06:36:55] 	at com.mayhem.rs2.content.combat.formula.MeleeFormulas.calculateBaseDamage(MeleeFormulas.java:208)
+[2017-02-23 06:36:55] 	at com.mayhem.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:378)
+[2017-02-23 06:36:55] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-02-23 06:36:55] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-02-23 06:36:55] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-02-23 06:36:55] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-02-23 06:36:55] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-23 06:37:09] Didn't save hiscores for Ape
+[2017-02-23 06:42:23] Didn't save hiscores for Iron kixx
+[2017-02-23 06:52:31] java.lang.NullPointerException
+[2017-02-23 06:52:31] 	at com.mayhem.rs2.content.combat.formula.MeleeFormulas.calculateBaseDamage(MeleeFormulas.java:208)
+[2017-02-23 06:52:31] 	at com.mayhem.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:378)
+[2017-02-23 06:52:31] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-02-23 06:52:31] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-02-23 06:52:31] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-02-23 06:52:31] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-02-23 06:52:31] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-23 06:52:34] java.lang.NullPointerException
+[2017-02-23 06:52:34] 	at com.mayhem.rs2.content.combat.formula.MeleeFormulas.calculateBaseDamage(MeleeFormulas.java:208)
+[2017-02-23 06:52:34] 	at com.mayhem.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:378)
+[2017-02-23 06:52:34] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-02-23 06:52:34] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-02-23 06:52:34] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-02-23 06:52:34] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-02-23 06:52:34] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-23 06:52:34] java.lang.NullPointerException
+[2017-02-23 06:52:34] 	at com.mayhem.rs2.content.combat.formula.MeleeFormulas.calculateBaseDamage(MeleeFormulas.java:208)
+[2017-02-23 06:52:34] 	at com.mayhem.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:378)
+[2017-02-23 06:52:34] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-02-23 06:52:34] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-02-23 06:52:34] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-02-23 06:52:34] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-02-23 06:52:34] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-23 06:52:34] java.lang.NullPointerException
+[2017-02-23 06:52:34] 	at com.mayhem.rs2.content.combat.formula.MeleeFormulas.calculateBaseDamage(MeleeFormulas.java:208)
+[2017-02-23 06:52:34] 	at com.mayhem.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:378)
+[2017-02-23 06:52:34] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-02-23 06:52:34] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-02-23 06:52:34] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-02-23 06:52:34] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-02-23 06:52:34] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-23 06:52:34] java.lang.NullPointerException
+[2017-02-23 06:52:34] 	at com.mayhem.rs2.content.combat.formula.MeleeFormulas.calculateBaseDamage(MeleeFormulas.java:208)
+[2017-02-23 06:52:34] 	at com.mayhem.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:378)
+[2017-02-23 06:52:34] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-02-23 06:52:34] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-02-23 06:52:34] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-02-23 06:52:34] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-02-23 06:52:34] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-23 06:52:34] java.lang.NullPointerException
+[2017-02-23 06:52:34] 	at com.mayhem.rs2.content.combat.formula.MeleeFormulas.calculateBaseDamage(MeleeFormulas.java:208)
+[2017-02-23 06:52:34] 	at com.mayhem.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:378)
+[2017-02-23 06:52:34] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-02-23 06:52:34] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-02-23 06:52:34] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-02-23 06:52:34] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-02-23 06:52:34] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-23 07:05:45] Didn't save hiscores for Kickingashes
+[2017-02-23 07:05:47] Didn't save hiscores for Iron kixx
+[2017-02-23 07:05:50] Didn't save hiscores for Dehzyne
+[2017-02-23 07:29:33] Didn't save hiscores for Leonidas
+[2017-02-23 07:29:35] Didn't save hiscores for Raziel
+[2017-02-23 07:29:40] Didn't save hiscores for Mod divine
+[2017-02-23 07:29:40] Didn't save hiscores for Cameron
+[2017-02-23 07:29:40] Didn't save hiscores for Quill
+[2017-02-23 07:29:40] Didn't save hiscores for Kz
+[2017-02-23 07:29:40] Didn't save hiscores for Mod divine
+[2017-02-23 07:29:40] Didn't save hiscores for Eclipsedsm
+[2017-02-23 07:29:40] Didn't save hiscores for Saint divine

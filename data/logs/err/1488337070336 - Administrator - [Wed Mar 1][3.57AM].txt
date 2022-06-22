@@ -1,0 +1,484 @@
+Logging started at 2017-03-01 03:57:50
+File name: C:\Users\Administrator\Dropbox\Valius\Valius Source\.\data\logs\err\1488337070336 - Administrator - [Wed Mar 1][3.57AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-03-01 04:02:02] java.lang.NullPointerException
+[2017-03-01 04:02:02] 	at com.mayhem.rs2.entity.WalkToActions.finishObjectClick(WalkToActions.java:981)
+[2017-03-01 04:02:02] 	at com.mayhem.rs2.entity.WalkToActions$7.onDestination(WalkToActions.java:325)
+[2017-03-01 04:02:02] 	at com.mayhem.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2017-03-01 04:02:02] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-01 04:02:02] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-01 04:02:02] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-01 04:02:02] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-01 04:02:04] java.lang.NullPointerException
+[2017-03-01 04:02:04] 	at com.mayhem.rs2.entity.WalkToActions.finishObjectClick(WalkToActions.java:981)
+[2017-03-01 04:02:04] 	at com.mayhem.rs2.entity.WalkToActions$7.onDestination(WalkToActions.java:325)
+[2017-03-01 04:02:04] 	at com.mayhem.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2017-03-01 04:02:04] 	at com.mayhem.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2017-03-01 04:02:04] 	at com.mayhem.rs2.entity.WalkToActions.clickObject(WalkToActions.java:320)
+[2017-03-01 04:02:04] 	at com.mayhem.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:85)
+[2017-03-01 04:02:04] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-01 04:02:04] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-01 04:02:04] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-01 04:02:04] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-01 04:02:04] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-01 04:02:27] java.lang.NullPointerException
+[2017-03-01 04:02:27] 	at com.mayhem.rs2.entity.WalkToActions.finishObjectClick(WalkToActions.java:981)
+[2017-03-01 04:02:27] 	at com.mayhem.rs2.entity.WalkToActions$7.onDestination(WalkToActions.java:325)
+[2017-03-01 04:02:27] 	at com.mayhem.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2017-03-01 04:02:27] 	at com.mayhem.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2017-03-01 04:02:27] 	at com.mayhem.rs2.entity.WalkToActions.clickObject(WalkToActions.java:320)
+[2017-03-01 04:02:27] 	at com.mayhem.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:85)
+[2017-03-01 04:02:27] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-01 04:02:27] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-01 04:02:27] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-01 04:02:27] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-01 04:02:27] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-01 04:02:30] java.lang.NullPointerException
+[2017-03-01 04:02:30] 	at com.mayhem.rs2.entity.WalkToActions.finishObjectClick(WalkToActions.java:981)
+[2017-03-01 04:02:30] 	at com.mayhem.rs2.entity.WalkToActions$7.onDestination(WalkToActions.java:325)
+[2017-03-01 04:02:30] 	at com.mayhem.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2017-03-01 04:02:30] 	at com.mayhem.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2017-03-01 04:02:30] 	at com.mayhem.rs2.entity.WalkToActions.clickObject(WalkToActions.java:320)
+[2017-03-01 04:02:30] 	at com.mayhem.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:85)
+[2017-03-01 04:02:30] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-01 04:02:30] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-01 04:02:30] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-01 04:02:30] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-01 04:02:30] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-01 04:02:34] java.lang.NullPointerException
+[2017-03-01 04:02:34] 	at com.mayhem.rs2.entity.WalkToActions.finishObjectClick(WalkToActions.java:981)
+[2017-03-01 04:02:34] 	at com.mayhem.rs2.entity.WalkToActions$7.onDestination(WalkToActions.java:325)
+[2017-03-01 04:02:34] 	at com.mayhem.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2017-03-01 04:02:34] 	at com.mayhem.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2017-03-01 04:02:34] 	at com.mayhem.rs2.entity.WalkToActions.clickObject(WalkToActions.java:320)
+[2017-03-01 04:02:34] 	at com.mayhem.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:85)
+[2017-03-01 04:02:34] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-01 04:02:34] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-01 04:02:34] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-01 04:02:34] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-01 04:02:34] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-01 04:02:34] java.lang.NullPointerException
+[2017-03-01 04:02:34] 	at com.mayhem.rs2.entity.WalkToActions.finishObjectClick(WalkToActions.java:981)
+[2017-03-01 04:02:34] 	at com.mayhem.rs2.entity.WalkToActions$7.onDestination(WalkToActions.java:325)
+[2017-03-01 04:02:34] 	at com.mayhem.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2017-03-01 04:02:34] 	at com.mayhem.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2017-03-01 04:02:34] 	at com.mayhem.rs2.entity.WalkToActions.clickObject(WalkToActions.java:320)
+[2017-03-01 04:02:34] 	at com.mayhem.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:85)
+[2017-03-01 04:02:34] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-01 04:02:34] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-01 04:02:34] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-01 04:02:34] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-01 04:02:34] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-01 04:02:37] java.lang.NullPointerException
+[2017-03-01 04:02:37] 	at com.mayhem.rs2.entity.WalkToActions.finishObjectClick(WalkToActions.java:981)
+[2017-03-01 04:02:37] 	at com.mayhem.rs2.entity.WalkToActions$7.onDestination(WalkToActions.java:325)
+[2017-03-01 04:02:37] 	at com.mayhem.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2017-03-01 04:02:37] 	at com.mayhem.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2017-03-01 04:02:37] 	at com.mayhem.rs2.entity.WalkToActions.clickObject(WalkToActions.java:320)
+[2017-03-01 04:02:37] 	at com.mayhem.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:85)
+[2017-03-01 04:02:37] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-01 04:02:37] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-01 04:02:37] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-01 04:02:37] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-01 04:02:37] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-01 04:02:49] java.lang.NullPointerException
+[2017-03-01 04:02:49] 	at com.mayhem.rs2.entity.WalkToActions.finishObjectClick(WalkToActions.java:981)
+[2017-03-01 04:02:49] 	at com.mayhem.rs2.entity.WalkToActions$7.onDestination(WalkToActions.java:325)
+[2017-03-01 04:02:49] 	at com.mayhem.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2017-03-01 04:02:49] 	at com.mayhem.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2017-03-01 04:02:49] 	at com.mayhem.rs2.entity.WalkToActions.clickObject(WalkToActions.java:320)
+[2017-03-01 04:02:49] 	at com.mayhem.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:85)
+[2017-03-01 04:02:49] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-01 04:02:49] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-01 04:02:49] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-01 04:02:49] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-01 04:02:49] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-01 04:02:50] java.lang.NullPointerException
+[2017-03-01 04:02:50] 	at com.mayhem.rs2.entity.WalkToActions.finishObjectClick(WalkToActions.java:981)
+[2017-03-01 04:02:50] 	at com.mayhem.rs2.entity.WalkToActions$7.onDestination(WalkToActions.java:325)
+[2017-03-01 04:02:50] 	at com.mayhem.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2017-03-01 04:02:50] 	at com.mayhem.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2017-03-01 04:02:50] 	at com.mayhem.rs2.entity.WalkToActions.clickObject(WalkToActions.java:320)
+[2017-03-01 04:02:50] 	at com.mayhem.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:85)
+[2017-03-01 04:02:50] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-01 04:02:50] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-01 04:02:50] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-01 04:02:50] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-01 04:02:50] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-01 04:03:04] java.lang.NullPointerException
+[2017-03-01 04:03:04] 	at com.mayhem.rs2.entity.WalkToActions.finishObjectClick(WalkToActions.java:981)
+[2017-03-01 04:03:04] 	at com.mayhem.rs2.entity.WalkToActions$7.onDestination(WalkToActions.java:325)
+[2017-03-01 04:03:04] 	at com.mayhem.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2017-03-01 04:03:04] 	at com.mayhem.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2017-03-01 04:03:04] 	at com.mayhem.rs2.entity.WalkToActions.clickObject(WalkToActions.java:320)
+[2017-03-01 04:03:04] 	at com.mayhem.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:85)
+[2017-03-01 04:03:04] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-01 04:03:04] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-01 04:03:04] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-01 04:03:04] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-01 04:03:04] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-01 04:03:09] java.lang.NullPointerException
+[2017-03-01 04:03:09] 	at com.mayhem.rs2.entity.WalkToActions.finishObjectClick(WalkToActions.java:981)
+[2017-03-01 04:03:09] 	at com.mayhem.rs2.entity.WalkToActions$7.onDestination(WalkToActions.java:325)
+[2017-03-01 04:03:09] 	at com.mayhem.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2017-03-01 04:03:09] 	at com.mayhem.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2017-03-01 04:03:09] 	at com.mayhem.rs2.entity.WalkToActions.clickObject(WalkToActions.java:320)
+[2017-03-01 04:03:09] 	at com.mayhem.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:85)
+[2017-03-01 04:03:09] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-01 04:03:09] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-01 04:03:09] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-01 04:03:09] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-01 04:03:09] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-01 04:03:12] java.lang.NullPointerException
+[2017-03-01 04:03:12] 	at com.mayhem.rs2.entity.WalkToActions.finishObjectClick(WalkToActions.java:981)
+[2017-03-01 04:03:12] 	at com.mayhem.rs2.entity.WalkToActions$7.onDestination(WalkToActions.java:325)
+[2017-03-01 04:03:12] 	at com.mayhem.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2017-03-01 04:03:12] 	at com.mayhem.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2017-03-01 04:03:12] 	at com.mayhem.rs2.entity.WalkToActions.clickObject(WalkToActions.java:320)
+[2017-03-01 04:03:12] 	at com.mayhem.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:85)
+[2017-03-01 04:03:12] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-01 04:03:12] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-01 04:03:12] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-01 04:03:12] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-01 04:03:12] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-01 04:03:24] java.lang.NullPointerException
+[2017-03-01 04:03:24] 	at com.mayhem.rs2.entity.WalkToActions.finishObjectClick(WalkToActions.java:981)
+[2017-03-01 04:03:24] 	at com.mayhem.rs2.entity.WalkToActions$7.onDestination(WalkToActions.java:325)
+[2017-03-01 04:03:24] 	at com.mayhem.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2017-03-01 04:03:24] 	at com.mayhem.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2017-03-01 04:03:24] 	at com.mayhem.rs2.entity.WalkToActions.clickObject(WalkToActions.java:320)
+[2017-03-01 04:03:24] 	at com.mayhem.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:85)
+[2017-03-01 04:03:24] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-01 04:03:24] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-01 04:03:24] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-01 04:03:24] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-01 04:03:24] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-01 04:03:35] java.lang.NullPointerException
+[2017-03-01 04:03:35] 	at com.mayhem.rs2.entity.WalkToActions.finishObjectClick(WalkToActions.java:981)
+[2017-03-01 04:03:35] 	at com.mayhem.rs2.entity.WalkToActions$7.onDestination(WalkToActions.java:325)
+[2017-03-01 04:03:35] 	at com.mayhem.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2017-03-01 04:03:35] 	at com.mayhem.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2017-03-01 04:03:35] 	at com.mayhem.rs2.entity.WalkToActions.clickObject(WalkToActions.java:320)
+[2017-03-01 04:03:35] 	at com.mayhem.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:85)
+[2017-03-01 04:03:35] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-01 04:03:35] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-01 04:03:35] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-01 04:03:35] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-01 04:03:35] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-01 04:12:02] Failing to update Jake highscores. Database could not connect.
+[2017-03-01 04:15:29] java.lang.NullPointerException
+[2017-03-01 04:15:29] 	at com.mayhem.rs2.entity.WalkToActions.finishObjectClick(WalkToActions.java:981)
+[2017-03-01 04:15:29] 	at com.mayhem.rs2.entity.WalkToActions$7.onDestination(WalkToActions.java:325)
+[2017-03-01 04:15:29] 	at com.mayhem.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2017-03-01 04:15:29] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-01 04:15:29] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-01 04:15:29] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-01 04:15:29] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-01 04:23:17] Failing to update Dehzyne highscores. Database could not connect.
+[2017-03-01 04:36:43] Failing to update Mod Divine highscores. Database could not connect.
+[2017-03-01 04:45:34] Failing to update Saint Divine highscores. Database could not connect.
+[2017-03-01 04:47:28] Failing to update Dream highscores. Database could not connect.
+[2017-03-01 05:00:59] Failing to update Leo highscores. Database could not connect.
+[2017-03-01 05:02:28] Failing to update Kz highscores. Database could not connect.
+[2017-03-01 05:03:43] Failing to update Kz highscores. Database could not connect.
+[2017-03-01 05:06:30] Failing to update Kz highscores. Database could not connect.
+[2017-03-01 05:30:17] Failing to update Jake highscores. Database could not connect.
+[2017-03-01 05:33:50] Failing to update Butt Cheeks highscores. Database could not connect.
+[2017-03-01 05:49:04] Failing to update Dream highscores. Database could not connect.
+[2017-03-01 05:53:17] Failing to update Alchemy highscores. Database could not connect.
+[2017-03-01 06:01:39] Failing to update Alchemy highscores. Database could not connect.
+[2017-03-01 06:03:01] Failing to update Alchemy highscores. Database could not connect.
+[2017-03-01 06:03:50] Failing to update Alchemy highscores. Database could not connect.
+[2017-03-01 06:05:43] Failing to update Alchemy highscores. Database could not connect.
+[2017-03-01 06:07:43] Failing to update Nikro highscores. Database could not connect.
+[2017-03-01 06:14:30] Failing to update Case101 highscores. Database could not connect.
+[2017-03-01 06:22:38] java.lang.NullPointerException
+[2017-03-01 06:22:38] 	at com.mayhem.rs2.content.combat.formula.RangeFormulas.calculateRangeAttack(RangeFormulas.java:78)
+[2017-03-01 06:22:38] 	at com.mayhem.rs2.content.combat.impl.Ranged.execute(Ranged.java:41)
+[2017-03-01 06:22:38] 	at com.mayhem.rs2.content.combat.Combat.attack(Combat.java:92)
+[2017-03-01 06:22:38] 	at com.mayhem.rs2.content.combat.Combat.process(Combat.java:215)
+[2017-03-01 06:22:38] 	at com.mayhem.rs2.entity.player.Player.process(Player.java:1648)
+[2017-03-01 06:22:38] 	at com.mayhem.rs2.entity.World.process(World.java:322)
+[2017-03-01 06:22:38] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-01 06:22:38] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-01 06:22:38] java.lang.NullPointerException
+[2017-03-01 06:22:38] 	at com.mayhem.rs2.entity.player.net.Client.send(Client.java:329)
+[2017-03-01 06:22:38] 	at com.mayhem.rs2.entity.player.net.out.impl.SendLogout.execute(SendLogout.java:13)
+[2017-03-01 06:22:38] 	at com.mayhem.rs2.entity.player.Player.logout(Player.java:1572)
+[2017-03-01 06:22:38] 	at com.mayhem.rs2.entity.World.process(World.java:335)
+[2017-03-01 06:22:38] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-01 06:22:38] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-01 06:22:38] Failing to update Dottel highscores. Database could not connect.
+[2017-03-01 06:22:38] Failing to update Hidenskills highscores. Database could not connect.
+[2017-03-01 06:26:02] Failing to update Bink highscores. Database could not connect.
+[2017-03-01 06:56:12] Failing to update Alchemy highscores. Database could not connect.
+[2017-03-01 06:56:54] Failing to update Greedo highscores. Database could not connect.
+[2017-03-01 06:59:30] Failing to update Dottel highscores. Database could not connect.
+[2017-03-01 07:02:10] Failing to update Butt Cheeks highscores. Database could not connect.
+[2017-03-01 07:11:03] Failing to update Leo highscores. Database could not connect.
+[2017-03-01 07:17:05] Failing to update Quill highscores. Database could not connect.
+[2017-03-01 07:33:01] java.lang.NullPointerException
+[2017-03-01 07:33:01] 	at com.mayhem.rs2.entity.WalkToActions.finishObjectClick(WalkToActions.java:981)
+[2017-03-01 07:33:01] 	at com.mayhem.rs2.entity.WalkToActions$7.onDestination(WalkToActions.java:325)
+[2017-03-01 07:33:01] 	at com.mayhem.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2017-03-01 07:33:01] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-01 07:33:01] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-01 07:33:01] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-01 07:33:01] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-01 08:04:48] Failing to update Jeremy highscores. Database could not connect.
+[2017-03-01 08:15:22] Failing to update Skilldenchh highscores. Database could not connect.
+[2017-03-01 08:16:08] Failing to update Toodenchh highscores. Database could not connect.
+[2017-03-01 10:05:06] Failing to update Greedo highscores. Database could not connect.
+[2017-03-01 10:11:51] Failing to update Butt Cheeks highscores. Database could not connect.
+[2017-03-01 10:59:02] Failing to update Clue highscores. Database could not connect.
+[2017-03-01 11:04:08] Failing to update Greedo highscores. Database could not connect.
+[2017-03-01 11:06:25] Failing to update Zeus highscores. Database could not connect.
+[2017-03-01 11:10:58] Failing to update Butt Cheeks highscores. Database could not connect.
+[2017-03-01 11:21:48] Failing to update Zeus highscores. Database could not connect.
+[2017-03-01 11:31:04] Failing to update Clue highscores. Database could not connect.
+[2017-03-01 11:40:02] Failing to update Alpha highscores. Database could not connect.
+[2017-03-01 11:41:24] Failing to update Knuf highscores. Database could not connect.
+[2017-03-01 11:41:43] Failing to update Greedo highscores. Database could not connect.
+[2017-03-01 11:41:50] Failing to update Butt Cheeks highscores. Database could not connect.
+[2017-03-01 11:54:25] Failing to update Zeus highscores. Database could not connect.
+[2017-03-01 12:00:14] Failing to update Zeus highscores. Database could not connect.
+[2017-03-01 12:04:17] java.lang.NumberFormatException: For input string: "all"
+[2017-03-01 12:04:17] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2017-03-01 12:04:17] 	at java.lang.Long.parseLong(Unknown Source)
+[2017-03-01 12:04:17] 	at java.lang.Long.parseLong(Unknown Source)
+[2017-03-01 12:04:17] 	at com.mayhem.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:231)
+[2017-03-01 12:04:17] 	at com.mayhem.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:57)
+[2017-03-01 12:04:17] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-01 12:04:17] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-01 12:04:17] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-01 12:04:17] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-01 12:04:17] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-01 12:16:05] Failing to update Zeus highscores. Database could not connect.
+[2017-03-01 13:00:24] java.lang.NullPointerException
+[2017-03-01 13:00:24] 	at com.mayhem.rs2.content.skill.mining.Mining$Pickaxe.get(Mining.java:123)
+[2017-03-01 13:00:24] 	at com.mayhem.rs2.content.skill.mining.Mining.clickRock(Mining.java:235)
+[2017-03-01 13:00:24] 	at com.mayhem.rs2.entity.WalkToActions.finishObjectClick(WalkToActions.java:1163)
+[2017-03-01 13:00:24] 	at com.mayhem.rs2.entity.WalkToActions$7.onDestination(WalkToActions.java:325)
+[2017-03-01 13:00:24] 	at com.mayhem.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2017-03-01 13:00:24] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-01 13:00:24] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-01 13:00:24] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-01 13:00:24] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-01 13:00:27] java.lang.NullPointerException
+[2017-03-01 13:00:27] 	at com.mayhem.rs2.content.skill.mining.Mining$Pickaxe.get(Mining.java:123)
+[2017-03-01 13:00:27] 	at com.mayhem.rs2.content.skill.mining.Mining.clickRock(Mining.java:235)
+[2017-03-01 13:00:27] 	at com.mayhem.rs2.entity.WalkToActions.finishObjectClick(WalkToActions.java:1163)
+[2017-03-01 13:00:27] 	at com.mayhem.rs2.entity.WalkToActions$7.onDestination(WalkToActions.java:325)
+[2017-03-01 13:00:27] 	at com.mayhem.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2017-03-01 13:00:27] 	at com.mayhem.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2017-03-01 13:00:27] 	at com.mayhem.rs2.entity.WalkToActions.clickObject(WalkToActions.java:320)
+[2017-03-01 13:00:27] 	at com.mayhem.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:85)
+[2017-03-01 13:00:27] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-01 13:00:27] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-01 13:00:27] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-01 13:00:27] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-01 13:00:27] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-01 13:01:30] Failing to update Mod Andy highscores. Database could not connect.
+[2017-03-01 13:05:41] Failing to update Kz highscores. Database could not connect.
+[2017-03-01 13:05:43] Failing to update Butt Cheeks highscores. Database could not connect.
+[2017-03-01 13:08:50] Failing to update Squidward highscores. Database could not connect.
+[2017-03-01 13:09:09] Failing to update Invalid highscores. Database could not connect.
+[2017-03-01 13:09:10] Failing to update Ganja highscores. Database could not connect.
+[2017-03-01 13:13:05] Failing to update Andy highscores. Database could not connect.
+[2017-03-01 13:20:41] java.lang.NullPointerException
+[2017-03-01 13:20:41] 	at com.mayhem.rs2.content.skill.mining.Mining$Pickaxe.get(Mining.java:123)
+[2017-03-01 13:20:41] 	at com.mayhem.rs2.content.skill.mining.Mining.clickRock(Mining.java:235)
+[2017-03-01 13:20:41] 	at com.mayhem.rs2.entity.WalkToActions.finishObjectClick(WalkToActions.java:1163)
+[2017-03-01 13:20:41] 	at com.mayhem.rs2.entity.WalkToActions$7.onDestination(WalkToActions.java:325)
+[2017-03-01 13:20:41] 	at com.mayhem.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2017-03-01 13:20:41] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-01 13:20:41] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-01 13:20:41] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-01 13:20:41] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-01 13:20:45] java.lang.NullPointerException
+[2017-03-01 13:20:45] 	at com.mayhem.rs2.content.skill.mining.Mining$Pickaxe.get(Mining.java:123)
+[2017-03-01 13:20:45] 	at com.mayhem.rs2.content.skill.mining.Mining.clickRock(Mining.java:235)
+[2017-03-01 13:20:45] 	at com.mayhem.rs2.entity.WalkToActions.finishObjectClick(WalkToActions.java:1163)
+[2017-03-01 13:20:45] 	at com.mayhem.rs2.entity.WalkToActions$7.onDestination(WalkToActions.java:325)
+[2017-03-01 13:20:45] 	at com.mayhem.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2017-03-01 13:20:45] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-01 13:20:45] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-01 13:20:45] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-01 13:20:45] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-01 13:20:55] Failing to update Samurai highscores. Database could not connect.
+[2017-03-01 13:26:33] Failing to update Virus highscores. Database could not connect.
+[2017-03-01 13:30:29] Failing to update Squidward highscores. Database could not connect.
+[2017-03-01 13:38:46] Failing to update Skilldenchh highscores. Database could not connect.
+[2017-03-01 13:40:24] Failing to update Andy highscores. Database could not connect.
+[2017-03-01 13:43:05] Failing to update Squidward highscores. Database could not connect.
+[2017-03-01 13:52:07] Failing to update Skilldenchh highscores. Database could not connect.
+[2017-03-01 14:30:34] Failing to update Virus highscores. Database could not connect.
+[2017-03-01 14:45:12] Failing to update Squidward highscores. Database could not connect.
+[2017-03-01 15:09:25] java.lang.NullPointerException
+[2017-03-01 15:09:25] 	at com.mayhem.rs2.entity.WalkToActions.finishObjectClick(WalkToActions.java:981)
+[2017-03-01 15:09:25] 	at com.mayhem.rs2.entity.WalkToActions$7.onDestination(WalkToActions.java:325)
+[2017-03-01 15:09:25] 	at com.mayhem.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2017-03-01 15:09:25] 	at com.mayhem.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2017-03-01 15:09:25] 	at com.mayhem.rs2.entity.WalkToActions.clickObject(WalkToActions.java:320)
+[2017-03-01 15:09:25] 	at com.mayhem.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:85)
+[2017-03-01 15:09:25] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-01 15:09:25] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-01 15:09:25] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-01 15:09:25] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-01 15:09:25] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-01 15:09:45] java.lang.NullPointerException
+[2017-03-01 15:09:45] 	at com.mayhem.rs2.entity.WalkToActions.finishObjectClick(WalkToActions.java:981)
+[2017-03-01 15:09:45] 	at com.mayhem.rs2.entity.WalkToActions$7.onDestination(WalkToActions.java:325)
+[2017-03-01 15:09:45] 	at com.mayhem.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2017-03-01 15:09:45] 	at com.mayhem.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2017-03-01 15:09:45] 	at com.mayhem.rs2.entity.WalkToActions.clickObject(WalkToActions.java:320)
+[2017-03-01 15:09:45] 	at com.mayhem.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:85)
+[2017-03-01 15:09:45] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-01 15:09:45] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-01 15:09:45] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-01 15:09:45] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-01 15:09:45] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-01 15:09:49] java.lang.NullPointerException
+[2017-03-01 15:09:49] 	at com.mayhem.rs2.entity.WalkToActions.finishObjectClick(WalkToActions.java:981)
+[2017-03-01 15:09:49] 	at com.mayhem.rs2.entity.WalkToActions$7.onDestination(WalkToActions.java:325)
+[2017-03-01 15:09:49] 	at com.mayhem.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2017-03-01 15:09:49] 	at com.mayhem.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2017-03-01 15:09:49] 	at com.mayhem.rs2.entity.WalkToActions.clickObject(WalkToActions.java:320)
+[2017-03-01 15:09:49] 	at com.mayhem.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:85)
+[2017-03-01 15:09:49] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-01 15:09:49] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-01 15:09:49] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-01 15:09:49] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-01 15:09:49] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-01 15:09:51] java.lang.NullPointerException
+[2017-03-01 15:09:51] 	at com.mayhem.rs2.entity.WalkToActions.finishObjectClick(WalkToActions.java:981)
+[2017-03-01 15:09:51] 	at com.mayhem.rs2.entity.WalkToActions$7.onDestination(WalkToActions.java:325)
+[2017-03-01 15:09:51] 	at com.mayhem.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2017-03-01 15:09:51] 	at com.mayhem.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2017-03-01 15:09:51] 	at com.mayhem.rs2.entity.WalkToActions.clickObject(WalkToActions.java:320)
+[2017-03-01 15:09:51] 	at com.mayhem.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:85)
+[2017-03-01 15:09:51] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-01 15:09:51] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-01 15:09:51] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-01 15:09:51] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-01 15:09:51] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-01 15:09:55] java.lang.NullPointerException
+[2017-03-01 15:09:55] 	at com.mayhem.rs2.entity.WalkToActions.finishObjectClick(WalkToActions.java:981)
+[2017-03-01 15:09:55] 	at com.mayhem.rs2.entity.WalkToActions$7.onDestination(WalkToActions.java:325)
+[2017-03-01 15:09:55] 	at com.mayhem.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2017-03-01 15:09:55] 	at com.mayhem.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2017-03-01 15:09:55] 	at com.mayhem.rs2.entity.WalkToActions.clickObject(WalkToActions.java:320)
+[2017-03-01 15:09:55] 	at com.mayhem.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:85)
+[2017-03-01 15:09:55] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-01 15:09:55] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-01 15:09:55] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-01 15:09:55] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-01 15:09:55] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-01 15:17:52] Failing to update Angel highscores. Database could not connect.
+[2017-03-01 15:44:56] Failing to update Samurai highscores. Database could not connect.
+[2017-03-01 16:02:42] Failing to update Squidward highscores. Database could not connect.
+[2017-03-01 16:08:27] Failing to update Quill highscores. Database could not connect.
+[2017-03-01 16:12:29] Failing to update Squidward highscores. Database could not connect.
+[2017-03-01 16:15:15] Failing to update Virus highscores. Database could not connect.
+[2017-03-01 16:21:00] java.lang.NullPointerException
+[2017-03-01 16:21:00] 	at com.mayhem.rs2.content.DropTable.displayNpc(DropTable.java:177)
+[2017-03-01 16:21:00] 	at com.mayhem.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:134)
+[2017-03-01 16:21:00] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-01 16:21:00] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-01 16:21:00] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-01 16:21:00] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-01 16:21:00] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-01 16:30:31] Failing to update Skilldenchh highscores. Database could not connect.
+[2017-03-01 16:31:31] Failing to update Toodenchh highscores. Database could not connect.
+[2017-03-01 16:34:39] Failing to update Kreation highscores. Database could not connect.
+[2017-03-01 16:35:13] Failing to update Zeus highscores. Database could not connect.
+[2017-03-01 16:38:15] Failing to update Toodenchh highscores. Database could not connect.
+[2017-03-01 16:38:48] java.lang.NullPointerException
+[2017-03-01 16:38:48] 	at com.mayhem.rs2.content.DropTable.displayNpc(DropTable.java:177)
+[2017-03-01 16:38:48] 	at com.mayhem.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:134)
+[2017-03-01 16:38:48] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-01 16:38:48] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-01 16:38:48] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-01 16:38:48] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-01 16:38:48] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-01 16:38:51] Failing to update Skilldenchh highscores. Database could not connect.
+[2017-03-01 16:44:50] Failing to update Angel highscores. Database could not connect.
+[2017-03-01 16:44:51] Failing to update Rs God highscores. Database could not connect.
+[2017-03-01 16:46:32] Failing to update Kreation highscores. Database could not connect.
+[2017-03-01 16:46:40] java.lang.NumberFormatException: For input string: "toodenchh"
+[2017-03-01 16:46:40] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2017-03-01 16:46:40] 	at java.lang.Integer.parseInt(Unknown Source)
+[2017-03-01 16:46:40] 	at java.lang.Integer.parseInt(Unknown Source)
+[2017-03-01 16:46:40] 	at com.mayhem.rs2.entity.player.net.in.command.CommandParser.nextInt(CommandParser.java:46)
+[2017-03-01 16:46:40] 	at com.mayhem.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:233)
+[2017-03-01 16:46:40] 	at com.mayhem.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:57)
+[2017-03-01 16:46:40] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-01 16:46:40] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-01 16:46:40] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-01 16:46:40] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-01 16:46:40] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-01 16:53:15] Failing to update Quill highscores. Database could not connect.
+[2017-03-01 17:11:06] Failing to update Toodenchh highscores. Database could not connect.
+[2017-03-01 17:53:50] Failing to update Leo highscores. Database could not connect.
+[2017-03-01 18:00:47] java.lang.IndexOutOfBoundsException: Readable byte limit exceeded: 12
+[2017-03-01 18:00:47] 	at org.jboss.netty.buffer.AbstractChannelBuffer.readByte(AbstractChannelBuffer.java:236)
+[2017-03-01 18:00:47] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:120)
+[2017-03-01 18:00:47] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:107)
+[2017-03-01 18:00:47] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:467)
+[2017-03-01 18:00:47] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:412)
+[2017-03-01 18:00:47] 	at com.mayhem.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:852)
+[2017-03-01 18:00:47] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-01 18:00:47] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-01 18:00:47] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-01 18:00:47] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-01 18:00:47] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-01 18:04:15] Failing to update Bink highscores. Database could not connect.
+[2017-03-01 18:38:02] Failing to update Alchemy highscores. Database could not connect.
+[2017-03-01 18:44:04] Failing to update Unholy One highscores. Database could not connect.
+[2017-03-01 18:44:55] Failing to update Alchemy highscores. Database could not connect.
+[2017-03-01 18:45:40] Failing to update Quill highscores. Database could not connect.
+[2017-03-01 18:51:06] Failing to update Squidward highscores. Database could not connect.
+[2017-03-01 18:57:47] java.lang.NullPointerException
+[2017-03-01 18:57:47] 	at com.mayhem.rs2.entity.WalkToActions.finishObjectClick(WalkToActions.java:981)
+[2017-03-01 18:57:47] 	at com.mayhem.rs2.entity.WalkToActions$7.onDestination(WalkToActions.java:325)
+[2017-03-01 18:57:47] 	at com.mayhem.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2017-03-01 18:57:47] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-01 18:57:47] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-01 18:57:47] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-01 18:57:47] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-01 18:57:49] java.lang.NullPointerException
+[2017-03-01 18:57:49] 	at com.mayhem.rs2.entity.WalkToActions.finishObjectClick(WalkToActions.java:981)
+[2017-03-01 18:57:49] 	at com.mayhem.rs2.entity.WalkToActions$7.onDestination(WalkToActions.java:325)
+[2017-03-01 18:57:49] 	at com.mayhem.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2017-03-01 18:57:49] 	at com.mayhem.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2017-03-01 18:57:49] 	at com.mayhem.rs2.entity.WalkToActions.clickObject(WalkToActions.java:320)
+[2017-03-01 18:57:49] 	at com.mayhem.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:85)
+[2017-03-01 18:57:49] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-01 18:57:49] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-01 18:57:49] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-01 18:57:49] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-01 18:57:49] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-01 19:02:13] Failing to update Unholy One highscores. Database could not connect.
+[2017-03-01 19:17:00] Failing to update Spyro highscores. Database could not connect.
+[2017-03-01 19:18:25] Failing to update Iron Karl highscores. Database could not connect.
+[2017-03-01 19:21:06] Failing to update Spyro highscores. Database could not connect.
+[2017-03-01 19:22:52] Failing to update Toodenchh highscores. Database could not connect.
+[2017-03-01 19:22:59] Failing to update Rs God highscores. Database could not connect.
+[2017-03-01 19:26:15] Failing to update Butt Cheeks highscores. Database could not connect.
+[2017-03-01 19:26:18] Failing to update Kz highscores. Database could not connect.
+[2017-03-01 19:26:35] Failing to update Butt Cheeks highscores. Database could not connect.
+[2017-03-01 19:27:03] Failing to update Spongebob highscores. Database could not connect.
+[2017-03-01 19:31:58] Failing to update Virus highscores. Database could not connect.
+[2017-03-01 19:34:27] Failing to update Chris highscores. Database could not connect.
+[2017-03-01 19:39:10] Failing to update Nikro highscores. Database could not connect.
+[2017-03-01 19:41:41] Failing to update Bink highscores. Database could not connect.
+[2017-03-01 19:41:41] Failing to update Alchemy highscores. Database could not connect.
+[2017-03-01 19:41:50] Failing to update Toodenchh highscores. Database could not connect.
+[2017-03-01 19:41:50] Failing to update Saint Divine highscores. Database could not connect.
+[2017-03-01 19:41:50] Failing to update Case101 highscores. Database could not connect.
+[2017-03-01 19:41:50] Failing to update Angel highscores. Database could not connect.
+[2017-03-01 19:41:50] Failing to update Matt highscores. Database could not connect.
+[2017-03-01 19:41:50] Failing to update Mrshower highscores. Database could not connect.
+[2017-03-01 19:41:50] Failing to update Mod Divine highscores. Database could not connect.
+[2017-03-01 19:41:50] Failing to update Quill highscores. Database could not connect.

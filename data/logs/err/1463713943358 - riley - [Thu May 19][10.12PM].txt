@@ -1,0 +1,18 @@
+Logging started at 2016-05-19 22:12:23
+File name: C:\Users\riley\Desktop\os\server\.\data\logs\err\1463713943358 - riley - [Thu May 19][10.12PM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2016-05-19 22:13:03] java.lang.NullPointerException
+[2016-05-19 22:13:03] 	at com.mayhem.rs2.entity.player.net.Client.send(Client.java:329)
+[2016-05-19 22:13:03] 	at com.mayhem.rs2.entity.player.net.out.impl.SendMapRegion.execute(SendMapRegion.java:24)
+[2016-05-19 22:13:03] 	at com.mayhem.rs2.entity.player.net.out.impl.SendLoginResponse.execute(SendLoginResponse.java:25)
+[2016-05-19 22:13:03] 	at com.mayhem.rs2.entity.player.Player.login(Player.java:1227)
+[2016-05-19 22:13:03] 	at com.mayhem.core.LoginThread.cycle(LoginThread.java:42)
+[2016-05-19 22:13:03] 	at com.mayhem.core.LoginThread.run(LoginThread.java:83)
+[2016-05-19 22:13:03] java.lang.NullPointerException
+[2016-05-19 22:13:03] 	at com.mayhem.rs2.entity.player.net.Client.send(Client.java:329)
+[2016-05-19 22:13:03] 	at com.mayhem.rs2.entity.player.net.out.impl.SendDetails.execute(SendDetails.java:22)
+[2016-05-19 22:13:03] 	at com.mayhem.rs2.entity.player.net.out.impl.SendLoginResponse.execute(SendLoginResponse.java:26)
+[2016-05-19 22:13:03] 	at com.mayhem.rs2.entity.player.Player.login(Player.java:1227)
+[2016-05-19 22:13:03] 	at com.mayhem.core.LoginThread.cycle(LoginThread.java:42)
+[2016-05-19 22:13:03] 	at com.mayhem.core.LoginThread.run(LoginThread.java:83)

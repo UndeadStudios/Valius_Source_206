@@ -1,0 +1,5 @@
+Logging started at 2017-02-17 23:56:12
+File name: C:\Users\travi\Dropbox\Valius\Valius Source\.\data\logs\err\1487393770705 - travi - [Fri Feb 17][11.56PM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2017-02-18 00:06:38] Failing to update Mod Divine highscores. Database could not connect.

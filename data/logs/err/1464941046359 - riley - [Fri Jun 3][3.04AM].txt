@@ -1,0 +1,11 @@
+Logging started at 2016-06-03 03:04:06
+File name: C:\Users\riley\Desktop\os\currentserver\.\data\logs\err\1464941046359 - riley - [Fri Jun 3][3.04AM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2016-06-03 03:05:20] java.lang.NullPointerException
+[2016-06-03 03:05:20] 	at com.mayhem.rs2.content.combat.impl.PlayerDrops.dropItemsOnDeath(PlayerDrops.java:93)
+[2016-06-03 03:05:20] 	at com.mayhem.core.task.impl.PlayerDeathTask.execute(PlayerDeathTask.java:70)
+[2016-06-03 03:05:20] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2016-06-03 03:05:20] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2016-06-03 03:05:20] 	at com.mayhem.core.GameThread.cycle(GameThread.java:116)
+[2016-06-03 03:05:20] 	at com.mayhem.core.GameThread.run(GameThread.java:139)

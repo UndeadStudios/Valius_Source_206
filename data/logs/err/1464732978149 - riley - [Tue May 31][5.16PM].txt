@@ -1,0 +1,154 @@
+Logging started at 2016-05-31 17:16:18
+File name: C:\Users\riley\Desktop\os\server\.\data\logs\err\1464732978149 - riley - [Tue May 31][5.16PM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2016-05-31 17:24:07] com.thoughtworks.xstream.converters.ConversionException: For input string: " 13576 " : For input string: " 13576 "
+---- Debugging information ----
+message             : For input string: " 13576 "
+cause-exception     : java.lang.NumberFormatException
+cause-message       : For input string: " 13576 "
+class               : java.util.ArrayList
+required-type       : java.lang.Short
+path                : /list/SpecialAttackDefinition[2]/id
+line number         : 11
+-------------------------------
+[2016-05-31 17:24:07] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:89)
+[2016-05-31 17:24:07] 	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:63)
+[2016-05-31 17:24:07] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:76)
+[2016-05-31 17:24:07] 	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.unmarshallField(AbstractReflectionConverter.java:246)
+[2016-05-31 17:24:07] 	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.doUnmarshal(AbstractReflectionConverter.java:218)
+[2016-05-31 17:24:07] 	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.unmarshal(AbstractReflectionConverter.java:162)
+[2016-05-31 17:24:07] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:82)
+[2016-05-31 17:24:07] 	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:63)
+[2016-05-31 17:24:07] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:76)
+[2016-05-31 17:24:07] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:60)
+[2016-05-31 17:24:07] 	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:71)
+[2016-05-31 17:24:07] 	at com.thoughtworks.xstream.converters.collections.CollectionConverter.populateCollection(CollectionConverter.java:68)
+[2016-05-31 17:24:07] 	at com.thoughtworks.xstream.converters.collections.CollectionConverter.unmarshal(CollectionConverter.java:61)
+[2016-05-31 17:24:07] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:82)
+[2016-05-31 17:24:07] 	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:63)
+[2016-05-31 17:24:07] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:76)
+[2016-05-31 17:24:07] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:60)
+[2016-05-31 17:24:07] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.start(TreeUnmarshaller.java:137)
+[2016-05-31 17:24:07] 	at com.thoughtworks.xstream.core.AbstractTreeMarshallingStrategy.unmarshal(AbstractTreeMarshallingStrategy.java:33)
+[2016-05-31 17:24:07] 	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:923)
+[2016-05-31 17:24:07] 	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:909)
+[2016-05-31 17:24:07] 	at com.thoughtworks.xstream.XStream.fromXML(XStream.java:861)
+[2016-05-31 17:24:07] 	at com.mayhem.core.util.GameDefinitionLoader.loadSpecialAttackDefinitions(GameDefinitionLoader.java:802)
+[2016-05-31 17:24:07] 	at com.mayhem.rs2.entity.player.net.in.command.impl.DeveloperCommand.handleCommand(DeveloperCommand.java:914)
+[2016-05-31 17:24:07] 	at com.mayhem.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-05-31 17:24:07] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-05-31 17:24:07] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-05-31 17:24:07] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2016-05-31 17:24:07] 	at com.mayhem.core.GameThread.cycle(GameThread.java:124)
+[2016-05-31 17:24:07] 	at com.mayhem.core.GameThread.run(GameThread.java:139)
+[2016-05-31 17:24:07] Caused by: java.lang.NumberFormatException: For input string: " 13576 "
+[2016-05-31 17:24:07] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2016-05-31 17:24:07] 	at java.lang.Integer.parseInt(Unknown Source)
+[2016-05-31 17:24:07] 	at java.lang.Integer.valueOf(Unknown Source)
+[2016-05-31 17:24:07] 	at java.lang.Integer.decode(Unknown Source)
+[2016-05-31 17:24:07] 	at com.thoughtworks.xstream.converters.basic.ShortConverter.fromString(ShortConverter.java:27)
+[2016-05-31 17:24:07] 	at com.thoughtworks.xstream.converters.SingleValueConverterWrapper.fromString(SingleValueConverterWrapper.java:41)
+[2016-05-31 17:24:07] 	at com.thoughtworks.xstream.converters.SingleValueConverterWrapper.unmarshal(SingleValueConverterWrapper.java:49)
+[2016-05-31 17:24:07] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:82)
+[2016-05-31 17:24:07] 	... 29 more
+[2016-05-31 17:24:22] com.thoughtworks.xstream.converters.ConversionException: For input string: " 13576 " : For input string: " 13576 "
+---- Debugging information ----
+message             : For input string: " 13576 "
+cause-exception     : java.lang.NumberFormatException
+cause-message       : For input string: " 13576 "
+class               : java.util.ArrayList
+required-type       : java.lang.Short
+path                : /list/SpecialAttackDefinition[2]/id
+line number         : 11
+-------------------------------
+[2016-05-31 17:24:22] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:89)
+[2016-05-31 17:24:22] 	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:63)
+[2016-05-31 17:24:22] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:76)
+[2016-05-31 17:24:22] 	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.unmarshallField(AbstractReflectionConverter.java:246)
+[2016-05-31 17:24:22] 	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.doUnmarshal(AbstractReflectionConverter.java:218)
+[2016-05-31 17:24:22] 	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.unmarshal(AbstractReflectionConverter.java:162)
+[2016-05-31 17:24:22] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:82)
+[2016-05-31 17:24:22] 	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:63)
+[2016-05-31 17:24:22] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:76)
+[2016-05-31 17:24:22] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:60)
+[2016-05-31 17:24:22] 	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:71)
+[2016-05-31 17:24:22] 	at com.thoughtworks.xstream.converters.collections.CollectionConverter.populateCollection(CollectionConverter.java:68)
+[2016-05-31 17:24:22] 	at com.thoughtworks.xstream.converters.collections.CollectionConverter.unmarshal(CollectionConverter.java:61)
+[2016-05-31 17:24:22] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:82)
+[2016-05-31 17:24:22] 	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:63)
+[2016-05-31 17:24:22] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:76)
+[2016-05-31 17:24:22] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:60)
+[2016-05-31 17:24:22] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.start(TreeUnmarshaller.java:137)
+[2016-05-31 17:24:22] 	at com.thoughtworks.xstream.core.AbstractTreeMarshallingStrategy.unmarshal(AbstractTreeMarshallingStrategy.java:33)
+[2016-05-31 17:24:22] 	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:923)
+[2016-05-31 17:24:22] 	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:909)
+[2016-05-31 17:24:22] 	at com.thoughtworks.xstream.XStream.fromXML(XStream.java:861)
+[2016-05-31 17:24:22] 	at com.mayhem.core.util.GameDefinitionLoader.loadSpecialAttackDefinitions(GameDefinitionLoader.java:802)
+[2016-05-31 17:24:22] 	at com.mayhem.rs2.entity.player.net.in.command.impl.DeveloperCommand.handleCommand(DeveloperCommand.java:914)
+[2016-05-31 17:24:22] 	at com.mayhem.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-05-31 17:24:22] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-05-31 17:24:22] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-05-31 17:24:22] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2016-05-31 17:24:22] 	at com.mayhem.core.GameThread.cycle(GameThread.java:124)
+[2016-05-31 17:24:22] 	at com.mayhem.core.GameThread.run(GameThread.java:139)
+[2016-05-31 17:24:22] Caused by: java.lang.NumberFormatException: For input string: " 13576 "
+[2016-05-31 17:24:22] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2016-05-31 17:24:22] 	at java.lang.Integer.parseInt(Unknown Source)
+[2016-05-31 17:24:22] 	at java.lang.Integer.valueOf(Unknown Source)
+[2016-05-31 17:24:22] 	at java.lang.Integer.decode(Unknown Source)
+[2016-05-31 17:24:22] 	at com.thoughtworks.xstream.converters.basic.ShortConverter.fromString(ShortConverter.java:27)
+[2016-05-31 17:24:22] 	at com.thoughtworks.xstream.converters.SingleValueConverterWrapper.fromString(SingleValueConverterWrapper.java:41)
+[2016-05-31 17:24:22] 	at com.thoughtworks.xstream.converters.SingleValueConverterWrapper.unmarshal(SingleValueConverterWrapper.java:49)
+[2016-05-31 17:24:22] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:82)
+[2016-05-31 17:24:22] 	... 29 more
+[2016-05-31 17:24:24] com.thoughtworks.xstream.converters.ConversionException: For input string: " 13576 " : For input string: " 13576 "
+---- Debugging information ----
+message             : For input string: " 13576 "
+cause-exception     : java.lang.NumberFormatException
+cause-message       : For input string: " 13576 "
+class               : java.util.ArrayList
+required-type       : java.lang.Short
+path                : /list/SpecialAttackDefinition[2]/id
+line number         : 11
+-------------------------------
+[2016-05-31 17:24:24] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:89)
+[2016-05-31 17:24:24] 	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:63)
+[2016-05-31 17:24:24] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:76)
+[2016-05-31 17:24:24] 	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.unmarshallField(AbstractReflectionConverter.java:246)
+[2016-05-31 17:24:24] 	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.doUnmarshal(AbstractReflectionConverter.java:218)
+[2016-05-31 17:24:24] 	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.unmarshal(AbstractReflectionConverter.java:162)
+[2016-05-31 17:24:24] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:82)
+[2016-05-31 17:24:24] 	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:63)
+[2016-05-31 17:24:24] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:76)
+[2016-05-31 17:24:24] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:60)
+[2016-05-31 17:24:24] 	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:71)
+[2016-05-31 17:24:24] 	at com.thoughtworks.xstream.converters.collections.CollectionConverter.populateCollection(CollectionConverter.java:68)
+[2016-05-31 17:24:24] 	at com.thoughtworks.xstream.converters.collections.CollectionConverter.unmarshal(CollectionConverter.java:61)
+[2016-05-31 17:24:24] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:82)
+[2016-05-31 17:24:24] 	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:63)
+[2016-05-31 17:24:24] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:76)
+[2016-05-31 17:24:24] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:60)
+[2016-05-31 17:24:24] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.start(TreeUnmarshaller.java:137)
+[2016-05-31 17:24:24] 	at com.thoughtworks.xstream.core.AbstractTreeMarshallingStrategy.unmarshal(AbstractTreeMarshallingStrategy.java:33)
+[2016-05-31 17:24:24] 	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:923)
+[2016-05-31 17:24:24] 	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:909)
+[2016-05-31 17:24:24] 	at com.thoughtworks.xstream.XStream.fromXML(XStream.java:861)
+[2016-05-31 17:24:24] 	at com.mayhem.core.util.GameDefinitionLoader.loadSpecialAttackDefinitions(GameDefinitionLoader.java:802)
+[2016-05-31 17:24:24] 	at com.mayhem.rs2.entity.player.net.in.command.impl.DeveloperCommand.handleCommand(DeveloperCommand.java:914)
+[2016-05-31 17:24:24] 	at com.mayhem.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-05-31 17:24:24] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-05-31 17:24:24] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-05-31 17:24:24] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2016-05-31 17:24:24] 	at com.mayhem.core.GameThread.cycle(GameThread.java:124)
+[2016-05-31 17:24:24] 	at com.mayhem.core.GameThread.run(GameThread.java:139)
+[2016-05-31 17:24:24] Caused by: java.lang.NumberFormatException: For input string: " 13576 "
+[2016-05-31 17:24:24] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2016-05-31 17:24:24] 	at java.lang.Integer.parseInt(Unknown Source)
+[2016-05-31 17:24:24] 	at java.lang.Integer.valueOf(Unknown Source)
+[2016-05-31 17:24:24] 	at java.lang.Integer.decode(Unknown Source)
+[2016-05-31 17:24:24] 	at com.thoughtworks.xstream.converters.basic.ShortConverter.fromString(ShortConverter.java:27)
+[2016-05-31 17:24:24] 	at com.thoughtworks.xstream.converters.SingleValueConverterWrapper.fromString(SingleValueConverterWrapper.java:41)
+[2016-05-31 17:24:24] 	at com.thoughtworks.xstream.converters.SingleValueConverterWrapper.unmarshal(SingleValueConverterWrapper.java:49)
+[2016-05-31 17:24:24] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:82)
+[2016-05-31 17:24:24] 	... 29 more

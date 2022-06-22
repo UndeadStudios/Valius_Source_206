@@ -1,0 +1,20 @@
+Logging started at 2017-02-21 08:27:05
+File name: C:\Users\Administrator\Dropbox\Valius\Valius Source\.\data\logs\err\1487662025117 - Administrator - [Tue Feb 21][8.27AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-02-21 08:39:08] Didn't save hiscores for Eclipsedsm
+[2017-02-21 08:46:54] java.lang.NullPointerException
+[2017-02-21 08:46:54] 	at com.mayhem.core.cache.map.Region.setClipToZero(Region.java:685)
+[2017-02-21 08:46:54] 	at com.mayhem.rs2.entity.object.ObjectManager.setClipToZero(ObjectManager.java:1195)
+[2017-02-21 08:46:54] 	at com.mayhem.rs2.content.skill.firemaking.FireTask.<init>(FireTask.java:19)
+[2017-02-21 08:46:54] 	at com.mayhem.rs2.content.skill.firemaking.Firemaking.successfullFiremake(Firemaking.java:131)
+[2017-02-21 08:46:54] 	at com.mayhem.rs2.content.skill.firemaking.Firemaking.execute(Firemaking.java:108)
+[2017-02-21 08:46:54] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-02-21 08:46:54] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-02-21 08:46:54] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-02-21 08:46:54] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-21 08:48:49] Didn't save hiscores for Eclipsedsm
+[2017-02-21 08:48:54] Didn't save hiscores for Mod divine
+[2017-02-21 08:48:54] Didn't save hiscores for Mod divine
+[2017-02-21 08:48:54] Didn't save hiscores for Krunk
+[2017-02-21 08:48:54] Didn't save hiscores for Raziel

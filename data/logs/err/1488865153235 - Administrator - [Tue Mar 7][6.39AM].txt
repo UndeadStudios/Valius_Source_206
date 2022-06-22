@@ -1,0 +1,15 @@
+Logging started at 2017-03-07 06:39:13
+File name: C:\Users\Administrator\Dropbox\Valius\Valius Source\.\data\logs\err\1488865153235 - Administrator - [Tue Mar 7][6.39AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-03-07 06:43:35] java.lang.IllegalStateException: unprepared
+[2017-03-07 06:43:35] 	at com.mayhem.core.network.mysql.MembershipRewards.collectReward(MembershipRewards.java:38)
+[2017-03-07 06:43:35] 	at com.mayhem.rs2.content.dialogue.impl.MembershipDialogue.execute(MembershipDialogue.java:70)
+[2017-03-07 06:43:35] 	at com.mayhem.rs2.entity.player.net.in.impl.ChatInterfacePacket.handleDialogue(ChatInterfacePacket.java:47)
+[2017-03-07 06:43:35] 	at com.mayhem.rs2.entity.player.net.in.impl.ChatInterfacePacket.handle(ChatInterfacePacket.java:33)
+[2017-03-07 06:43:35] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-07 06:43:35] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-07 06:43:35] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-07 06:43:35] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-07 06:43:35] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-07 06:56:06] Didn't save hiscores for [EXTREME]Mod divine

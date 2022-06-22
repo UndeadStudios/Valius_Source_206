@@ -1,0 +1,14 @@
+Logging started at 2016-05-17 20:18:08
+File name: C:\Users\riley\Desktop\os\server\.\data\logs\err\1463534288633 - riley - [Tue May 17][8.18PM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2016-05-17 20:19:00] java.sql.SQLException: Parameter index out of range (26 > number of parameters, which is 25).
+[2016-05-17 20:19:00] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1055)
+[2016-05-17 20:19:00] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+[2016-05-17 20:19:00] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:926)
+[2016-05-17 20:19:00] 	at com.mysql.jdbc.PreparedStatement.checkBounds(PreparedStatement.java:3326)
+[2016-05-17 20:19:00] 	at com.mysql.jdbc.PreparedStatement.setInternal(PreparedStatement.java:3310)
+[2016-05-17 20:19:00] 	at com.mysql.jdbc.PreparedStatement.setInternal(PreparedStatement.java:3352)
+[2016-05-17 20:19:00] 	at com.mysql.jdbc.PreparedStatement.setInt(PreparedStatement.java:3296)
+[2016-05-17 20:19:00] 	at com.mayhem.core.network.mysql.Highscores.run(Highscores.java:58)
+[2016-05-17 20:19:00] 	at java.lang.Thread.run(Unknown Source)

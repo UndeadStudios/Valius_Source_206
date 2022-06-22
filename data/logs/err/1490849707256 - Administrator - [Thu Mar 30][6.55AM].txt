@@ -1,0 +1,71 @@
+Logging started at 2017-03-30 06:55:07
+File name: C:\Users\Administrator\Dropbox\Valius\Valius Source\.\data\logs\err\1490849707256 - Administrator - [Thu Mar 30][6.55AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-03-30 07:03:52] Didn't save hiscores for [EXTREME]Mod divine
+[2017-03-30 21:29:09] java.lang.NullPointerException
+[2017-03-30 21:29:09] 	at com.mayhem.rs2.content.DropTable.displayNpc(DropTable.java:177)
+[2017-03-30 21:29:09] 	at com.mayhem.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:134)
+[2017-03-30 21:29:09] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-30 21:29:09] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-30 21:29:09] 	at com.mayhem.rs2.entity.World.process(World.java:322)
+[2017-03-30 21:29:09] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-30 21:29:09] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-31 01:30:59] Didn't save hiscores for [EXTREME]Mod divine
+[2017-03-31 02:00:37] java.lang.IndexOutOfBoundsException: Index: 10, Size: 8
+[2017-03-31 02:00:37] 	at java.util.LinkedList.checkElementIndex(Unknown Source)
+[2017-03-31 02:00:37] 	at java.util.LinkedList.get(Unknown Source)
+[2017-03-31 02:00:37] 	at com.mayhem.rs2.entity.player.net.in.impl.InterfaceAction.handle(InterfaceAction.java:88)
+[2017-03-31 02:00:37] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-31 02:00:37] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-31 02:00:37] 	at com.mayhem.rs2.entity.World.process(World.java:322)
+[2017-03-31 02:00:37] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-31 02:00:37] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-31 02:00:37] java.lang.IndexOutOfBoundsException: Index: 10, Size: 8
+[2017-03-31 02:00:37] 	at java.util.LinkedList.checkElementIndex(Unknown Source)
+[2017-03-31 02:00:37] 	at java.util.LinkedList.get(Unknown Source)
+[2017-03-31 02:00:37] 	at com.mayhem.rs2.entity.player.net.in.impl.InterfaceAction.handle(InterfaceAction.java:88)
+[2017-03-31 02:00:37] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-31 02:00:37] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-31 02:00:37] 	at com.mayhem.rs2.entity.World.process(World.java:322)
+[2017-03-31 02:00:37] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-31 02:00:37] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-31 03:37:35] java.lang.NumberFormatException: For input string: "-1]"
+[2017-03-31 03:37:35] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2017-03-31 03:37:35] 	at java.lang.Integer.parseInt(Unknown Source)
+[2017-03-31 03:37:35] 	at java.lang.Integer.parseInt(Unknown Source)
+[2017-03-31 03:37:35] 	at com.mayhem.rs2.entity.player.net.in.command.CommandParser.nextInt(CommandParser.java:46)
+[2017-03-31 03:37:35] 	at com.mayhem.rs2.entity.player.net.in.command.impl.DeveloperCommand.handleCommand(DeveloperCommand.java:867)
+[2017-03-31 03:37:35] 	at com.mayhem.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:57)
+[2017-03-31 03:37:35] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-31 03:37:35] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-31 03:37:35] 	at com.mayhem.rs2.entity.World.process(World.java:322)
+[2017-03-31 03:37:35] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-31 03:37:35] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-31 03:37:38] java.lang.NullPointerException
+[2017-03-31 03:37:38] 	at com.mayhem.rs2.entity.player.net.in.command.impl.DeveloperCommand.handleCommand(DeveloperCommand.java:884)
+[2017-03-31 03:37:38] 	at com.mayhem.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:57)
+[2017-03-31 03:37:38] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-31 03:37:38] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-31 03:37:38] 	at com.mayhem.rs2.entity.World.process(World.java:322)
+[2017-03-31 03:37:38] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-31 03:37:38] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-31 03:46:00] java.lang.IndexOutOfBoundsException: Index: 3, Size: 1
+[2017-03-31 03:46:00] 	at java.util.LinkedList.checkElementIndex(Unknown Source)
+[2017-03-31 03:46:00] 	at java.util.LinkedList.get(Unknown Source)
+[2017-03-31 03:46:00] 	at com.mayhem.rs2.entity.player.net.in.impl.InterfaceAction.handle(InterfaceAction.java:88)
+[2017-03-31 03:46:00] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-31 03:46:00] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-31 03:46:00] 	at com.mayhem.rs2.entity.World.process(World.java:322)
+[2017-03-31 03:46:00] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-31 03:46:00] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-31 03:46:00] java.lang.IndexOutOfBoundsException: Index: 3, Size: 1
+[2017-03-31 03:46:00] 	at java.util.LinkedList.checkElementIndex(Unknown Source)
+[2017-03-31 03:46:00] 	at java.util.LinkedList.get(Unknown Source)
+[2017-03-31 03:46:00] 	at com.mayhem.rs2.entity.player.net.in.impl.InterfaceAction.handle(InterfaceAction.java:88)
+[2017-03-31 03:46:00] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-31 03:46:00] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-31 03:46:00] 	at com.mayhem.rs2.entity.World.process(World.java:322)
+[2017-03-31 03:46:00] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-31 03:46:00] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-31 07:26:18] Didn't save hiscores for [EXTREME]Mod divine

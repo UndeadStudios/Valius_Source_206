@@ -1,0 +1,13 @@
+Logging started at 2016-05-17 21:04:45
+File name: C:\Users\riley\Desktop\os\server\.\data\logs\err\1463537085357 - riley - [Tue May 17][9.04PM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2016-05-17 21:05:13] java.sql.SQLException: No value specified for parameter 49
+[2016-05-17 21:05:13] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1055)
+[2016-05-17 21:05:13] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+[2016-05-17 21:05:13] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:926)
+[2016-05-17 21:05:13] 	at com.mysql.jdbc.PreparedStatement.fillSendPacket(PreparedStatement.java:2214)
+[2016-05-17 21:05:13] 	at com.mysql.jdbc.PreparedStatement.fillSendPacket(PreparedStatement.java:2138)
+[2016-05-17 21:05:13] 	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:957)
+[2016-05-17 21:05:13] 	at com.mayhem.core.network.mysql.Highscores.run(Highscores.java:61)
+[2016-05-17 21:05:13] 	at java.lang.Thread.run(Unknown Source)

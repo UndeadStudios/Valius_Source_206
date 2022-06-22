@@ -1,0 +1,108 @@
+Logging started at 2017-03-01 19:42:21
+File name: C:\Users\Administrator\Dropbox\Valius\Valius Source\.\data\logs\err\1488393741757 - Administrator - [Wed Mar 1][7.42PM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-03-01 19:44:26] Failing to update Spyro highscores. Database could not connect.
+[2017-03-01 19:47:55] Failing to update Spyro highscores. Database could not connect.
+[2017-03-01 19:51:20] Failing to update Spyro highscores. Database could not connect.
+[2017-03-01 19:57:54] [Extreme]: Failed to update Zeus highscores. Database could not connect.
+[2017-03-01 19:58:33] [Extreme]: Failed to update Virus highscores. Database could not connect.
+[2017-03-01 19:59:03] Failing to update Spyro highscores. Database could not connect.
+[2017-03-01 20:03:22] Failing to update Matt highscores. Database could not connect.
+[2017-03-01 20:12:52] java.lang.NullPointerException
+[2017-03-01 20:12:52] 	at com.mayhem.rs2.content.combat.formula.RangeFormulas.calculateRangeAttack(RangeFormulas.java:78)
+[2017-03-01 20:12:52] 	at com.mayhem.rs2.content.combat.impl.Ranged.execute(Ranged.java:41)
+[2017-03-01 20:12:52] 	at com.mayhem.rs2.content.combat.Combat.attack(Combat.java:92)
+[2017-03-01 20:12:52] 	at com.mayhem.rs2.content.combat.Combat.process(Combat.java:215)
+[2017-03-01 20:12:52] 	at com.mayhem.rs2.entity.player.Player.process(Player.java:1648)
+[2017-03-01 20:12:52] 	at com.mayhem.rs2.entity.World.process(World.java:322)
+[2017-03-01 20:12:52] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-01 20:12:52] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-01 20:12:52] java.lang.NullPointerException
+[2017-03-01 20:12:52] 	at com.mayhem.rs2.entity.player.net.Client.send(Client.java:329)
+[2017-03-01 20:12:52] 	at com.mayhem.rs2.entity.player.net.out.impl.SendLogout.execute(SendLogout.java:13)
+[2017-03-01 20:12:52] 	at com.mayhem.rs2.entity.player.Player.logout(Player.java:1572)
+[2017-03-01 20:12:52] 	at com.mayhem.rs2.entity.World.process(World.java:335)
+[2017-03-01 20:12:52] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-01 20:12:52] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-01 20:12:52] Failing to update Matt highscores. Database could not connect.
+[2017-03-01 20:14:28] [Extreme]: Failed to update Toodenchh highscores. Database could not connect.
+[2017-03-01 20:14:45] [Extreme]: Failed to update Zaff highscores. Database could not connect.
+[2017-03-01 20:21:25] Failing to update Alchemy highscores. Database could not connect.
+[2017-03-01 20:30:01] [Extreme]: Failed to update Toodenchh highscores. Database could not connect.
+[2017-03-01 20:41:20] Failing to update Alchemy highscores. Database could not connect.
+[2017-03-01 20:44:42] [Extreme]: Failed to update Zeus highscores. Database could not connect.
+[2017-03-01 20:45:34] [Ironman]: Failed to update Iron Karl highscores. Database could not connect.
+[2017-03-01 20:46:27] Failing to update Alchemy highscores. Database could not connect.
+[2017-03-01 20:51:20] [Extreme]: Failed to update Rs God highscores. Database could not connect.
+[2017-03-01 20:51:24] Failing to update Angel highscores. Database could not connect.
+[2017-03-01 21:02:51] [Extreme]: Failed to update Zeus highscores. Database could not connect.
+[2017-03-01 21:04:14] Failing to update Mrshower highscores. Database could not connect.
+[2017-03-01 21:13:20] [Extreme]: Failed to update Virus highscores. Database could not connect.
+[2017-03-01 21:17:07] Failing to update Alchemy highscores. Database could not connect.
+[2017-03-01 21:17:27] Failing to update Alchemy highscores. Database could not connect.
+[2017-03-01 21:23:40] Failing to update Alchemy highscores. Database could not connect.
+[2017-03-01 21:27:59] [Extreme]: Failed to update Dottel highscores. Database could not connect.
+[2017-03-01 21:29:08] [Extreme]: Failed to update Mod Andy highscores. Database could not connect.
+[2017-03-01 21:30:33] [Extreme]: Failed to update Dottelo highscores. Database could not connect.
+[2017-03-01 21:31:10] [Extreme]: Failed to update Nikro highscores. Database could not connect.
+[2017-03-01 21:31:29] Failing to update Nikro2 highscores. Database could not connect.
+[2017-03-01 21:32:05] [Ironman]: Failed to update Iron Karl highscores. Database could not connect.
+[2017-03-01 21:33:30] [Extreme]: Failed to update Dottel highscores. Database could not connect.
+[2017-03-01 21:33:50] Failing to update Saint Divine highscores. Database could not connect.
+[2017-03-01 21:34:14] [Extreme]: Failed to update Mod Divine highscores. Database could not connect.
+[2017-03-01 21:34:27] [Extreme]: Failed to update Leo highscores. Database could not connect.
+[2017-03-01 21:41:42] Failing to update Raz highscores. Database could not connect.
+[2017-03-01 21:46:22] [Extreme]: Failed to update Evol highscores. Database could not connect.
+[2017-03-01 21:50:30] Failing to update Alchemy highscores. Database could not connect.
+[2017-03-01 21:53:32] [Extreme]: Failed to update Dottel highscores. Database could not connect.
+[2017-03-01 21:54:00] [Extreme]: Failed to update Evol highscores. Database could not connect.
+[2017-03-01 21:58:53] Failing to update Angel highscores. Database could not connect.
+[2017-03-01 22:00:05] Failing to update Alchemy highscores. Database could not connect.
+[2017-03-01 22:00:32] [Extreme]: Failed to update Nikro highscores. Database could not connect.
+[2017-03-01 22:00:41] Failing to update Alchemy highscores. Database could not connect.
+[2017-03-01 22:03:16] [Extreme]: Failed to update Nikro highscores. Database could not connect.
+[2017-03-01 22:21:30] Failing to update Matt highscores. Database could not connect.
+[2017-03-01 22:22:54] [Extreme]: Failed to update Dottel highscores. Database could not connect.
+[2017-03-01 22:24:27] Failing to update Skilldenchh highscores. Database could not connect.
+[2017-03-01 22:39:03] [Extreme]: Failed to update Toodenchh highscores. Database could not connect.
+[2017-03-01 22:42:14] Failing to update Omega highscores. Database could not connect.
+[2017-03-01 22:42:23] [Extreme]: Failed to update Evol highscores. Database could not connect.
+[2017-03-01 22:44:24] [Extreme]: Failed to update Spongebob highscores. Database could not connect.
+[2017-03-01 22:44:45] [Extreme]: Failed to update Bink highscores. Database could not connect.
+[2017-03-01 22:54:07] [Extreme]: Failed to update Venom highscores. Database could not connect.
+[2017-03-01 22:54:07] [Extreme]: Failed to update Virus highscores. Database could not connect.
+[2017-03-01 22:55:26] [Extreme]: Failed to update Virus highscores. Database could not connect.
+[2017-03-01 22:55:41] [Extreme]: Failed to update Virus highscores. Database could not connect.
+[2017-03-01 22:55:41] [Extreme]: Failed to update Venom highscores. Database could not connect.
+[2017-03-01 22:56:41] [Extreme]: Failed to update Virus highscores. Database could not connect.
+[2017-03-01 22:57:23] [Extreme]: Failed to update Virus highscores. Database could not connect.
+[2017-03-01 22:58:16] [Extreme]: Failed to update Virus highscores. Database could not connect.
+[2017-03-01 22:58:16] [Extreme]: Failed to update Venom highscores. Database could not connect.
+[2017-03-01 23:10:41] [Extreme]: Failed to update Dottel highscores. Database could not connect.
+[2017-03-01 23:17:10] Failing to update Alchemy highscores. Database could not connect.
+[2017-03-01 23:32:23] java.lang.NullPointerException
+[2017-03-01 23:32:23] 	at com.mayhem.rs2.content.DropTable.displayNpc(DropTable.java:177)
+[2017-03-01 23:32:23] 	at com.mayhem.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:134)
+[2017-03-01 23:32:23] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-01 23:32:23] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-01 23:32:23] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-01 23:32:23] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-01 23:32:23] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-01 23:33:11] Failing to update Skilldenchh highscores. Database could not connect.
+[2017-03-01 23:43:58] [Extreme]: Failed to update Vape highscores. Database could not connect.
+[2017-03-01 23:47:32] [Extreme]: Failed to update Vape highscores. Database could not connect.
+[2017-03-01 23:47:43] [Extreme]: Failed to update Venom highscores. Database could not connect.
+[2017-03-01 23:53:23] [Extreme]: Failed to update Virus highscores. Database could not connect.
+[2017-03-01 23:53:41] [Ironman]: Failed to update Rusted highscores. Database could not connect.
+[2017-03-01 23:54:36] [Extreme]: Failed to update Nikro highscores. Database could not connect.
+[2017-03-01 23:55:23] Failing to update Dream highscores. Database could not connect.
+[2017-03-01 23:55:25] [Extreme]: Failed to update Ganja highscores. Database could not connect.
+[2017-03-01 23:55:25] [Extreme]: Failed to update Spongebob highscores. Database could not connect.
+[2017-03-01 23:55:25] Failing to update Saint Divine highscores. Database could not connect.
+[2017-03-01 23:55:25] [Ironman]: Failed to update Quill highscores. Database could not connect.
+[2017-03-01 23:55:25] [Extreme]: Failed to update Mod Divine highscores. Database could not connect.
+[2017-03-01 23:55:25] Failing to update Invalid highscores. Database could not connect.
+[2017-03-01 23:55:26] Failing to update Case101 highscores. Database could not connect.
+[2017-03-01 23:55:26] [Extreme]: Failed to update Squidward highscores. Database could not connect.
+[2017-03-01 23:55:26] [Extreme]: Failed to update Dottel highscores. Database could not connect.

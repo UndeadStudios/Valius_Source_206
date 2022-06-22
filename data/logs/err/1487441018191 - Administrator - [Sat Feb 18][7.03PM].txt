@@ -1,0 +1,4 @@
+Logging started at 2017-02-18 19:03:38
+File name: C:\Users\Administrator\Dropbox\Valius\Valius Source\.\data\logs\err\1487441018191 - Administrator - [Sat Feb 18][7.03PM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+

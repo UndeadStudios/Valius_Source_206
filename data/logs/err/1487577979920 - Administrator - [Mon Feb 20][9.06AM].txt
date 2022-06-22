@@ -1,0 +1,45 @@
+Logging started at 2017-02-20 09:06:20
+File name: C:\Users\Administrator\Dropbox\Valius\Valius Source\.\data\logs\err\1487577979920 - Administrator - [Mon Feb 20][9.06AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-02-20 09:18:45] java.lang.NullPointerException
+[2017-02-20 09:18:45] 	at com.mayhem.rs2.content.skill.mining.Mining$Pickaxe.get(Mining.java:123)
+[2017-02-20 09:18:45] 	at com.mayhem.rs2.content.skill.mining.Mining.clickRock(Mining.java:235)
+[2017-02-20 09:18:45] 	at com.mayhem.rs2.entity.WalkToActions.finishObjectClick(WalkToActions.java:1146)
+[2017-02-20 09:18:45] 	at com.mayhem.rs2.entity.WalkToActions$7.onDestination(WalkToActions.java:327)
+[2017-02-20 09:18:45] 	at com.mayhem.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2017-02-20 09:18:45] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-02-20 09:18:45] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-02-20 09:18:45] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-02-20 09:18:45] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-20 09:18:50] java.lang.NullPointerException
+[2017-02-20 09:18:50] 	at com.mayhem.rs2.content.skill.mining.Mining$Pickaxe.get(Mining.java:123)
+[2017-02-20 09:18:50] 	at com.mayhem.rs2.content.skill.mining.Mining.clickRock(Mining.java:235)
+[2017-02-20 09:18:50] 	at com.mayhem.rs2.entity.WalkToActions.finishObjectClick(WalkToActions.java:1146)
+[2017-02-20 09:18:50] 	at com.mayhem.rs2.entity.WalkToActions$7.onDestination(WalkToActions.java:327)
+[2017-02-20 09:18:50] 	at com.mayhem.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2017-02-20 09:18:50] 	at com.mayhem.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2017-02-20 09:18:50] 	at com.mayhem.rs2.entity.WalkToActions.clickObject(WalkToActions.java:322)
+[2017-02-20 09:18:50] 	at com.mayhem.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:85)
+[2017-02-20 09:18:50] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-02-20 09:18:50] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-02-20 09:18:50] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-02-20 09:18:50] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-02-20 09:18:50] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-20 09:18:53] java.lang.NullPointerException
+[2017-02-20 09:18:53] 	at com.mayhem.rs2.content.skill.mining.Mining$Pickaxe.get(Mining.java:123)
+[2017-02-20 09:18:53] 	at com.mayhem.rs2.content.skill.mining.Mining.clickRock(Mining.java:235)
+[2017-02-20 09:18:53] 	at com.mayhem.rs2.entity.WalkToActions.finishObjectClick(WalkToActions.java:1146)
+[2017-02-20 09:18:53] 	at com.mayhem.rs2.entity.WalkToActions$7.onDestination(WalkToActions.java:327)
+[2017-02-20 09:18:53] 	at com.mayhem.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2017-02-20 09:18:53] 	at com.mayhem.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2017-02-20 09:18:53] 	at com.mayhem.rs2.entity.WalkToActions.clickObject(WalkToActions.java:322)
+[2017-02-20 09:18:53] 	at com.mayhem.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:85)
+[2017-02-20 09:18:53] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-02-20 09:18:53] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-02-20 09:18:53] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-02-20 09:18:53] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-02-20 09:18:53] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-20 09:23:37] Didn't save hiscores for Raziel
+[2017-02-20 09:26:26] Didn't save hiscores for Crown
+[2017-02-20 09:26:29] Didn't save hiscores for Mod divine

@@ -1,0 +1,26 @@
+Logging started at 2017-02-18 20:37:39
+File name: C:\Users\Administrator\Dropbox\Valius\Valius Source\.\data\logs\err\1487446659134 - Administrator - [Sat Feb 18][8.37PM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-02-18 20:38:15] com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* FROM fx_sites WHERE active=1' at line 1
+[2017-02-18 20:38:15] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[2017-02-18 20:38:15] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+[2017-02-18 20:38:15] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[2017-02-18 20:38:15] 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[2017-02-18 20:38:15] 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+[2017-02-18 20:38:15] 	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+[2017-02-18 20:38:15] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1030)
+[2017-02-18 20:38:15] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+[2017-02-18 20:38:15] 	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3515)
+[2017-02-18 20:38:15] 	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3447)
+[2017-02-18 20:38:15] 	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+[2017-02-18 20:38:15] 	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+[2017-02-18 20:38:15] 	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2548)
+[2017-02-18 20:38:15] 	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2477)
+[2017-02-18 20:38:15] 	at com.mysql.jdbc.StatementImpl.executeQuery(StatementImpl.java:1422)
+[2017-02-18 20:38:15] 	at com.mayhem.core.network.mysql.Voting.executeQuery(Voting.java:125)
+[2017-02-18 20:38:15] 	at com.mayhem.core.network.mysql.Voting.run(Voting.java:47)
+[2017-02-18 20:38:15] 	at java.lang.Thread.run(Unknown Source)
+[2017-02-18 20:38:15] java.lang.NullPointerException
+[2017-02-18 20:38:15] 	at com.mayhem.core.network.mysql.Voting.run(Voting.java:52)
+[2017-02-18 20:38:15] 	at java.lang.Thread.run(Unknown Source)

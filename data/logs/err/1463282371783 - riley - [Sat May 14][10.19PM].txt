@@ -1,0 +1,4 @@
+Logging started at 2016-05-14 22:19:31
+File name: C:\Users\riley\Desktop\os\server\.\data\logs\err\1463282371783 - riley - [Sat May 14][10.19PM].txt
+System.getProperty("os.name"): "Windows 10"
+

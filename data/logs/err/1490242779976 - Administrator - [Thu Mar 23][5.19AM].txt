@@ -1,0 +1,1527 @@
+Logging started at 2017-03-23 05:19:40
+File name: C:\Users\Administrator\Dropbox\Valius\Valius Source\.\data\logs\err\1490242779976 - Administrator - [Thu Mar 23][5.19AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-03-23 05:36:59] Didn't save hiscores for [EXTREME]Mod divine
+[2017-03-23 06:00:04] java.lang.IndexOutOfBoundsException: Readable byte limit exceeded: 12
+[2017-03-23 06:00:04] 	at org.jboss.netty.buffer.AbstractChannelBuffer.readByte(AbstractChannelBuffer.java:236)
+[2017-03-23 06:00:04] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:120)
+[2017-03-23 06:00:04] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:107)
+[2017-03-23 06:00:04] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:467)
+[2017-03-23 06:00:04] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:412)
+[2017-03-23 06:00:04] 	at com.mayhem.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:853)
+[2017-03-23 06:00:04] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-23 06:00:04] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-23 06:00:04] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-23 06:00:04] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-23 06:00:04] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 06:01:14] java.lang.IndexOutOfBoundsException: Readable byte limit exceeded: 12
+[2017-03-23 06:01:14] 	at org.jboss.netty.buffer.AbstractChannelBuffer.readByte(AbstractChannelBuffer.java:236)
+[2017-03-23 06:01:14] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:120)
+[2017-03-23 06:01:14] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:107)
+[2017-03-23 06:01:14] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:467)
+[2017-03-23 06:01:14] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:412)
+[2017-03-23 06:01:14] 	at com.mayhem.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:853)
+[2017-03-23 06:01:14] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-23 06:01:14] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-23 06:01:14] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-23 06:01:14] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-23 06:01:14] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 06:07:39] java.lang.IndexOutOfBoundsException: Readable byte limit exceeded: 12
+[2017-03-23 06:07:39] 	at org.jboss.netty.buffer.AbstractChannelBuffer.readByte(AbstractChannelBuffer.java:236)
+[2017-03-23 06:07:39] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:120)
+[2017-03-23 06:07:39] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:107)
+[2017-03-23 06:07:39] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:467)
+[2017-03-23 06:07:39] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:412)
+[2017-03-23 06:07:39] 	at com.mayhem.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:853)
+[2017-03-23 06:07:39] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-23 06:07:39] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-23 06:07:39] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-23 06:07:39] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-23 06:07:39] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 07:59:57] java.lang.NullPointerException
+[2017-03-23 07:59:57] 	at com.mayhem.rs2.content.combat.formula.RangeFormulas.calculateRangeAttack(RangeFormulas.java:78)
+[2017-03-23 07:59:57] 	at com.mayhem.rs2.content.combat.impl.Ranged.execute(Ranged.java:41)
+[2017-03-23 07:59:57] 	at com.mayhem.rs2.content.combat.Combat.attack(Combat.java:92)
+[2017-03-23 07:59:57] 	at com.mayhem.rs2.content.combat.Combat.process(Combat.java:215)
+[2017-03-23 07:59:57] 	at com.mayhem.rs2.entity.player.Player.process(Player.java:1667)
+[2017-03-23 07:59:57] 	at com.mayhem.rs2.entity.World.process(World.java:322)
+[2017-03-23 07:59:57] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-23 07:59:57] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 07:59:57] java.lang.NullPointerException
+[2017-03-23 07:59:57] 	at com.mayhem.rs2.entity.player.net.Client.send(Client.java:329)
+[2017-03-23 07:59:57] 	at com.mayhem.rs2.entity.player.net.out.impl.SendLogout.execute(SendLogout.java:13)
+[2017-03-23 07:59:57] 	at com.mayhem.rs2.entity.player.Player.logout(Player.java:1591)
+[2017-03-23 07:59:57] 	at com.mayhem.rs2.entity.World.process(World.java:335)
+[2017-03-23 07:59:57] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-23 07:59:57] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 10:56:09] java.lang.NullPointerException
+[2017-03-23 10:56:09] java.lang.NullPointerException
+[2017-03-23 10:56:09] 	at com.mayhem.rs2.entity.player.net.Client.send(Client.java:329)
+[2017-03-23 10:56:09] 	at com.mayhem.rs2.entity.player.net.out.impl.SendLogout.execute(SendLogout.java:13)
+[2017-03-23 10:56:09] 	at com.mayhem.rs2.entity.player.Player.logout(Player.java:1591)
+[2017-03-23 10:56:09] 	at com.mayhem.rs2.entity.World.process(World.java:335)
+[2017-03-23 10:56:09] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-23 10:56:09] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 12:35:16] java.lang.NullPointerException
+[2017-03-23 12:35:16] java.lang.NullPointerException
+[2017-03-23 12:35:16] 	at com.mayhem.rs2.entity.player.net.Client.send(Client.java:329)
+[2017-03-23 12:35:16] 	at com.mayhem.rs2.entity.player.net.out.impl.SendLogout.execute(SendLogout.java:13)
+[2017-03-23 12:35:16] 	at com.mayhem.rs2.entity.player.Player.logout(Player.java:1591)
+[2017-03-23 12:35:16] 	at com.mayhem.rs2.entity.World.process(World.java:335)
+[2017-03-23 12:35:16] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-23 12:35:16] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 16:22:39] java.lang.NullPointerException
+[2017-03-23 16:22:39] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 16:22:39] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 16:22:39] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 16:22:39] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 16:22:39] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 16:22:39] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 16:22:40] java.lang.NullPointerException
+[2017-03-23 16:22:40] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 16:22:40] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 16:22:40] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 16:22:40] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 16:22:40] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 16:22:40] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 16:22:41] java.lang.NullPointerException
+[2017-03-23 16:22:41] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 16:22:41] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 16:22:41] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 16:22:41] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 16:22:41] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 16:22:41] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 16:22:43] java.lang.NullPointerException
+[2017-03-23 16:22:43] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 16:22:43] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 16:22:43] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 16:22:43] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 16:22:43] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 16:22:43] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 16:22:44] java.lang.NullPointerException
+[2017-03-23 16:22:44] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 16:22:44] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 16:22:44] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 16:22:44] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 16:22:44] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 16:22:44] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 16:22:45] java.lang.NullPointerException
+[2017-03-23 16:22:45] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 16:22:45] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 16:22:45] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 16:22:45] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 16:22:45] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 16:22:45] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 16:22:46] java.lang.NullPointerException
+[2017-03-23 16:22:46] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 16:22:46] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 16:22:46] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 16:22:46] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 16:22:46] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 16:22:46] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 16:22:48] java.lang.NullPointerException
+[2017-03-23 16:22:48] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 16:22:48] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 16:22:48] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 16:22:48] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 16:22:48] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 16:22:48] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 16:22:49] java.lang.NullPointerException
+[2017-03-23 16:22:49] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 16:22:49] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 16:22:49] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 16:22:49] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 16:22:49] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 16:22:49] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 16:22:50] java.lang.NullPointerException
+[2017-03-23 16:22:50] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 16:22:50] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 16:22:50] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 16:22:50] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 16:22:50] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 16:22:50] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 16:22:59] java.lang.NullPointerException
+[2017-03-23 16:22:59] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 16:22:59] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 16:22:59] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 16:22:59] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 16:22:59] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 16:22:59] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 16:23:00] java.lang.NullPointerException
+[2017-03-23 16:23:00] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 16:23:00] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 16:23:00] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 16:23:00] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 16:23:00] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 16:23:00] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 16:23:01] java.lang.NullPointerException
+[2017-03-23 16:23:01] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 16:23:01] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 16:23:01] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 16:23:01] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 16:23:01] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 16:23:01] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 16:23:03] java.lang.NullPointerException
+[2017-03-23 16:23:03] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 16:23:03] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 16:23:03] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 16:23:03] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 16:23:03] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 16:23:03] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 16:23:04] java.lang.NullPointerException
+[2017-03-23 16:23:04] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 16:23:04] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 16:23:04] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 16:23:04] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 16:23:04] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 16:23:04] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 16:23:05] java.lang.NullPointerException
+[2017-03-23 16:23:05] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 16:23:05] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 16:23:05] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 16:23:05] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 16:23:05] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 16:23:05] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 16:23:06] java.lang.NullPointerException
+[2017-03-23 16:23:06] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 16:23:06] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 16:23:06] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 16:23:06] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 16:23:06] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 16:23:06] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 16:23:07] java.lang.NullPointerException
+[2017-03-23 16:23:07] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 16:23:07] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 16:23:07] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 16:23:07] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 16:23:07] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 16:23:07] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 16:23:09] java.lang.NullPointerException
+[2017-03-23 16:23:09] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 16:23:09] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 16:23:09] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 16:23:09] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 16:23:09] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 16:23:09] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 16:23:10] java.lang.NullPointerException
+[2017-03-23 16:23:10] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 16:23:10] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 16:23:10] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 16:23:10] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 16:23:10] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 16:23:10] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 16:23:11] java.lang.NullPointerException
+[2017-03-23 16:23:11] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 16:23:11] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 16:23:11] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 16:23:11] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 16:23:11] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 16:23:11] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 16:23:12] java.lang.NullPointerException
+[2017-03-23 16:23:12] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 16:23:12] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 16:23:12] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 16:23:12] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 16:23:12] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 16:23:12] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 16:23:14] java.lang.NullPointerException
+[2017-03-23 16:23:14] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 16:23:14] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 16:23:14] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 16:23:14] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 16:23:14] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 16:23:14] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 16:23:15] java.lang.NullPointerException
+[2017-03-23 16:23:15] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 16:23:15] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 16:23:15] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 16:23:15] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 16:23:15] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 16:23:15] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 16:23:16] java.lang.NullPointerException
+[2017-03-23 16:23:16] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 16:23:16] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 16:23:16] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 16:23:16] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 16:23:16] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 16:23:16] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 16:23:17] java.lang.NullPointerException
+[2017-03-23 16:23:17] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 16:23:17] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 16:23:17] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 16:23:17] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 16:23:17] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 16:23:17] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 16:23:19] java.lang.NullPointerException
+[2017-03-23 16:23:19] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 16:23:19] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 16:23:19] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 16:23:19] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 16:23:19] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 16:23:19] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 16:23:20] java.lang.NullPointerException
+[2017-03-23 16:23:20] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 16:23:20] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 16:23:20] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 16:23:20] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 16:23:20] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 16:23:20] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 16:23:21] java.lang.NullPointerException
+[2017-03-23 16:23:21] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 16:23:21] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 16:23:21] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 16:23:21] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 16:23:21] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 16:23:21] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 16:23:23] java.lang.NullPointerException
+[2017-03-23 16:23:23] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 16:23:23] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 16:23:23] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 16:23:23] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 16:23:23] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 16:23:23] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 16:23:25] java.lang.NullPointerException
+[2017-03-23 16:23:25] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 16:23:25] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 16:23:25] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 16:23:25] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 16:23:25] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 16:23:25] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 16:23:26] java.lang.NullPointerException
+[2017-03-23 16:23:26] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 16:23:26] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 16:23:26] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 16:23:26] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 16:23:26] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 16:23:26] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 16:23:27] java.lang.NullPointerException
+[2017-03-23 16:23:27] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 16:23:27] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 16:23:27] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 16:23:27] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 16:23:27] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 16:23:27] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 16:23:28] java.lang.NullPointerException
+[2017-03-23 16:23:28] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 16:23:28] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 16:23:28] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 16:23:28] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 16:23:28] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 16:23:28] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 16:23:30] java.lang.NullPointerException
+[2017-03-23 16:23:30] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 16:23:30] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 16:23:30] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 16:23:30] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 16:23:30] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 16:23:30] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 16:23:31] java.lang.NullPointerException
+[2017-03-23 16:23:31] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 16:23:31] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 16:23:31] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 16:23:31] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 16:23:31] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 16:23:31] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 16:23:32] java.lang.NullPointerException
+[2017-03-23 16:23:32] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 16:23:32] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 16:23:32] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 16:23:32] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 16:23:32] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 16:23:32] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 16:23:33] java.lang.NullPointerException
+[2017-03-23 16:23:33] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 16:23:33] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 16:23:33] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 16:23:33] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 16:23:33] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 16:23:33] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 16:23:34] java.lang.NullPointerException
+[2017-03-23 16:23:34] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 16:23:34] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 16:23:34] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 16:23:34] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 16:23:34] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 16:23:34] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 16:23:36] java.lang.NullPointerException
+[2017-03-23 16:23:36] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 16:23:36] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 16:23:36] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 16:23:36] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 16:23:36] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 16:23:36] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 16:23:37] java.lang.NullPointerException
+[2017-03-23 16:23:43] java.lang.NullPointerException
+[2017-03-23 16:23:44] java.lang.NullPointerException
+[2017-03-23 16:23:45] java.lang.NullPointerException
+[2017-03-23 16:23:46] java.lang.NullPointerException
+[2017-03-23 16:23:58] java.lang.NullPointerException
+[2017-03-23 16:25:00] java.lang.NullPointerException
+[2017-03-23 16:25:01] java.lang.NullPointerException
+[2017-03-23 16:25:02] java.lang.NullPointerException
+[2017-03-23 16:25:03] java.lang.NullPointerException
+[2017-03-23 16:25:05] java.lang.NullPointerException
+[2017-03-23 16:25:06] java.lang.NullPointerException
+[2017-03-23 16:25:07] java.lang.NullPointerException
+[2017-03-23 16:25:08] java.lang.NullPointerException
+[2017-03-23 16:25:10] java.lang.NullPointerException
+[2017-03-23 16:25:11] java.lang.NullPointerException
+[2017-03-23 16:25:12] java.lang.NullPointerException
+[2017-03-23 16:25:13] java.lang.NullPointerException
+[2017-03-23 16:25:14] java.lang.NullPointerException
+[2017-03-23 16:25:21] java.lang.NullPointerException
+[2017-03-23 16:25:23] java.lang.NullPointerException
+[2017-03-23 16:25:24] java.lang.NullPointerException
+[2017-03-23 16:25:26] java.lang.NullPointerException
+[2017-03-23 16:25:28] java.lang.NullPointerException
+[2017-03-23 16:25:29] java.lang.NullPointerException
+[2017-03-23 16:25:30] java.lang.NullPointerException
+[2017-03-23 16:25:31] java.lang.NullPointerException
+[2017-03-23 16:25:32] java.lang.NullPointerException
+[2017-03-23 16:25:34] java.lang.NullPointerException
+[2017-03-23 16:25:35] java.lang.NullPointerException
+[2017-03-23 16:25:36] java.lang.NullPointerException
+[2017-03-23 16:25:37] java.lang.NullPointerException
+[2017-03-23 16:25:39] java.lang.NullPointerException
+[2017-03-23 16:26:44] java.lang.NullPointerException
+[2017-03-23 16:26:45] java.lang.NullPointerException
+[2017-03-23 16:26:46] java.lang.NullPointerException
+[2017-03-23 16:26:47] java.lang.NullPointerException
+[2017-03-23 16:26:49] java.lang.NullPointerException
+[2017-03-23 16:26:50] java.lang.NullPointerException
+[2017-03-23 16:26:51] java.lang.NullPointerException
+[2017-03-23 16:26:52] java.lang.NullPointerException
+[2017-03-23 16:26:54] java.lang.NullPointerException
+[2017-03-23 16:26:55] java.lang.NullPointerException
+[2017-03-23 16:26:56] java.lang.NullPointerException
+[2017-03-23 16:26:57] java.lang.NullPointerException
+[2017-03-23 16:26:59] java.lang.NullPointerException
+[2017-03-23 16:27:00] java.lang.NullPointerException
+[2017-03-23 16:27:01] java.lang.NullPointerException
+[2017-03-23 16:27:02] java.lang.NullPointerException
+[2017-03-23 16:27:04] java.lang.NullPointerException
+[2017-03-23 16:27:05] java.lang.NullPointerException
+[2017-03-23 16:27:06] java.lang.NullPointerException
+[2017-03-23 16:27:07] java.lang.NullPointerException
+[2017-03-23 16:27:09] java.lang.NullPointerException
+[2017-03-23 16:27:10] java.lang.NullPointerException
+[2017-03-23 16:27:11] java.lang.NullPointerException
+[2017-03-23 16:27:12] java.lang.NullPointerException
+[2017-03-23 16:27:13] java.lang.NullPointerException
+[2017-03-23 16:27:15] java.lang.NullPointerException
+[2017-03-23 16:27:16] java.lang.NullPointerException
+[2017-03-23 16:27:17] java.lang.NullPointerException
+[2017-03-23 16:27:18] java.lang.NullPointerException
+[2017-03-23 16:27:20] java.lang.NullPointerException
+[2017-03-23 16:27:21] java.lang.NullPointerException
+[2017-03-23 16:27:22] java.lang.NullPointerException
+[2017-03-23 16:27:23] java.lang.NullPointerException
+[2017-03-23 16:27:25] java.lang.NullPointerException
+[2017-03-23 16:27:26] java.lang.NullPointerException
+[2017-03-23 16:27:27] java.lang.NullPointerException
+[2017-03-23 16:27:28] java.lang.NullPointerException
+[2017-03-23 16:27:30] java.lang.NullPointerException
+[2017-03-23 16:27:31] java.lang.NullPointerException
+[2017-03-23 16:27:32] java.lang.NullPointerException
+[2017-03-23 16:27:33] java.lang.NullPointerException
+[2017-03-23 16:27:35] java.lang.NullPointerException
+[2017-03-23 16:27:36] java.lang.NullPointerException
+[2017-03-23 16:27:37] java.lang.NullPointerException
+[2017-03-23 16:27:38] java.lang.NullPointerException
+[2017-03-23 16:27:39] java.lang.NullPointerException
+[2017-03-23 16:27:41] java.lang.NullPointerException
+[2017-03-23 16:27:42] java.lang.NullPointerException
+[2017-03-23 16:27:43] java.lang.NullPointerException
+[2017-03-23 16:27:44] java.lang.NullPointerException
+[2017-03-23 16:27:46] java.lang.NullPointerException
+[2017-03-23 16:27:47] java.lang.NullPointerException
+[2017-03-23 16:27:48] java.lang.NullPointerException
+[2017-03-23 16:27:49] java.lang.NullPointerException
+[2017-03-23 16:27:50] java.lang.NullPointerException
+[2017-03-23 16:27:52] java.lang.NullPointerException
+[2017-03-23 16:41:49] java.lang.NullPointerException
+[2017-03-23 16:41:49] 	at com.mayhem.rs2.entity.InterfaceManager.getParents(InterfaceManager.java:17)
+[2017-03-23 16:41:49] 	at com.mayhem.rs2.entity.InterfaceManager.verify(InterfaceManager.java:89)
+[2017-03-23 16:41:49] 	at com.mayhem.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:124)
+[2017-03-23 16:41:49] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-23 16:41:49] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-23 16:41:49] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-23 16:41:49] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-23 16:41:49] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 16:41:53] java.lang.NullPointerException
+[2017-03-23 16:41:53] 	at com.mayhem.rs2.entity.InterfaceManager.getParents(InterfaceManager.java:17)
+[2017-03-23 16:41:53] 	at com.mayhem.rs2.entity.InterfaceManager.verify(InterfaceManager.java:89)
+[2017-03-23 16:41:53] 	at com.mayhem.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:243)
+[2017-03-23 16:41:53] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-23 16:41:53] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-23 16:41:53] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-23 16:41:53] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-23 16:41:53] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 16:42:00] java.lang.NullPointerException
+[2017-03-23 16:42:00] 	at com.mayhem.rs2.entity.InterfaceManager.getParents(InterfaceManager.java:17)
+[2017-03-23 16:42:00] 	at com.mayhem.rs2.entity.InterfaceManager.verify(InterfaceManager.java:89)
+[2017-03-23 16:42:00] 	at com.mayhem.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:243)
+[2017-03-23 16:42:00] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-23 16:42:00] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-23 16:42:00] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-23 16:42:00] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-23 16:42:00] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 16:42:01] java.lang.NullPointerException
+[2017-03-23 16:42:01] 	at com.mayhem.rs2.entity.InterfaceManager.getParents(InterfaceManager.java:17)
+[2017-03-23 16:42:01] 	at com.mayhem.rs2.entity.InterfaceManager.verify(InterfaceManager.java:89)
+[2017-03-23 16:42:01] 	at com.mayhem.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:124)
+[2017-03-23 16:42:01] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-23 16:42:01] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-23 16:42:01] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-23 16:42:01] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-23 16:42:01] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 16:42:01] java.lang.NullPointerException
+[2017-03-23 16:42:01] 	at com.mayhem.rs2.entity.InterfaceManager.getParents(InterfaceManager.java:17)
+[2017-03-23 16:42:01] 	at com.mayhem.rs2.entity.InterfaceManager.verify(InterfaceManager.java:89)
+[2017-03-23 16:42:01] 	at com.mayhem.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:124)
+[2017-03-23 16:42:01] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-23 16:42:01] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-23 16:42:01] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-23 16:42:01] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-23 16:42:01] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 16:42:02] java.lang.NullPointerException
+[2017-03-23 16:42:02] 	at com.mayhem.rs2.entity.InterfaceManager.getParents(InterfaceManager.java:17)
+[2017-03-23 16:42:02] 	at com.mayhem.rs2.entity.InterfaceManager.verify(InterfaceManager.java:89)
+[2017-03-23 16:42:02] 	at com.mayhem.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:124)
+[2017-03-23 16:42:02] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-23 16:42:02] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-23 16:42:02] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-23 16:42:02] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-23 16:42:02] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:05:54] java.lang.NullPointerException
+[2017-03-23 17:05:54] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:05:54] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:05:54] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:05:54] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:05:54] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:05:54] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:05:55] java.lang.NullPointerException
+[2017-03-23 17:05:55] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:05:55] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:05:55] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:05:55] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:05:55] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:05:55] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:05:56] java.lang.NullPointerException
+[2017-03-23 17:05:56] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:05:56] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:05:56] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:05:56] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:05:56] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:05:56] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:05:58] java.lang.NullPointerException
+[2017-03-23 17:05:58] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:05:58] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:05:58] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:05:58] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:05:58] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:05:58] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:05:59] java.lang.NullPointerException
+[2017-03-23 17:05:59] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:05:59] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:05:59] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:05:59] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:05:59] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:05:59] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:06:00] java.lang.NullPointerException
+[2017-03-23 17:06:00] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:06:00] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:06:00] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:06:00] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:06:00] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:06:00] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:06:01] java.lang.NullPointerException
+[2017-03-23 17:06:01] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:06:01] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:06:01] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:06:01] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:06:01] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:06:01] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:06:03] java.lang.NullPointerException
+[2017-03-23 17:06:03] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:06:03] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:06:03] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:06:03] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:06:03] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:06:03] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:06:04] java.lang.NullPointerException
+[2017-03-23 17:06:04] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:06:04] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:06:04] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:06:04] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:06:04] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:06:04] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:06:05] java.lang.NullPointerException
+[2017-03-23 17:06:05] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:06:05] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:06:05] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:06:05] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:06:05] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:06:05] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:06:06] java.lang.NullPointerException
+[2017-03-23 17:06:06] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:06:06] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:06:06] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:06:06] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:06:06] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:06:06] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:06:07] java.lang.NullPointerException
+[2017-03-23 17:06:07] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:06:07] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:06:07] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:06:07] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:06:07] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:06:07] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:06:09] java.lang.NullPointerException
+[2017-03-23 17:06:09] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:06:09] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:06:09] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:06:09] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:06:09] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:06:09] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:06:10] java.lang.NullPointerException
+[2017-03-23 17:06:10] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:06:10] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:06:10] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:06:10] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:06:10] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:06:10] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:06:11] java.lang.NullPointerException
+[2017-03-23 17:06:11] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:06:11] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:06:11] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:06:11] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:06:11] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:06:11] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:06:12] java.lang.NullPointerException
+[2017-03-23 17:06:12] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:06:12] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:06:12] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:06:12] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:06:12] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:06:12] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:06:14] java.lang.NullPointerException
+[2017-03-23 17:06:14] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:06:14] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:06:14] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:06:14] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:06:14] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:06:14] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:06:15] java.lang.NullPointerException
+[2017-03-23 17:06:15] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:06:15] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:06:15] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:06:15] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:06:15] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:06:15] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:06:16] java.lang.NullPointerException
+[2017-03-23 17:06:16] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:06:16] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:06:16] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:06:16] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:06:16] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:06:16] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:06:17] java.lang.NullPointerException
+[2017-03-23 17:06:17] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:06:17] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:06:17] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:06:17] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:06:17] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:06:17] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:06:19] java.lang.NullPointerException
+[2017-03-23 17:06:19] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:06:19] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:06:19] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:06:19] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:06:19] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:06:19] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:06:20] java.lang.NullPointerException
+[2017-03-23 17:06:20] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:06:20] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:06:20] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:06:20] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:06:20] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:06:20] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:09:32] java.lang.NullPointerException
+[2017-03-23 17:09:32] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:09:32] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:09:32] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:09:32] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:09:32] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:09:32] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:09:33] java.lang.NullPointerException
+[2017-03-23 17:09:33] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:09:33] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:09:33] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:09:33] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:09:33] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:09:33] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:09:34] java.lang.NullPointerException
+[2017-03-23 17:09:34] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:09:34] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:09:34] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:09:34] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:09:34] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:09:34] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:09:36] java.lang.NullPointerException
+[2017-03-23 17:09:36] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:09:36] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:09:36] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:09:36] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:09:36] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:09:36] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:09:37] java.lang.NullPointerException
+[2017-03-23 17:09:37] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:09:37] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:09:37] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:09:37] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:09:37] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:09:37] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:09:38] java.lang.NullPointerException
+[2017-03-23 17:09:38] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:09:38] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:09:38] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:09:38] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:09:38] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:09:38] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:09:39] java.lang.NullPointerException
+[2017-03-23 17:09:40] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:09:40] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:09:40] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:09:40] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:09:40] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:09:40] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:09:41] java.lang.NullPointerException
+[2017-03-23 17:09:41] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:09:41] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:09:41] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:09:41] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:09:41] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:09:41] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:09:42] java.lang.NullPointerException
+[2017-03-23 17:09:42] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:09:42] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:09:42] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:09:42] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:09:42] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:09:42] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:09:43] java.lang.NullPointerException
+[2017-03-23 17:09:43] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:09:43] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:09:43] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:09:43] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:09:43] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:09:43] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:09:44] java.lang.NullPointerException
+[2017-03-23 17:09:44] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:09:44] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:09:44] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:09:44] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:09:44] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:09:44] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:09:45] java.lang.NullPointerException
+[2017-03-23 17:09:45] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:09:45] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:09:45] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:09:45] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:09:45] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:09:45] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:09:47] java.lang.NullPointerException
+[2017-03-23 17:09:47] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:09:47] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:09:47] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:09:47] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:09:47] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:09:47] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:09:48] java.lang.NullPointerException
+[2017-03-23 17:09:48] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:09:48] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:09:48] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:09:48] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:09:48] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:09:48] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:09:49] java.lang.NullPointerException
+[2017-03-23 17:09:49] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:09:49] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:09:49] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:09:49] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:09:49] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:09:49] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:09:50] java.lang.NullPointerException
+[2017-03-23 17:09:50] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:09:50] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:09:50] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:09:50] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:09:50] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:09:50] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:09:52] java.lang.NullPointerException
+[2017-03-23 17:09:52] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:09:52] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:09:52] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:09:52] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:09:52] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:09:52] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:09:53] java.lang.NullPointerException
+[2017-03-23 17:09:53] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:09:53] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:09:53] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:09:53] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:09:53] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:09:53] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:09:54] java.lang.NullPointerException
+[2017-03-23 17:09:54] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:09:54] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:09:54] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:09:54] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:09:54] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:09:54] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:09:55] java.lang.NullPointerException
+[2017-03-23 17:09:55] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:09:55] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:09:55] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:09:55] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:09:55] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:09:55] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:09:57] java.lang.NullPointerException
+[2017-03-23 17:09:57] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:09:57] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:09:57] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:09:57] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:09:57] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:09:57] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:09:58] java.lang.NullPointerException
+[2017-03-23 17:09:58] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:09:58] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:09:58] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:09:58] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:09:58] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:09:58] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:09:59] java.lang.NullPointerException
+[2017-03-23 17:09:59] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:09:59] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:09:59] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:09:59] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:09:59] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:09:59] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:10:00] java.lang.NullPointerException
+[2017-03-23 17:10:00] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:10:00] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:10:00] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:10:00] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:10:00] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:10:00] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:10:02] java.lang.NullPointerException
+[2017-03-23 17:10:02] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:10:02] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:10:02] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:10:02] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:10:02] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:10:02] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:10:03] java.lang.NullPointerException
+[2017-03-23 17:10:03] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:10:03] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:10:03] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:10:03] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:10:03] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:10:03] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:10:04] java.lang.NullPointerException
+[2017-03-23 17:10:04] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:10:04] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:10:04] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:10:04] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:10:04] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:10:04] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:11:21] java.lang.NullPointerException
+[2017-03-23 17:11:21] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:11:21] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:11:21] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:11:21] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:11:21] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:11:21] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:11:22] java.lang.NullPointerException
+[2017-03-23 17:11:22] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:11:22] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:11:22] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:11:22] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:11:22] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:11:22] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:11:23] java.lang.NullPointerException
+[2017-03-23 17:11:23] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:11:23] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:11:23] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:11:23] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:11:23] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:11:23] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:11:24] java.lang.NullPointerException
+[2017-03-23 17:11:24] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:11:24] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:11:24] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:11:24] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:11:24] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:11:24] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:11:26] java.lang.NullPointerException
+[2017-03-23 17:11:26] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:11:26] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:11:26] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:11:26] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:11:26] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:11:26] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:11:27] java.lang.NullPointerException
+[2017-03-23 17:11:28] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:11:28] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:11:28] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:11:28] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:11:28] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:11:28] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:11:28] java.lang.NullPointerException
+[2017-03-23 17:11:28] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:11:28] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:11:28] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:11:28] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:11:28] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:11:28] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:11:29] java.lang.NullPointerException
+[2017-03-23 17:11:29] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:11:29] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:11:29] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:11:29] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:11:29] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:11:29] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:11:31] java.lang.NullPointerException
+[2017-03-23 17:11:31] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:11:31] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:11:31] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:11:31] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:11:31] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:11:31] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:11:32] java.lang.NullPointerException
+[2017-03-23 17:11:32] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:11:32] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:11:32] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:11:32] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:11:32] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:11:32] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:11:33] java.lang.NullPointerException
+[2017-03-23 17:11:33] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:11:33] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:11:33] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:11:33] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:11:33] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:11:33] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:11:34] java.lang.NullPointerException
+[2017-03-23 17:11:34] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:11:34] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:11:34] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:11:34] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:11:34] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:11:34] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:11:36] java.lang.NullPointerException
+[2017-03-23 17:11:36] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:11:36] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:11:36] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:11:36] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:11:36] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:11:36] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:11:37] java.lang.NullPointerException
+[2017-03-23 17:11:37] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:11:37] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:11:37] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:11:37] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:11:37] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:11:37] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:11:38] java.lang.NullPointerException
+[2017-03-23 17:11:38] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:11:38] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:11:38] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:11:38] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:11:38] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:11:38] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:11:39] java.lang.NullPointerException
+[2017-03-23 17:11:39] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:11:39] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:11:39] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:11:39] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:11:39] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:11:39] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:11:40] java.lang.NullPointerException
+[2017-03-23 17:11:40] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:11:40] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:11:40] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:11:40] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:11:40] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:11:40] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:11:42] java.lang.NullPointerException
+[2017-03-23 17:11:42] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:11:42] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:11:42] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:11:42] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:11:42] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:11:42] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:11:43] java.lang.NullPointerException
+[2017-03-23 17:11:43] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:11:43] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:11:43] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:11:43] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:11:43] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:11:43] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:11:44] java.lang.NullPointerException
+[2017-03-23 17:11:44] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:11:44] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:11:44] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:11:44] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:11:44] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:11:44] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:11:45] java.lang.NullPointerException
+[2017-03-23 17:11:45] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:11:45] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:11:45] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:11:45] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:11:45] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:11:45] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:11:47] java.lang.NullPointerException
+[2017-03-23 17:11:47] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:11:47] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:11:47] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:11:47] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:11:47] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:11:47] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:11:48] java.lang.NullPointerException
+[2017-03-23 17:11:48] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:11:48] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:11:48] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:11:48] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:11:48] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:11:48] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:11:49] java.lang.NullPointerException
+[2017-03-23 17:11:49] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:11:49] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:11:49] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:11:49] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:11:49] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:11:49] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:11:50] java.lang.NullPointerException
+[2017-03-23 17:11:50] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:11:50] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:11:50] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:11:50] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:11:50] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:11:50] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:11:51] java.lang.NullPointerException
+[2017-03-23 17:11:52] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:11:52] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:11:52] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:11:52] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:11:52] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:11:52] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:11:53] java.lang.NullPointerException
+[2017-03-23 17:11:53] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:11:53] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:11:53] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:11:53] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:11:53] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:11:53] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:11:54] java.lang.NullPointerException
+[2017-03-23 17:11:54] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:11:54] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:11:54] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:11:54] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:11:54] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:11:54] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:11:55] java.lang.NullPointerException
+[2017-03-23 17:11:55] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:11:55] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:11:55] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:11:55] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:11:55] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:11:55] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:11:56] java.lang.NullPointerException
+[2017-03-23 17:11:56] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:11:56] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:11:56] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:11:56] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:11:56] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:11:56] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:11:58] java.lang.NullPointerException
+[2017-03-23 17:11:58] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:11:58] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:11:58] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:11:58] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:11:58] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:11:58] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:11:59] java.lang.NullPointerException
+[2017-03-23 17:11:59] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:11:59] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:11:59] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:11:59] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:11:59] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:11:59] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:12:00] java.lang.NullPointerException
+[2017-03-23 17:12:00] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:12:00] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:12:00] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:12:00] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:12:00] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:12:00] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:12:01] java.lang.NullPointerException
+[2017-03-23 17:12:01] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:12:01] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:12:01] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:12:01] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:12:01] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:12:01] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:12:03] java.lang.NullPointerException
+[2017-03-23 17:12:03] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:12:03] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:12:03] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:12:03] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:12:03] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:12:03] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:12:04] java.lang.NullPointerException
+[2017-03-23 17:12:04] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:12:04] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:12:04] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:12:04] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:12:04] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:12:04] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:12:05] java.lang.NullPointerException
+[2017-03-23 17:12:05] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:12:05] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:12:05] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:12:05] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:12:05] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:12:05] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:12:06] java.lang.NullPointerException
+[2017-03-23 17:12:06] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:12:06] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:12:06] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:12:06] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:12:06] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:12:06] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:12:08] java.lang.NullPointerException
+[2017-03-23 17:12:08] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:12:08] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:12:08] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:12:08] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:12:08] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:12:08] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:12:09] java.lang.NullPointerException
+[2017-03-23 17:12:09] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:12:09] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:12:09] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:12:09] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:12:09] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:12:09] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:12:10] java.lang.NullPointerException
+[2017-03-23 17:12:10] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:12:10] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:12:10] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:12:10] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:12:10] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:12:10] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:12:11] java.lang.NullPointerException
+[2017-03-23 17:12:11] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:12:11] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:12:11] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:12:11] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:12:11] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:12:11] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:12:12] java.lang.NullPointerException
+[2017-03-23 17:12:12] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:12:12] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:12:12] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:12:12] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:12:12] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:12:12] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:12:14] java.lang.NullPointerException
+[2017-03-23 17:12:14] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:12:14] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:12:14] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:12:14] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:12:14] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:12:14] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:12:15] java.lang.NullPointerException
+[2017-03-23 17:12:15] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:12:15] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:12:15] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:12:15] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:12:15] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:12:15] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:12:16] java.lang.NullPointerException
+[2017-03-23 17:12:16] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:12:16] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:12:16] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:12:16] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:12:16] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:12:16] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:12:17] java.lang.NullPointerException
+[2017-03-23 17:12:17] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:12:17] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:12:17] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:12:17] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:12:17] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:12:17] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:12:19] java.lang.NullPointerException
+[2017-03-23 17:12:19] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:12:19] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:12:19] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:12:19] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:12:19] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:12:19] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:12:20] java.lang.NullPointerException
+[2017-03-23 17:12:20] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:12:20] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:12:20] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:12:20] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:12:20] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:12:20] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:12:21] java.lang.NullPointerException
+[2017-03-23 17:12:21] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:12:21] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:12:21] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:12:21] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:12:21] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:12:21] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:12:22] java.lang.NullPointerException
+[2017-03-23 17:12:22] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:12:22] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:12:22] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:12:22] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:12:22] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:12:22] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:12:23] java.lang.NullPointerException
+[2017-03-23 17:12:23] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:12:23] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:12:23] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:12:23] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:12:23] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:12:23] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:12:25] java.lang.NullPointerException
+[2017-03-23 17:12:25] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:12:25] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:12:25] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:12:25] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:12:25] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:12:25] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:12:26] java.lang.NullPointerException
+[2017-03-23 17:12:26] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:12:26] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:12:26] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:12:26] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:12:26] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:12:26] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:12:27] java.lang.NullPointerException
+[2017-03-23 17:12:27] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:12:27] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:12:27] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:12:27] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:12:27] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:12:27] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:12:28] java.lang.NullPointerException
+[2017-03-23 17:12:28] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:12:28] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:12:28] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:12:28] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:12:28] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:12:28] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:12:30] java.lang.NullPointerException
+[2017-03-23 17:12:30] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:12:30] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:12:30] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:12:30] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:12:30] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:12:30] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:12:31] java.lang.NullPointerException
+[2017-03-23 17:12:31] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:12:31] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:12:31] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:12:31] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:12:31] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:12:31] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:12:32] java.lang.NullPointerException
+[2017-03-23 17:12:32] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:12:32] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:12:32] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:12:32] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:12:32] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:12:32] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:12:33] java.lang.NullPointerException
+[2017-03-23 17:12:33] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:12:33] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:12:33] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:12:33] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:12:33] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:12:33] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:13:59] java.lang.NullPointerException
+[2017-03-23 17:13:59] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:13:59] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:13:59] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:13:59] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:13:59] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:13:59] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:14:01] java.lang.NullPointerException
+[2017-03-23 17:14:01] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:14:01] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:14:01] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:14:01] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:14:01] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:14:01] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:14:02] java.lang.NullPointerException
+[2017-03-23 17:14:02] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:14:02] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:14:02] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:14:02] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:14:02] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:14:02] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:14:03] java.lang.NullPointerException
+[2017-03-23 17:14:03] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:14:03] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:14:03] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:14:03] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:14:03] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:14:03] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:14:04] java.lang.NullPointerException
+[2017-03-23 17:14:04] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:14:04] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:14:04] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:14:04] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:14:04] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:14:04] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:14:06] java.lang.NullPointerException
+[2017-03-23 17:14:06] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:14:06] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:14:06] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:14:06] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:14:06] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:14:06] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:14:07] java.lang.NullPointerException
+[2017-03-23 17:14:07] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:14:07] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:14:07] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:14:07] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:14:07] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:14:07] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:14:08] java.lang.NullPointerException
+[2017-03-23 17:14:08] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:14:08] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:14:08] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:14:08] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:14:08] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:14:08] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:14:09] java.lang.NullPointerException
+[2017-03-23 17:14:09] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:14:09] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:14:09] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:14:09] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:14:09] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:14:09] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:14:10] java.lang.NullPointerException
+[2017-03-23 17:14:10] 	at com.mayhem.rs2.entity.mob.Mob.hit(Mob.java:549)
+[2017-03-23 17:14:10] 	at com.mayhem.core.task.impl.HitTask.execute(HitTask.java:64)
+[2017-03-23 17:14:10] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-23 17:14:10] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-23 17:14:10] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 17:14:10] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 17:27:55] java.lang.IndexOutOfBoundsException: Readable byte limit exceeded: 12
+[2017-03-23 17:27:55] 	at org.jboss.netty.buffer.AbstractChannelBuffer.readByte(AbstractChannelBuffer.java:236)
+[2017-03-23 17:27:55] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:120)
+[2017-03-23 17:27:55] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:107)
+[2017-03-23 17:27:55] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:467)
+[2017-03-23 17:27:55] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:412)
+[2017-03-23 17:27:55] 	at com.mayhem.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:853)
+[2017-03-23 17:27:55] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-23 17:27:55] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-23 17:27:55] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-23 17:27:55] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-23 17:27:55] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 19:53:12] java.lang.NullPointerException
+[2017-03-23 19:53:12] 	at com.mayhem.rs2.content.skill.agility.obstacle.interaction.ObstacleInteraction.courseRewards(ObstacleInteraction.java:191)
+[2017-03-23 19:53:12] 	at com.mayhem.rs2.content.skill.agility.obstacle.interaction.ObstacleInteraction$1.onStop(ObstacleInteraction.java:158)
+[2017-03-23 19:53:12] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:62)
+[2017-03-23 19:53:12] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-23 19:53:12] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 19:53:51] java.lang.NullPointerException
+[2017-03-23 19:53:51] 	at com.mayhem.rs2.content.dialogue.DialogueManager.sendStatement(DialogueManager.java:170)
+[2017-03-23 19:53:51] 	at com.mayhem.rs2.content.shopping.Shopping.buy(Shopping.java:47)
+[2017-03-23 19:53:51] 	at com.mayhem.rs2.entity.player.net.in.impl.ChatInterfacePacket.handleEnterX(ChatInterfacePacket.java:126)
+[2017-03-23 19:53:51] 	at com.mayhem.rs2.entity.player.net.in.impl.ChatInterfacePacket.handle(ChatInterfacePacket.java:39)
+[2017-03-23 19:53:51] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-23 19:53:51] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-23 19:53:51] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-23 19:53:51] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-23 19:53:51] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-23 22:59:10] Didn't save hiscores for [EXTREME]Mod andy
+[2017-03-23 23:24:19] Didn't save hiscores for [EXTREME]Trebble
+[2017-03-24 01:07:10] java.lang.NullPointerException
+[2017-03-24 01:07:10] 	at com.mayhem.rs2.content.DropTable.displayNpc(DropTable.java:177)
+[2017-03-24 01:07:10] 	at com.mayhem.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:134)
+[2017-03-24 01:07:10] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-24 01:07:10] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-24 01:07:10] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-24 01:07:10] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-24 01:07:10] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-24 01:07:12] java.lang.NullPointerException
+[2017-03-24 01:07:12] 	at com.mayhem.rs2.content.DropTable.displayNpc(DropTable.java:177)
+[2017-03-24 01:07:12] 	at com.mayhem.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:134)
+[2017-03-24 01:07:12] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-24 01:07:12] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-24 01:07:12] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-24 01:07:12] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-24 01:07:12] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-24 01:07:13] java.lang.NullPointerException
+[2017-03-24 01:07:13] 	at com.mayhem.rs2.content.DropTable.displayNpc(DropTable.java:177)
+[2017-03-24 01:07:13] 	at com.mayhem.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:134)
+[2017-03-24 01:07:13] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-24 01:07:13] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-24 01:07:13] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-24 01:07:13] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-24 01:07:13] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-24 01:07:14] java.lang.NullPointerException
+[2017-03-24 01:07:14] 	at com.mayhem.rs2.content.DropTable.displayNpc(DropTable.java:177)
+[2017-03-24 01:07:14] 	at com.mayhem.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:134)
+[2017-03-24 01:07:14] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-24 01:07:14] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-24 01:07:14] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-24 01:07:14] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-24 01:07:14] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-24 02:17:44] Didn't save hiscores for [EXTREME]Mod divine
+[2017-03-24 02:31:00] Didn't save hiscores for [EXTREME]Mod divine
+[2017-03-24 02:37:47] Didn't save hiscores for [EXTREME]Mod divine
+[2017-03-24 02:37:58] java.lang.NullPointerException
+[2017-03-24 02:37:58] java.lang.NullPointerException
+[2017-03-24 02:47:15] Didn't save hiscores for [EXTREME]Mod divine
+[2017-03-24 04:28:00] java.lang.NumberFormatException: For input string: "4.9000000"
+[2017-03-24 04:28:00] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2017-03-24 04:28:00] 	at java.lang.Long.parseLong(Unknown Source)
+[2017-03-24 04:28:00] 	at java.lang.Long.parseLong(Unknown Source)
+[2017-03-24 04:28:00] 	at com.mayhem.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:239)
+[2017-03-24 04:28:00] 	at com.mayhem.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:57)
+[2017-03-24 04:28:00] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-24 04:28:00] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-24 04:28:00] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-24 04:28:00] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-24 04:28:00] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-24 04:31:15] Didn't save hiscores for [EXTREME]Mod divine
+[2017-03-24 04:36:44] Didn't save hiscores for [EXTREME]Mod divine
+[2017-03-24 05:01:06] java.lang.IndexOutOfBoundsException: Readable byte limit exceeded: 12
+[2017-03-24 05:01:06] 	at org.jboss.netty.buffer.AbstractChannelBuffer.readByte(AbstractChannelBuffer.java:236)
+[2017-03-24 05:01:06] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:120)
+[2017-03-24 05:01:06] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:107)
+[2017-03-24 05:01:06] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:467)
+[2017-03-24 05:01:06] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:412)
+[2017-03-24 05:01:06] 	at com.mayhem.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:853)
+[2017-03-24 05:01:06] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-24 05:01:06] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-24 05:01:06] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-24 05:01:06] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-24 05:01:06] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-24 05:07:39] java.lang.IndexOutOfBoundsException: Readable byte limit exceeded: 12
+[2017-03-24 05:07:39] 	at org.jboss.netty.buffer.AbstractChannelBuffer.readByte(AbstractChannelBuffer.java:236)
+[2017-03-24 05:07:39] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:120)
+[2017-03-24 05:07:39] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:107)
+[2017-03-24 05:07:39] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:467)
+[2017-03-24 05:07:39] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:412)
+[2017-03-24 05:07:39] 	at com.mayhem.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:853)
+[2017-03-24 05:07:39] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-24 05:07:39] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-24 05:07:39] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-24 05:07:39] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-24 05:07:39] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-24 05:15:08] java.lang.IndexOutOfBoundsException: Readable byte limit exceeded: 12
+[2017-03-24 05:15:08] 	at org.jboss.netty.buffer.AbstractChannelBuffer.readByte(AbstractChannelBuffer.java:236)
+[2017-03-24 05:15:08] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:120)
+[2017-03-24 05:15:08] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:107)
+[2017-03-24 05:15:08] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:467)
+[2017-03-24 05:15:08] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:412)
+[2017-03-24 05:15:08] 	at com.mayhem.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:853)
+[2017-03-24 05:15:08] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-24 05:15:08] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-24 05:15:08] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-24 05:15:08] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-24 05:15:08] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-24 05:15:54] java.lang.IndexOutOfBoundsException: Readable byte limit exceeded: 12
+[2017-03-24 05:15:54] 	at org.jboss.netty.buffer.AbstractChannelBuffer.readByte(AbstractChannelBuffer.java:236)
+[2017-03-24 05:15:54] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:120)
+[2017-03-24 05:15:54] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:107)
+[2017-03-24 05:15:54] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:467)
+[2017-03-24 05:15:54] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:412)
+[2017-03-24 05:15:54] 	at com.mayhem.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:853)
+[2017-03-24 05:15:54] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-24 05:15:54] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-24 05:15:54] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-24 05:15:54] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-24 05:15:54] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-24 05:28:24] java.lang.IndexOutOfBoundsException: Readable byte limit exceeded: 12
+[2017-03-24 05:28:24] 	at org.jboss.netty.buffer.AbstractChannelBuffer.readByte(AbstractChannelBuffer.java:236)
+[2017-03-24 05:28:24] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:120)
+[2017-03-24 05:28:24] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:107)
+[2017-03-24 05:28:24] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:467)
+[2017-03-24 05:28:24] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:412)
+[2017-03-24 05:28:24] 	at com.mayhem.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:853)
+[2017-03-24 05:28:24] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-24 05:28:24] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-24 05:28:24] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-24 05:28:24] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-24 05:28:24] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-24 05:59:16] Didn't save hiscores for [EXTREME]Mod divine
+[2017-03-24 07:02:50] java.lang.NullPointerException
+[2017-03-24 07:02:50] 	at com.mayhem.rs2.content.DropTable.displayNpc(DropTable.java:177)
+[2017-03-24 07:02:50] 	at com.mayhem.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:134)
+[2017-03-24 07:02:50] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-24 07:02:50] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-24 07:02:50] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-24 07:02:50] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-24 07:02:50] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-24 07:04:11] com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 10 ms ago.
+[2017-03-24 07:04:11] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[2017-03-24 07:04:11] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+[2017-03-24 07:04:11] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[2017-03-24 07:04:11] 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[2017-03-24 07:04:11] 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+[2017-03-24 07:04:11] 	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+[2017-03-24 07:04:11] 	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3009)
+[2017-03-24 07:04:11] 	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2895)
+[2017-03-24 07:04:11] 	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3438)
+[2017-03-24 07:04:11] 	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+[2017-03-24 07:04:11] 	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+[2017-03-24 07:04:11] 	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2554)
+[2017-03-24 07:04:11] 	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1761)
+[2017-03-24 07:04:11] 	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1021)
+[2017-03-24 07:04:11] 	at com.mayhem.core.network.mysql.ExtremeHiscores.run(ExtremeHiscores.java:35)
+[2017-03-24 07:04:11] 	at java.lang.Thread.run(Unknown Source)
+[2017-03-24 07:04:11] Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+[2017-03-24 07:04:11] 	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2455)
+[2017-03-24 07:04:11] 	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2906)
+[2017-03-24 07:04:11] 	... 9 more
+[2017-03-24 07:06:04] java.lang.IllegalStateException: unprepared
+[2017-03-24 07:06:04] 	at com.mayhem.core.network.mysql.MembershipRewards.collectReward(MembershipRewards.java:38)
+[2017-03-24 07:06:04] 	at com.mayhem.rs2.content.dialogue.impl.MembershipDialogue.execute(MembershipDialogue.java:70)
+[2017-03-24 07:06:04] 	at com.mayhem.rs2.entity.player.net.in.impl.ChatInterfacePacket.handleDialogue(ChatInterfacePacket.java:47)
+[2017-03-24 07:06:04] 	at com.mayhem.rs2.entity.player.net.in.impl.ChatInterfacePacket.handle(ChatInterfacePacket.java:33)
+[2017-03-24 07:06:04] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-24 07:06:04] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-24 07:06:04] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-24 07:06:04] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-24 07:06:04] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-24 08:11:37] Didn't save hiscores for [EXTREME]Mod divine
+[2017-03-24 08:13:46] Didn't save hiscores for [EXTREME]Mod divine
+[2017-03-24 08:54:20] Didn't save hiscores for [EXTREME]Mod divine
+[2017-03-24 08:55:52] Didn't save hiscores for [EXTREME]Mod divine
+[2017-03-24 08:59:39] Didn't save hiscores for [EXTREME]Mod divine
+[2017-03-24 09:02:04] Didn't save hiscores for [EXTREME]Mod divine
+[2017-03-24 09:18:56] java.lang.NullPointerException
+[2017-03-24 09:18:56] 	at com.mayhem.rs2.entity.player.net.in.command.impl.DeveloperCommand.handleCommand(DeveloperCommand.java:884)
+[2017-03-24 09:18:56] 	at com.mayhem.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:57)
+[2017-03-24 09:18:56] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-24 09:18:56] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-24 09:18:56] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-03-24 09:18:56] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-24 09:18:56] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-24 09:28:10] Didn't save hiscores for [EXTREME]Mod divine

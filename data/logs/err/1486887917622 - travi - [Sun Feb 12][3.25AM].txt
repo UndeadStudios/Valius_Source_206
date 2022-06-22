@@ -1,0 +1,6 @@
+Logging started at 2017-02-12 03:25:17
+File name: C:\Users\travi\Dropbox\Valius\Valius Source\.\data\logs\err\1486887917622 - travi - [Sun Feb 12][3.25AM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2017-02-12 03:27:00] Failing to update Beta Tester highscores. Database could not connect.
+[2017-02-12 03:27:11] Failing to update Beta Tester highscores. Database could not connect.

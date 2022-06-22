@@ -1,0 +1,5 @@
+Logging started at 2017-02-23 08:06:05
+File name: C:\Users\Administrator\Dropbox\Valius\Valius Source\.\data\logs\err\1487833565616 - Administrator - [Thu Feb 23][8.06AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-02-23 08:35:09] Didn't save hiscores for [EXTREME]Mod divine

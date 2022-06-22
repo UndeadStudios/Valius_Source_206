@@ -1,0 +1,17 @@
+Logging started at 2016-05-10 21:09:51
+File name: C:\Users\riley\Desktop\os\server\.\data\logs\err\1462932591164 - riley - [Tue May 10][9.09PM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2016-05-10 21:12:27] java.lang.NumberFormatException: For input string: "1::item"
+[2016-05-10 21:12:27] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2016-05-10 21:12:27] 	at java.lang.Integer.parseInt(Unknown Source)
+[2016-05-10 21:12:27] 	at java.lang.Short.parseShort(Unknown Source)
+[2016-05-10 21:12:27] 	at java.lang.Short.parseShort(Unknown Source)
+[2016-05-10 21:12:27] 	at com.mayhem.rs2.entity.player.net.in.command.CommandParser.nextShort(CommandParser.java:110)
+[2016-05-10 21:12:27] 	at com.mayhem.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:226)
+[2016-05-10 21:12:27] 	at com.mayhem.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2016-05-10 21:12:27] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2016-05-10 21:12:27] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2016-05-10 21:12:27] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2016-05-10 21:12:27] 	at com.mayhem.core.GameThread.cycle(GameThread.java:124)
+[2016-05-10 21:12:27] 	at com.mayhem.core.GameThread.run(GameThread.java:139)

@@ -1,0 +1,77 @@
+Logging started at 2017-03-31 07:27:32
+File name: C:\Users\Administrator\Dropbox\Valius\Valius Source\.\data\logs\err\1490938052365 - Administrator - [Fri Mar 31][7.27AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-03-31 07:39:53] Didn't save hiscores for [EXTREME]Mod divine
+[2017-03-31 07:51:18] Didn't save hiscores for [EXTREME]Mod divine
+[2017-03-31 16:04:08] java.lang.IndexOutOfBoundsException: Readable byte limit exceeded: 12
+[2017-03-31 16:04:08] 	at org.jboss.netty.buffer.AbstractChannelBuffer.readByte(AbstractChannelBuffer.java:236)
+[2017-03-31 16:04:08] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:120)
+[2017-03-31 16:04:08] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:107)
+[2017-03-31 16:04:08] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:467)
+[2017-03-31 16:04:08] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:412)
+[2017-03-31 16:04:08] 	at com.mayhem.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:853)
+[2017-03-31 16:04:08] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-31 16:04:08] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-31 16:04:08] 	at com.mayhem.rs2.entity.World.process(World.java:322)
+[2017-03-31 16:04:08] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-31 16:04:08] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-31 16:04:13] java.lang.IndexOutOfBoundsException: Readable byte limit exceeded: 12
+[2017-03-31 16:04:13] 	at org.jboss.netty.buffer.AbstractChannelBuffer.readByte(AbstractChannelBuffer.java:236)
+[2017-03-31 16:04:13] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:120)
+[2017-03-31 16:04:13] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:107)
+[2017-03-31 16:04:13] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:467)
+[2017-03-31 16:04:13] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:412)
+[2017-03-31 16:04:13] 	at com.mayhem.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:853)
+[2017-03-31 16:04:13] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-31 16:04:13] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-31 16:04:13] 	at com.mayhem.rs2.entity.World.process(World.java:322)
+[2017-03-31 16:04:13] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-31 16:04:13] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-31 16:10:58] java.lang.IndexOutOfBoundsException: Readable byte limit exceeded: 12
+[2017-03-31 16:10:58] 	at org.jboss.netty.buffer.AbstractChannelBuffer.readByte(AbstractChannelBuffer.java:236)
+[2017-03-31 16:10:58] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:120)
+[2017-03-31 16:10:58] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:107)
+[2017-03-31 16:10:58] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:467)
+[2017-03-31 16:10:58] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:412)
+[2017-03-31 16:10:58] 	at com.mayhem.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:853)
+[2017-03-31 16:10:58] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-31 16:10:58] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-31 16:10:58] 	at com.mayhem.rs2.entity.World.process(World.java:322)
+[2017-03-31 16:10:58] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-31 16:10:58] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-31 21:50:08] java.lang.IndexOutOfBoundsException: Readable byte limit exceeded: 12
+[2017-03-31 21:50:08] 	at org.jboss.netty.buffer.AbstractChannelBuffer.readByte(AbstractChannelBuffer.java:236)
+[2017-03-31 21:50:08] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:120)
+[2017-03-31 21:50:08] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:107)
+[2017-03-31 21:50:08] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:467)
+[2017-03-31 21:50:08] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:412)
+[2017-03-31 21:50:08] 	at com.mayhem.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:853)
+[2017-03-31 21:50:08] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-31 21:50:08] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-31 21:50:08] 	at com.mayhem.rs2.entity.World.process(World.java:322)
+[2017-03-31 21:50:08] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-31 21:50:08] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-04-01 00:08:29] java.lang.IndexOutOfBoundsException: Readable byte limit exceeded: 12
+[2017-04-01 00:08:29] 	at org.jboss.netty.buffer.AbstractChannelBuffer.readByte(AbstractChannelBuffer.java:236)
+[2017-04-01 00:08:29] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:120)
+[2017-04-01 00:08:29] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:107)
+[2017-04-01 00:08:29] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:467)
+[2017-04-01 00:08:29] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:412)
+[2017-04-01 00:08:29] 	at com.mayhem.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:853)
+[2017-04-01 00:08:29] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-04-01 00:08:29] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-04-01 00:08:29] 	at com.mayhem.rs2.entity.World.process(World.java:322)
+[2017-04-01 00:08:29] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-04-01 00:08:29] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-04-01 03:37:57] Didn't save hiscores for [EXTREME]Mod divine
+[2017-04-01 05:26:58] java.lang.ArrayIndexOutOfBoundsException: 338
+[2017-04-01 05:26:58] 	at com.mayhem.rs2.content.bank.Bank.withdraw(Bank.java:348)
+[2017-04-01 05:26:58] 	at com.mayhem.rs2.entity.player.net.in.impl.ItemPackets.withdrawBankItem(ItemPackets.java:1417)
+[2017-04-01 05:26:58] 	at com.mayhem.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:197)
+[2017-04-01 05:26:58] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-04-01 05:26:58] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-04-01 05:26:58] 	at com.mayhem.rs2.entity.World.process(World.java:322)
+[2017-04-01 05:26:58] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-04-01 05:26:58] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-04-01 07:46:58] Didn't save hiscores for [EXTREME]Mod divine

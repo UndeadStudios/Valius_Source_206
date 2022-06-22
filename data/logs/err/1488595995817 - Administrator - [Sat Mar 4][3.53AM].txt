@@ -1,0 +1,44 @@
+Logging started at 2017-03-04 03:53:16
+File name: C:\Users\Administrator\Dropbox\Valius\Valius Source\.\data\logs\err\1488595995817 - Administrator - [Sat Mar 4][3.53AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-03-04 03:53:25] com.thoughtworks.xstream.converters.ConversionException:  : end tag name </WeaponDefinition> must match start tag name <list> from line 1 (position: TEXT seen ...</WeaponDefinition>\r\n\t</WeaponDefinition>... @7932:21)  :  : end tag name </WeaponDefinition> must match start tag name <list> from line 1 (position: TEXT seen ...</WeaponDefinition>\r\n\t</WeaponDefinition>... @7932:21) 
+---- Debugging information ----
+message             :  : end tag name </WeaponDefinition> must match start tag name <list> from line 1 (position: TEXT seen ...</WeaponDefinition>\r\n\t</WeaponDefinition>... @7932:21) 
+cause-exception     : com.thoughtworks.xstream.io.StreamException
+cause-message       :  : end tag name </WeaponDefinition> must match start tag name <list> from line 1 (position: TEXT seen ...</WeaponDefinition>\r\n\t</WeaponDefinition>... @7932:21) 
+class               : java.util.ArrayList
+required-type       : java.util.ArrayList
+path                : /list
+line number         : 7932
+-------------------------------
+[2017-03-04 03:53:25] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:89)
+[2017-03-04 03:53:25] 	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:63)
+[2017-03-04 03:53:25] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:76)
+[2017-03-04 03:53:25] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:60)
+[2017-03-04 03:53:25] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.start(TreeUnmarshaller.java:137)
+[2017-03-04 03:53:25] 	at com.thoughtworks.xstream.core.AbstractTreeMarshallingStrategy.unmarshal(AbstractTreeMarshallingStrategy.java:33)
+[2017-03-04 03:53:25] 	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:923)
+[2017-03-04 03:53:25] 	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:909)
+[2017-03-04 03:53:25] 	at com.thoughtworks.xstream.XStream.fromXML(XStream.java:861)
+[2017-03-04 03:53:25] 	at com.mayhem.core.util.GameDefinitionLoader.loadWeaponDefinitions(GameDefinitionLoader.java:748)
+[2017-03-04 03:53:25] 	at com.mayhem.GameDataLoader.load(GameDataLoader.java:122)
+[2017-03-04 03:53:25] 	at com.mayhem.core.GameThread.startup(GameThread.java:71)
+[2017-03-04 03:53:25] 	at com.mayhem.core.GameThread.init(GameThread.java:36)
+[2017-03-04 03:53:25] 	at com.mayhem.Server.main(Server.java:102)
+[2017-03-04 03:53:25] Caused by: com.thoughtworks.xstream.io.StreamException:  : end tag name </WeaponDefinition> must match start tag name <list> from line 1 (position: TEXT seen ...</WeaponDefinition>\r\n\t</WeaponDefinition>... @7932:21) 
+[2017-03-04 03:53:25] 	at com.thoughtworks.xstream.io.xml.XppReader.pullNextEvent(XppReader.java:78)
+[2017-03-04 03:53:25] 	at com.thoughtworks.xstream.io.xml.AbstractPullReader.readRealEvent(AbstractPullReader.java:137)
+[2017-03-04 03:53:25] 	at com.thoughtworks.xstream.io.xml.AbstractPullReader.readEvent(AbstractPullReader.java:124)
+[2017-03-04 03:53:25] 	at com.thoughtworks.xstream.io.xml.AbstractPullReader.hasMoreChildren(AbstractPullReader.java:78)
+[2017-03-04 03:53:25] 	at com.thoughtworks.xstream.io.ReaderWrapper.hasMoreChildren(ReaderWrapper.java:32)
+[2017-03-04 03:53:25] 	at com.thoughtworks.xstream.converters.collections.CollectionConverter.populateCollection(CollectionConverter.java:66)
+[2017-03-04 03:53:25] 	at com.thoughtworks.xstream.converters.collections.CollectionConverter.unmarshal(CollectionConverter.java:61)
+[2017-03-04 03:53:25] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:82)
+[2017-03-04 03:53:25] 	... 13 more
+[2017-03-04 03:53:25] Caused by: org.xmlpull.v1.XmlPullParserException: end tag name </WeaponDefinition> must match start tag name <list> from line 1 (position: TEXT seen ...</WeaponDefinition>\r\n\t</WeaponDefinition>... @7932:21) 
+[2017-03-04 03:53:25] 	at org.xmlpull.mxp1.MXParser.parseEndTag(MXParser.java:1689)
+[2017-03-04 03:53:25] 	at org.xmlpull.mxp1.MXParser.nextImpl(MXParser.java:1131)
+[2017-03-04 03:53:25] 	at org.xmlpull.mxp1.MXParser.next(MXParser.java:1093)
+[2017-03-04 03:53:25] 	at com.thoughtworks.xstream.io.xml.XppReader.pullNextEvent(XppReader.java:63)
+[2017-03-04 03:53:25] 	... 20 more

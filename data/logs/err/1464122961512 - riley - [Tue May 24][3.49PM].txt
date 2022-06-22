@@ -1,0 +1,11 @@
+Logging started at 2016-05-24 15:49:21
+File name: C:\Users\riley\Desktop\os\server\.\data\logs\err\1464122961512 - riley - [Tue May 24][3.49PM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2016-05-24 15:51:48] java.lang.ClassCastException: com.mayhem.rs2.entity.mob.Mob cannot be cast to com.mayhem.rs2.entity.player.Player
+[2016-05-24 15:51:48] 	at com.mayhem.rs2.entity.mob.drop.NpcDropSystem.drop(NpcDropSystem.java:216)
+[2016-05-24 15:51:48] 	at com.mayhem.core.task.impl.MobDeathTask$2.execute(MobDeathTask.java:52)
+[2016-05-24 15:51:48] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2016-05-24 15:51:48] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2016-05-24 15:51:48] 	at com.mayhem.core.GameThread.cycle(GameThread.java:116)
+[2016-05-24 15:51:48] 	at com.mayhem.core.GameThread.run(GameThread.java:139)

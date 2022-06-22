@@ -1,0 +1,8 @@
+Logging started at 2017-04-09 21:17:32
+File name: E:\Dropbox\Valius Source\.\data\logs\err\1491790652486 - Andrew - [Sun Apr 9][9.17PM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2017-04-09 21:19:55] [Extreme]: Failed to update Trebble highscores. Database could not connect.
+[2017-04-09 21:20:05] [Extreme]: Failed to update Trebble highscores. Database could not connect.
+[2017-04-09 21:21:15] [Extreme]: Failed to update Trebble highscores. Database could not connect.
+[2017-04-09 21:25:04] [Extreme]: Failed to update Trebble highscores. Database could not connect.

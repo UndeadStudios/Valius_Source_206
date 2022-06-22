@@ -1,0 +1,7 @@
+Logging started at 2017-02-05 03:34:01
+File name: C:\Users\travi\Dropbox\Valius\Valius Source\.\data\logs\err\1486283639766 - travi - [Sun Feb 5][3.33AM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2017-02-05 03:57:22] Failing to update Andy highscores. Database could not connect.
+[2017-02-05 05:09:38] Failing to update Trebble highscores. Database could not connect.
+[2017-02-05 05:17:05] Failing to update Andy highscores. Database could not connect.

@@ -1,0 +1,8 @@
+Logging started at 2017-04-09 21:01:43
+File name: E:\Dropbox\Valius Source\.\data\logs\err\1491789703489 - Andrew - [Sun Apr 9][9.01PM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2017-04-09 21:01:52] java.lang.NullPointerException
+[2017-04-09 21:01:52] 	at com.mayhem.rs2.entity.item.impl.GroundItemHandler.add(GroundItemHandler.java:28)
+[2017-04-09 21:01:52] 	at com.mayhem.rs2.entity.item.impl.GlobalItemHandler.spawnGroundItems(GlobalItemHandler.java:69)
+[2017-04-09 21:01:52] 	at com.mayhem.GameDataLoader$1.run(GameDataLoader.java:101)

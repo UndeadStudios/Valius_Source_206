@@ -1,0 +1,8 @@
+Logging started at 2017-02-15 05:45:06
+File name: C:\Users\Administrator\Dropbox\Valius\Valius Source\.\data\logs\err\1487133905848 - Administrator - [Wed Feb 15][5.45AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-02-15 05:49:49] Failing to update Trebble highscores. Database could not connect.
+[2017-02-15 05:51:37] Failing to update Trebble highscores. Database could not connect.
+[2017-02-15 05:51:48] Failing to update Trebble highscores. Database could not connect.
+[2017-02-15 05:53:33] Failing to update Trebble highscores. Database could not connect.

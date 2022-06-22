@@ -1,0 +1,20 @@
+Logging started at 2017-03-15 06:56:46
+File name: C:\Users\Administrator\Dropbox\Valius\Valius Source\.\data\logs\err\1489557406098 - Administrator - [Wed Mar 15][6.56AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-03-15 07:03:50] Exception in thread "Main Thread" 
+[2017-03-15 07:03:50] java.lang.NoClassDefFoundError: com/mayhem/core/util/UpdateableMob
+[2017-03-15 07:03:50] 	at com.mayhem.core.util.MobUpdateList.toRemoval(MobUpdateList.java:106)
+[2017-03-15 07:03:50] 	at com.mayhem.rs2.entity.World.unregister(World.java:623)
+[2017-03-15 07:03:50] 	at com.mayhem.rs2.entity.mob.Mob.remove(Mob.java:911)
+[2017-03-15 07:03:50] 	at com.mayhem.core.task.impl.MobDeathTask.execute(MobDeathTask.java:79)
+[2017-03-15 07:03:50] 	at com.mayhem.core.task.Task.run(Task.java:183)
+[2017-03-15 07:03:50] 	at com.mayhem.core.task.TaskQueue.process(TaskQueue.java:78)
+[2017-03-15 07:03:50] 	at com.mayhem.core.GameThread.cycle(GameThread.java:127)
+[2017-03-15 07:03:50] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-15 07:03:50] Caused by: java.lang.ClassNotFoundException: com.mayhem.core.util.UpdateableMob
+[2017-03-15 07:03:50] 	at java.net.URLClassLoader.findClass(Unknown Source)
+[2017-03-15 07:03:50] 	at java.lang.ClassLoader.loadClass(Unknown Source)
+[2017-03-15 07:03:50] 	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+[2017-03-15 07:03:50] 	at java.lang.ClassLoader.loadClass(Unknown Source)
+[2017-03-15 07:03:50] 	... 8 more

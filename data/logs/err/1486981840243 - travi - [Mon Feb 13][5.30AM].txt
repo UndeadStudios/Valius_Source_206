@@ -1,0 +1,10 @@
+Logging started at 2017-02-13 05:30:40
+File name: C:\Users\travi\Dropbox\Valius\Valius Source\.\data\logs\err\1486981840243 - travi - [Mon Feb 13][5.30AM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2017-02-13 05:33:37] Failing to update Beta Tester highscores. Database could not connect.
+[2017-02-13 05:36:02] Failing to update Beta Tester highscores. Database could not connect.
+[2017-02-13 05:38:51] Failing to update Beta Tester highscores. Database could not connect.
+[2017-02-13 05:39:04] Failing to update Trebble highscores. Database could not connect.
+[2017-02-13 05:51:18] Failing to update Beta Tester highscores. Database could not connect.
+[2017-02-13 06:20:57] Failing to update Trebble highscores. Database could not connect.

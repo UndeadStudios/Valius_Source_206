@@ -1,0 +1,45 @@
+Logging started at 2017-03-29 21:58:55
+File name: E:\Dropbox\Valius Source\.\data\logs\err\1490842735749 - Andrew - [Wed Mar 29][9.58PM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2017-03-29 22:00:01] [Normal]: Failed to update Andy highscores. Database could not connect.
+[2017-03-29 22:01:19] java.lang.NullPointerException
+[2017-03-29 22:01:19] 	at com.mayhem.rs2.content.event.impl.ExampleScript.start(ExampleScript.java:74)
+[2017-03-29 22:01:19] 	at com.mayhem.rs2.content.event.EventManager.setEvent(EventManager.java:91)
+[2017-03-29 22:01:19] 	at com.mayhem.rs2.entity.player.net.in.command.impl.OwnerCommand.handleCommand(OwnerCommand.java:749)
+[2017-03-29 22:01:19] 	at com.mayhem.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:57)
+[2017-03-29 22:01:19] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-29 22:01:19] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-29 22:01:19] 	at com.mayhem.rs2.entity.World.process(World.java:322)
+[2017-03-29 22:01:19] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-29 22:01:19] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-29 22:01:33] java.lang.NullPointerException
+[2017-03-29 22:01:33] 	at com.mayhem.rs2.content.event.impl.ExampleScript.start(ExampleScript.java:74)
+[2017-03-29 22:01:33] 	at com.mayhem.rs2.content.event.EventManager.setEvent(EventManager.java:91)
+[2017-03-29 22:01:33] 	at com.mayhem.rs2.entity.player.net.in.command.impl.OwnerCommand.handleCommand(OwnerCommand.java:749)
+[2017-03-29 22:01:33] 	at com.mayhem.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:57)
+[2017-03-29 22:01:33] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-29 22:01:33] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-29 22:01:33] 	at com.mayhem.rs2.entity.World.process(World.java:322)
+[2017-03-29 22:01:33] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-29 22:01:33] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-29 22:01:36] java.lang.NullPointerException
+[2017-03-29 22:01:36] 	at com.mayhem.rs2.content.event.impl.ExampleScript.start(ExampleScript.java:74)
+[2017-03-29 22:01:36] 	at com.mayhem.rs2.content.event.EventManager.setEvent(EventManager.java:91)
+[2017-03-29 22:01:36] 	at com.mayhem.rs2.entity.player.net.in.command.impl.OwnerCommand.handleCommand(OwnerCommand.java:749)
+[2017-03-29 22:01:36] 	at com.mayhem.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:57)
+[2017-03-29 22:01:36] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-29 22:01:36] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-29 22:01:36] 	at com.mayhem.rs2.entity.World.process(World.java:322)
+[2017-03-29 22:01:36] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-29 22:01:36] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-03-29 22:01:39] java.lang.NullPointerException
+[2017-03-29 22:01:39] 	at com.mayhem.rs2.content.event.impl.ExampleScript.start(ExampleScript.java:74)
+[2017-03-29 22:01:39] 	at com.mayhem.rs2.content.event.EventManager.setEvent(EventManager.java:91)
+[2017-03-29 22:01:39] 	at com.mayhem.rs2.entity.player.net.in.command.impl.OwnerCommand.handleCommand(OwnerCommand.java:749)
+[2017-03-29 22:01:39] 	at com.mayhem.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:57)
+[2017-03-29 22:01:39] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-03-29 22:01:39] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-03-29 22:01:39] 	at com.mayhem.rs2.entity.World.process(World.java:322)
+[2017-03-29 22:01:39] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-03-29 22:01:39] 	at com.mayhem.core.GameThread.run(GameThread.java:150)

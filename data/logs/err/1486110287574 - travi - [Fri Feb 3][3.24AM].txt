@@ -1,0 +1,4 @@
+Logging started at 2017-02-03 03:24:47
+File name: C:\Users\travi\Dropbox\Valius\Valius Source\.\data\logs\err\1486110287574 - travi - [Fri Feb 3][3.24AM].txt
+System.getProperty("os.name"): "Windows 10"
+

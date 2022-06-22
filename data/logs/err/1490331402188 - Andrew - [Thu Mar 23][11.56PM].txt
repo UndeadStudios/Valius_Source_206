@@ -1,0 +1,5 @@
+Logging started at 2017-03-23 23:56:42
+File name: E:\Dropbox\Valius Source\.\data\logs\err\1490331402188 - Andrew - [Thu Mar 23][11.56PM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2017-03-23 23:58:04] [Normal]: Failed to update Andy highscores. Database could not connect.

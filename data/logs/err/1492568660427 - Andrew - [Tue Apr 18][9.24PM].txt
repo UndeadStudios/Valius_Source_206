@@ -1,0 +1,5 @@
+Logging started at 2017-04-18 21:24:20
+File name: E:\Dropbox\Valius Source\.\data\logs\err\1492568660427 - Andrew - [Tue Apr 18][9.24PM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2017-04-18 21:25:00] [Extreme]: Failed to update Mod Andy highscores. Database could not connect.

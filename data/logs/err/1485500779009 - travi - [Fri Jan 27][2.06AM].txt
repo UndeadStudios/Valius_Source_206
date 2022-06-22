@@ -1,0 +1,30 @@
+Logging started at 2017-01-27 02:06:19
+File name: C:\Users\travi\Dropbox\Mayhem Source\.\data\logs\err\1485500779009 - travi - [Fri Jan 27][2.06AM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2017-01-27 02:09:07] java.lang.NullPointerException
+[2017-01-27 02:09:07] 	at com.mayhem.rs2.content.dialogue.DialogueManager.sendNpcChat(DialogueManager.java:66)
+[2017-01-27 02:09:07] 	at com.mayhem.rs2.entity.WalkToActions.finishObjectClick(WalkToActions.java:1160)
+[2017-01-27 02:09:07] 	at com.mayhem.rs2.entity.WalkToActions$7.onDestination(WalkToActions.java:318)
+[2017-01-27 02:09:07] 	at com.mayhem.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2017-01-27 02:09:07] 	at com.mayhem.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2017-01-27 02:09:07] 	at com.mayhem.rs2.entity.WalkToActions.clickObject(WalkToActions.java:313)
+[2017-01-27 02:09:07] 	at com.mayhem.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:85)
+[2017-01-27 02:09:07] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-01-27 02:09:07] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-01-27 02:09:07] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-01-27 02:09:07] 	at com.mayhem.core.GameThread.cycle(GameThread.java:124)
+[2017-01-27 02:09:07] 	at com.mayhem.core.GameThread.run(GameThread.java:139)
+[2017-01-27 02:09:11] java.lang.NullPointerException
+[2017-01-27 02:09:11] 	at com.mayhem.rs2.content.dialogue.DialogueManager.sendNpcChat(DialogueManager.java:66)
+[2017-01-27 02:09:11] 	at com.mayhem.rs2.entity.WalkToActions.finishObjectClick(WalkToActions.java:1160)
+[2017-01-27 02:09:11] 	at com.mayhem.rs2.entity.WalkToActions$7.onDestination(WalkToActions.java:318)
+[2017-01-27 02:09:11] 	at com.mayhem.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2017-01-27 02:09:11] 	at com.mayhem.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2017-01-27 02:09:11] 	at com.mayhem.rs2.entity.WalkToActions.clickObject(WalkToActions.java:313)
+[2017-01-27 02:09:11] 	at com.mayhem.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:85)
+[2017-01-27 02:09:11] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-01-27 02:09:11] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-01-27 02:09:11] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-01-27 02:09:11] 	at com.mayhem.core.GameThread.cycle(GameThread.java:124)
+[2017-01-27 02:09:11] 	at com.mayhem.core.GameThread.run(GameThread.java:139)

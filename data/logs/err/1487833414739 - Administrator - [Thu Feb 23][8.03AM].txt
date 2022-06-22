@@ -1,0 +1,53 @@
+Logging started at 2017-02-23 08:03:34
+File name: C:\Users\Administrator\Dropbox\Valius\Valius Source\.\data\logs\err\1487833414739 - Administrator - [Thu Feb 23][8.03AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-02-23 08:03:46] com.thoughtworks.xstream.converters.ConversionException: Element itemDrop of type com.mayhem.core.definitions.ItemDropDefinition$ItemDrop is not defined as field in type com.mayhem.core.definitions.ItemDropDefinition$ItemDrop
+---- Debugging information ----
+class               : java.util.ArrayList
+required-type       : com.mayhem.core.definitions.ItemDropDefinition$ItemDrop
+path                : /list/ItemDropDefinition[3]/rare/drops/itemDrop[6]/itemDrop
+line number         : 665
+-------------------------------
+[2017-02-23 08:03:46] 	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.writeValueToImplicitCollection(AbstractReflectionConverter.java:283)
+[2017-02-23 08:03:46] 	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.doUnmarshal(AbstractReflectionConverter.java:236)
+[2017-02-23 08:03:46] 	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.unmarshal(AbstractReflectionConverter.java:162)
+[2017-02-23 08:03:46] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:82)
+[2017-02-23 08:03:46] 	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:63)
+[2017-02-23 08:03:46] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:76)
+[2017-02-23 08:03:46] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:60)
+[2017-02-23 08:03:46] 	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:71)
+[2017-02-23 08:03:46] 	at com.thoughtworks.xstream.converters.collections.ArrayConverter.unmarshal(ArrayConverter.java:55)
+[2017-02-23 08:03:46] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:82)
+[2017-02-23 08:03:46] 	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:63)
+[2017-02-23 08:03:46] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:76)
+[2017-02-23 08:03:46] 	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.unmarshallField(AbstractReflectionConverter.java:246)
+[2017-02-23 08:03:46] 	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.doUnmarshal(AbstractReflectionConverter.java:218)
+[2017-02-23 08:03:46] 	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.unmarshal(AbstractReflectionConverter.java:162)
+[2017-02-23 08:03:46] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:82)
+[2017-02-23 08:03:46] 	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:63)
+[2017-02-23 08:03:46] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:76)
+[2017-02-23 08:03:46] 	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.unmarshallField(AbstractReflectionConverter.java:246)
+[2017-02-23 08:03:46] 	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.doUnmarshal(AbstractReflectionConverter.java:218)
+[2017-02-23 08:03:46] 	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.unmarshal(AbstractReflectionConverter.java:162)
+[2017-02-23 08:03:46] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:82)
+[2017-02-23 08:03:46] 	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:63)
+[2017-02-23 08:03:46] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:76)
+[2017-02-23 08:03:46] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:60)
+[2017-02-23 08:03:46] 	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:71)
+[2017-02-23 08:03:46] 	at com.thoughtworks.xstream.converters.collections.CollectionConverter.populateCollection(CollectionConverter.java:68)
+[2017-02-23 08:03:46] 	at com.thoughtworks.xstream.converters.collections.CollectionConverter.unmarshal(CollectionConverter.java:61)
+[2017-02-23 08:03:46] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:82)
+[2017-02-23 08:03:46] 	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:63)
+[2017-02-23 08:03:46] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:76)
+[2017-02-23 08:03:46] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:60)
+[2017-02-23 08:03:46] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.start(TreeUnmarshaller.java:137)
+[2017-02-23 08:03:46] 	at com.thoughtworks.xstream.core.AbstractTreeMarshallingStrategy.unmarshal(AbstractTreeMarshallingStrategy.java:33)
+[2017-02-23 08:03:46] 	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:923)
+[2017-02-23 08:03:46] 	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:909)
+[2017-02-23 08:03:46] 	at com.thoughtworks.xstream.XStream.fromXML(XStream.java:861)
+[2017-02-23 08:03:46] 	at com.mayhem.core.util.GameDefinitionLoader.loadNpcDropDefinitions(GameDefinitionLoader.java:500)
+[2017-02-23 08:03:46] 	at com.mayhem.GameDataLoader.load(GameDataLoader.java:131)
+[2017-02-23 08:03:46] 	at com.mayhem.core.GameThread.startup(GameThread.java:71)
+[2017-02-23 08:03:46] 	at com.mayhem.core.GameThread.init(GameThread.java:36)
+[2017-02-23 08:03:46] 	at com.mayhem.Server.main(Server.java:102)

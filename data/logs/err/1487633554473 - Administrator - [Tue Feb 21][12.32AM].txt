@@ -1,0 +1,44 @@
+Logging started at 2017-02-21 00:32:34
+File name: C:\Users\Administrator\Dropbox\Valius\Valius Source\.\data\logs\err\1487633554473 - Administrator - [Tue Feb 21][12.32AM].txt
+System.getProperty("os.name"): "Windows Server 2012 R2"
+
+[2017-02-21 00:42:56] Didn't save hiscores for X who me x
+[2017-02-21 00:47:43] Didn't save hiscores for Crown
+[2017-02-21 00:59:03] Didn't save hiscores for Mod tex
+[2017-02-21 01:13:52] Didn't save hiscores for Mod tex
+[2017-02-21 01:25:42] Didn't save hiscores for Mod tex
+[2017-02-21 02:33:39] Didn't save hiscores for Mod divine
+[2017-02-21 02:33:39] Didn't save hiscores for Mod divine
+[2017-02-21 02:34:30] Didn't save hiscores for Mod tex
+[2017-02-21 02:34:43] Didn't save hiscores for Mod divine
+[2017-02-21 02:34:43] Didn't save hiscores for Mod divine
+[2017-02-21 02:43:57] Didn't save hiscores for Mod divine
+[2017-02-21 02:43:57] Didn't save hiscores for Mod divine
+[2017-02-21 02:45:08] Didn't save hiscores for Raziel
+[2017-02-21 02:45:11] Didn't save hiscores for Mod tex
+[2017-02-21 02:50:45] Didn't save hiscores for Raziel
+[2017-02-21 02:50:48] Didn't save hiscores for Mod tex
+[2017-02-21 02:53:52] Didn't save hiscores for Raziel
+[2017-02-21 02:56:15] Didn't save hiscores for Mod tex
+[2017-02-21 02:57:20] Didn't save hiscores for Raziel
+[2017-02-21 03:07:37] Didn't save hiscores for Fk yo couch
+[2017-02-21 03:15:44] Didn't save hiscores for Fk yo couch
+[2017-02-21 03:33:59] Didn't save hiscores for Raziel
+[2017-02-21 04:05:49] Didn't save hiscores for Fk yo couch
+[2017-02-21 04:15:50] Didn't save hiscores for Squashy
+[2017-02-21 04:17:00] Didn't save hiscores for Spirit
+[2017-02-21 04:17:39] Didn't save hiscores for Raziel
+[2017-02-21 04:24:25] java.lang.IndexOutOfBoundsException: Readable byte limit exceeded: 12
+[2017-02-21 04:24:25] 	at org.jboss.netty.buffer.AbstractChannelBuffer.readByte(AbstractChannelBuffer.java:236)
+[2017-02-21 04:24:25] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:120)
+[2017-02-21 04:24:25] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:107)
+[2017-02-21 04:24:25] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:467)
+[2017-02-21 04:24:25] 	at com.mayhem.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:412)
+[2017-02-21 04:24:25] 	at com.mayhem.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:852)
+[2017-02-21 04:24:25] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-02-21 04:24:25] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-02-21 04:24:25] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-02-21 04:24:25] 	at com.mayhem.core.GameThread.cycle(GameThread.java:135)
+[2017-02-21 04:24:25] 	at com.mayhem.core.GameThread.run(GameThread.java:150)
+[2017-02-21 04:26:23] Didn't save hiscores for Whiteboy
+[2017-02-21 04:33:19] Didn't save hiscores for Dehzyne

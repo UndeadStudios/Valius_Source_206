@@ -1,0 +1,12 @@
+Logging started at 2017-01-27 00:47:00
+File name: C:\Users\travi\Dropbox\Mayhem Source\.\data\logs\err\1485496020803 - travi - [Fri Jan 27][12.47AM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2017-01-27 01:20:55] java.lang.NullPointerException
+[2017-01-27 01:20:55] 	at com.mayhem.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:188)
+[2017-01-27 01:20:55] 	at com.mayhem.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2017-01-27 01:20:55] 	at com.mayhem.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2017-01-27 01:20:55] 	at com.mayhem.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2017-01-27 01:20:55] 	at com.mayhem.rs2.entity.World.process(World.java:320)
+[2017-01-27 01:20:55] 	at com.mayhem.core.GameThread.cycle(GameThread.java:124)
+[2017-01-27 01:20:55] 	at com.mayhem.core.GameThread.run(GameThread.java:139)
