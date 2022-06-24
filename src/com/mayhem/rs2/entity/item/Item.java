@@ -24,7 +24,7 @@ public class Item {
 	}
 
 	public static FoodDefinition getFoodDefinition(int id) {
-		if ((id < 0) || (id > 20144)) {
+		if ((id < 0) || (id > 27042)) {
 			return null;
 		}
 
@@ -40,7 +40,7 @@ public class Item {
 	}
 
 	public static PotionDefinition getPotionDefinition(int id) {
-		if ((id < 0) || (id > 20144)) {
+		if ((id < 0) || (id > 27042)) {
 			return null;
 		}
 
@@ -61,7 +61,7 @@ public class Item {
 	}
 
 	public static WeaponDefinition getWeaponDefinition(int id) {
-		if ((id < 0) || (id > 20144)) {
+		if ((id < 0) || (id > 27042)) {
 			return null;
 		}
 

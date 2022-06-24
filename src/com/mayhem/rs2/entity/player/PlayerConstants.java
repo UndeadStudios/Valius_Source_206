@@ -25,7 +25,7 @@ public final class PlayerConstants {
 	/**
 	 * Max item count
 	 */
-	public static final int MAX_ITEM_COUNT = 21411;
+	public static final int MAX_ITEM_COUNT = 27042;
 
 	/**
 	 * Lumbridge teleport

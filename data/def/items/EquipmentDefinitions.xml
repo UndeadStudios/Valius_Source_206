@@ -34551,6 +34551,34 @@
 			<int>1</int>
 		</requirements>
 	</EquipmentDefinition>
+        <EquipmentDefinition>
+            <id>21295</id>
+            <slot>1</slot>
+            <requirements>
+                <int>1</int>
+                <int>1</int>
+                <int>1</int>
+                <int>1</int>
+                <int>1</int>
+                <int>1</int>
+                <int>1</int>
+                <int>1</int>
+                <int>1</int>
+                <int>1</int>
+                <int>1</int>
+                <int>1</int>
+                <int>1</int>
+                <int>1</int>
+                <int>1</int>
+                <int>1</int>
+                <int>1</int>
+                <int>1</int>
+                <int>1</int>
+                <int>1</int>
+                <int>1</int>
+                <int>1</int>
+            </requirements>
+        </EquipmentDefinition>
 	<EquipmentDefinition>
 		<id>6575</id>
 		<slot>12</slot>

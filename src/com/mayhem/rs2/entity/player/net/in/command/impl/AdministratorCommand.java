@@ -15,6 +15,7 @@ import com.mayhem.rs2.content.skill.Skills;
 import com.mayhem.rs2.entity.Location;
 import com.mayhem.rs2.entity.World;
 import com.mayhem.rs2.entity.item.Item;
+import com.mayhem.rs2.entity.mob.Mob;
 import com.mayhem.rs2.entity.player.Player;
 import com.mayhem.rs2.entity.player.PlayerConstants;
 import com.mayhem.rs2.entity.player.net.in.command.Command;
@@ -168,7 +169,17 @@ public class AdministratorCommand implements Command {
                     player.send(new SendMessage("You have teleported to [" + x + ", " + y + (z > 0 ? ", " + z : "") + "]."));
                 }
                 return true;
-
+            case "npc":
+                if (parser.hasNext()) {
+                    try {
+                        int npc = parser.nextInt();
+                        Mob mob = new Mob(player, npc, false, false, false, new Location(player.getLocation()));
+                        player.getClient().queueOutgoingPacket(new SendMessage("Spawned NPC index: " + mob.getIndex()));
+                    } catch (Exception e) {
+                        player.getClient().queueOutgoingPacket(new SendMessage("Invalid format!"));
+                    }
+                }
+                return true;
                 /*
                  * Gets the player's coordinates
                  */
@@ -178,7 +189,12 @@ public class AdministratorCommand implements Command {
                 player.send(new SendMessage("You are at: " + player.getLocation() + "."));
                 System.out.println("new Location {" + player.getX() + ", " + player.getY() + (player.getZ() > 0 ? ", " + player.getZ() : "") + "},");
                 return true;
-                
+            case "under":
+                player.teleport(new Location(player.getX(), player.getY()+6400, 0));
+                return true;
+            case "over":
+                player.teleport(new Location(player.getX(), player.getY()-6400, 0));
+                return true;
 
                 /*
                  * Gives a specific item to bank

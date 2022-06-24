@@ -104,7 +104,7 @@ public final class MobConstants {
 	public static final void declare() {
 		int count = 0;
 
-		for (int i = 0; i < 10000; i++) {
+		for (int i = 0; i < 20000; i++) {
 			NpcDefinition def = GameDefinitionLoader.getNpcDefinition(i);
 
 			if ((def != null) && (def.getName() != null)) {
