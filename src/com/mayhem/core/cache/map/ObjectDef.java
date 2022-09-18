@@ -492,8 +492,6 @@ public final class ObjectDef {
 				anInt746 = stream.readUnsignedWord();//AreaType
 			} else if(type == 89) {
 				field3621 = false;
-			} else if (type == 94) {
-				opcode150 = stream.readString();
 			}
 		} while (true);
 		if (flag == -1 && name != "null" && name != null) {
